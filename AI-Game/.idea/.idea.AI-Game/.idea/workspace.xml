@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86b07306-de9c-4239-ba5c-aa76a1c39aeb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AI-Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AI-Game/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AI-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AI-Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/High-Speed-Priority-Queue-for-C-Sharp-master/Priority Queue.sln.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/High-Speed-Priority-Queue-for-C-Sharp-master/Priority Queue/Priority Queue.csproj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/KriptoFX/Realistic Effects Pack v4/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pathfinding/PathfindingGrid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pathfinding/PathfindingGrid.cs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2025776875">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="5016" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="5016" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="967571121">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="5" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="asmdef" value="1" />
+          <entry key="config" value="1" />
+          <entry key="cs" value="56" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="AsmDef" value="1" />
+          <entry key="C#" value="56" />
+          <entry key="Config" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="12774" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="12774" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AI-Game" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/PathfindingManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1720">
+              <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/DebugAgentPathfinding.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/AStar.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1060">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/PathfindingGrid.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+              <folding>
+                <marker date="1540400960854" expanded="false" signature="6:202" ph="..." />
+                <marker date="1540400960854" expanded="true" signature="232:5522" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="343:5515" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="888:947" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="899:943" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="964:1004" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="1047:1265" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="1297:1963" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="1555:1959" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="1600:1954" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="2050:2192" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="2255:2628" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="2691:3079" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="2729:3075" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="2768:3070" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="2979:3064" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="3194:3415" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="3489:4621" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="3578:4088" ph="/* El walkable mira a los 4 vecinos de alrededor de cada punto en una linea ... */" />
+                <marker date="1540400960854" expanded="true" signature="4248:4568" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="4379:4477" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="4486:4557" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="4687:5512" ph="{...}" />
+                <marker date="1540400960854" expanded="true" signature="4796:5492" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/IWeightedGraph.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FSM/ConfigurationSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FSM/States/State.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/IWeightedGraph.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/PathfindingGridDebug.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/PathfindingManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/PathfindingGrid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/DebugAgentPathfinding.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FSM/SteeringBehaviours/ChaseSteeringBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/High-Speed-Priority-Queue-for-C-Sharp-master/Priority Queue/GenericPriorityQueue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FSM/SteeringBehaviours/PatrolSteeringBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FSM/SteeringBehaviours/SteeringBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FSM/FSMSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/High-Speed-Priority-Queue-for-C-Sharp-master/Priority Queue/SimplePriorityQueue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FSM/NPCStatesBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.collections@0.0.9-preview.8/Unity.Collections/Unity.Collections.asmdef" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/Node.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FSM/ChaserNPC.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/AStar.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pathfinding/Grid.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FSM/States/AttackState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FSM/States/DefaultScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pathfinding/Heap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pathfinding/GridDebugger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FSM/ConfigurationSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/DebugAgentPathfinding.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FSM/SteeringBehaviours/PatrolSteeringBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FSM/SteeringBehaviours/ChaseSteeringBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pathfinding/Node.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pathfinding/PathfindingGridDebug.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FSM/SteeringBehaviours/SteeringBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pathfinding/IWeightedGraph.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Singleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pathfinding/DebugAgentPathfinding.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pathfinding/MultiThreading/RequestPathJob.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pathfinding/AStar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pathfinding/PathfindingManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pathfinding/PathfindingGrid.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="952" />
+    <option name="width" value="975" />
+    <option name="height" value="1058" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Pathfinding" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="RiderNuGetCacheManager.AutoClear.global-packages" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.http-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.packages-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.temp" value="1" />
+    <property name="SearchEverywhereHistoryKey" value="debug&#9;FILE&#9;file://D:/Unity/AI-Game/AI-Game/Assets/Scripts/Pathfinding/DebugAgentPathfinding.cs&#10;pathfi&#9;FILE&#9;file://D:/Unity/AI-Game/AI-Game/Assets/Scripts/Pathfinding/PathfindingGrid.cs&#10;node&#9;FILE&#9;file://D:/Unity/AI-Game/AI-Game/Assets/Scripts/Pathfinding/Node.cs&#10;Beh&#9;null&#9;null&#10;Chase&#9;FILE&#9;file://D:/Unity/AI-Game/AI-Game/Assets/Scripts/FSM/ChaserNPC.cs&#10;NpB&#9;FILE&#9;file://D:/Unity/AI-Game/AI-Game/Assets/Scripts/FSM/NPCStatesBehaviour.cs&#10;NPC&#9;null&#9;null&#10;Grid&#9;FILE&#9;file://D:/Unity/AI-Game/AI-Game/Assets/Scripts/Pathfinding/GridDebugger.cs&#10;Hea&#9;FILE&#9;file://D:/Repositorios/AI-Game/AI-Game/Assets/Scripts/Pathfinding/Heap.cs&#10;nODE&#9;FILE&#9;file://D:/Repositorios/AI-Game/AI-Game/Assets/Scripts/Pathfinding/Node.cs&#10;Heap&#9;FILE&#9;file://D:/Repositorios/AI-Game/AI-Game/Assets/Scripts/Pathfinding/Heap.cs&#10;AS&#9;FILE&#9;file://D:/Unity/AI-Game/AI-Game/Assets/Scripts/Pathfinding/AStar.cs" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Native Executable.Unnamed">
+    <configuration name="Unnamed" type="RunNativeExe" factoryName="Native Executable">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2">
+        <option name="Build Solution" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="13256">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="13256" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="7908">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="7908" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+      <item itemvalue="Native Executable.Unnamed" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86b07306-de9c-4239-ba5c-aa76a1c39aeb" name="Default Changelist" comment="" />
+      <created>1538580025736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538580025736</updated>
+      <workItem from="1538580029375" duration="2671000" />
+      <workItem from="1538681288828" duration="4076000" />
+      <workItem from="1538731859250" duration="1014000" />
+      <workItem from="1538760866654" duration="4359000" />
+      <workItem from="1539088318804" duration="12149000" />
+      <workItem from="1539161906512" duration="3537000" />
+      <workItem from="1539176423160" duration="1850000" />
+      <workItem from="1539339238723" duration="2742000" />
+      <workItem from="1539429560842" duration="3519000" />
+      <workItem from="1539445562261" duration="6115000" />
+      <workItem from="1539451745032" duration="23000" />
+      <workItem from="1539512338564" duration="2191000" />
+      <workItem from="1539535445674" duration="6281000" />
+      <workItem from="1539617345163" duration="1432000" />
+      <workItem from="1539683963002" duration="1805000" />
+      <workItem from="1539696138040" duration="2984000" />
+      <workItem from="1539704482796" duration="1858000" />
+      <workItem from="1539710238004" duration="3167000" />
+      <workItem from="1539713478755" duration="2017000" />
+      <workItem from="1539761355655" duration="2083000" />
+      <workItem from="1539765949205" duration="847000" />
+      <workItem from="1539863475695" duration="2573000" />
+      <workItem from="1539959992220" duration="11482000" />
+      <workItem from="1540076337174" duration="5679000" />
+      <workItem from="1540369374449" duration="3127000" />
+      <workItem from="1540399005459" duration="686000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="96360000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910554" visible="true" weight="0.1557465" />
+      <window_info id="Structure" order="1" sideWeight="0.5008944" side_tool="true" weight="0.16471216" />
+      <window_info id="Favorites" order="2" sideWeight="0.5008944" side_tool="true" weight="0.16471216" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36547086" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.07592191" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" weight="0.32939914" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="10" weight="0.33385336" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.3286334" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.3286334" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32939914" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910554" visible="true" weight="0.1663113" />
+      <window_info id="Structure" order="1" sideWeight="0.5008944" side_tool="true" weight="0.16471216" />
+      <window_info id="Favorites" order="2" sideWeight="0.5008944" side_tool="true" weight="0.16471216" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39370933" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.07592191" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" weight="0.32939914" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="10" weight="0.33475178" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32939914" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32939914" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>currentIndex == 3</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>currentIndex == currentPath[currentPath.Length - 2]</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>currentIndex == currentPath[currentPath.Length - 1]</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/Grid.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FSM/States/AttackState.cs" />
+    <entry file="file://$PROJECT_DIR$/packages.config" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FSM/States/DefaultScene.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/Heap.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3EB1172F-BB8A-454A-887F-2E67145F4E3E/cf/c27b4059/Dictionary`2.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FSM/SteeringBehaviours/Patrol.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3EB1172F-BB8A-454A-887F-2E67145F4E3E/3e/75bb0e64/Object.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/High-Speed-Priority-Queue-for-C-Sharp-master/Priority Queue/GenericPriorityQueue.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/High-Speed-Priority-Queue-for-C-Sharp-master/Priority Queue/SimplePriorityQueue.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="187" column="8" selection-start-line="187" selection-start-column="8" selection-end-line="187" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FSM/States/State.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FSM/SteeringBehaviours/Behaviour.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FSM/FSMSystem.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FSM/ConfigurationSO.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/DebugAgentPathfinding.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/37F06E47-1AE9-442E-8B0C-B308E5C42E60/1d/fa269dc6/LinkedListNode`1.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F14D49E-DC70-4940-AEE5-57642343F344/b9/9c1755ac/Mathf.cs" />
+    <entry file="file://$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.collections@0.0.9-preview.8/Unity.Collections/Unity.Collections.asmdef">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FSM/SteeringBehaviours/PatrolSteeringBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0D14008D-6F18-4689-9DCE-862DD2979D6E/c3/11d2995d/GUIUtility.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FSM/SteeringBehaviours/SteeringBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/Node.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../VuforiaGame/Assets/AstarPathfindingProject/Core/AI/Seeker.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/PathfindingGridDebug.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Singleton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FSM/SteeringBehaviours/ChaseSteeringBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FSM/NPCStatesBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FSM/ChaserNPC.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/MultiThreading/RequestPathJob.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/PathfindingManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1720">
+          <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/DebugAgentPathfinding.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/AStar.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1060">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/IWeightedGraph.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pathfinding/PathfindingGrid.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <marker date="1540400960854" expanded="false" signature="6:202" ph="..." />
+            <marker date="1540400960854" expanded="true" signature="232:5522" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="343:5515" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="888:947" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="899:943" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="964:1004" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="1047:1265" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="1297:1963" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="1555:1959" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="1600:1954" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="2050:2192" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="2255:2628" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="2691:3079" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="2729:3075" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="2768:3070" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="2979:3064" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="3194:3415" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="3489:4621" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="3578:4088" ph="/* El walkable mira a los 4 vecinos de alrededor de cada punto en una linea ... */" />
+            <marker date="1540400960854" expanded="true" signature="4248:4568" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="4379:4477" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="4486:4557" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="4687:5512" ph="{...}" />
+            <marker date="1540400960854" expanded="true" signature="4796:5492" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

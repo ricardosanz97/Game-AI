@@ -38,7 +38,6 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
 
     public void PathReceived(Vector3[] wayPoints, bool isPathSuccessfull)
     {
-        Debug.Log("pathReceived");
         path = wayPoints;
         Pursuit();
     }
@@ -69,13 +68,9 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
                 pathIndex++;
             }
             */
-
-            
-            ccEnemy.transform.DOMove(path[1]-(ccPlayer.transform.forward*2), maxSpeed);
-            
+           
+            ccEnemy.transform.DOMove(path[1]-(ccPlayer.transform.forward*2), maxSpeed);          
             ccEnemy.transform.LookAt(ccPlayer.transform);
-
-
         }
     }
 

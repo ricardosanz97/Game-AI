@@ -6,7 +6,8 @@ using DG.Tweening;
 public class PatrolSteeringBehaviour : SteeringBehaviour
 {
 
-    public Transform[] points;
+    public Transform[] normalPatrolPoints;
+    public bool randomPatrol;
     public float maxSpeed = 4f;
 
     private int actualPatrolPoint = 0;
@@ -31,9 +32,9 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
 
     public override void Act()
     {
-        if (!patrol && points != null)
+        if (!patrol && normalPatrolPoints != null)
         {
-            Pathfinding.PathfindingManager.I.RequestPath(new Pathfinding.PathfindingManager.PathRequest(ccEnemy.transform.position, points[actualPatrolPoint].position, PathReceived, ccPlayer.radius));
+            Pathfinding.PathfindingManager.I.RequestPath(new Pathfinding.PathfindingManager.PathRequest(ccEnemy.transform.position, normalPatrolPoints[actualPatrolPoint].position, PathReceived, ccPlayer.radius));
             patrol = true;
         }
         Patrol();
@@ -55,16 +56,13 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
             Pathfinding.PathfindingManager.I.pathError = false;
         }
 
-        if (patrol && points != null && path != null)
+        if (patrol && normalPatrolPoints != null && path != null)
         {
             //Trying to smooth velocity  
             
-           
-
             realSpeed = maxSpeed / magnitude;
-            Debug.Log(magnitude);
 
-            if (Vector3.Distance(ccEnemy.transform.position, destination) < ccEnemy.radius * 2)
+            if (Vector3.Distance(ccEnemy.transform.position, destination) < ccEnemy.radius * 4)
             {
                 previousNodePosition = path[currentPointInPath];
 
@@ -75,20 +73,29 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
                     Debug.Log("ImIN");
                     path = null;
                     currentPointInPath = 0;
-                    actualPatrolPoint = randomPoint(actualPatrolPoint);
+                    if (randomPatrol) {
+                        actualPatrolPoint = randomPoint(actualPatrolPoint);
+                    }
+                    else
+                    {
+                        actualPatrolPoint += 1;
+                        if (actualPatrolPoint >= normalPatrolPoints.Length) actualPatrolPoint = 0;
+                    }
+                    
+                    Debug.Log(actualPatrolPoint);
                     patrol = false;
                     return;
                 }
 
                 nodePosition = path[currentPointInPath];
                 magnitude = Vector3.Distance(nodePosition, previousNodePosition);
-                Debug.Log(magnitude);
 
                 destination = path[currentPointInPath];
             }
             //ccEnemy.Move((destination - trans.position).normalized * maxSpeed * Time.deltaTime);
             ccEnemy.transform.DOMove(destination, maxSpeed* magnitude);
-        }
+            ccEnemy.transform.rotation = Quaternion.Slerp(ccEnemy.transform.rotation, Quaternion.LookRotation(normalPatrolPoints[actualPatrolPoint].position), .2f);
+;        }
 
         /*else if(path == null)
         {
@@ -100,10 +107,10 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
     private int randomPoint(int actualPoint)
     {
         int point = actualPoint;
-        Debug.Log(points.Length);
+        Debug.Log(normalPatrolPoints.Length);
         while(actualPoint == point)
         {
-            point = Random.Range(0, points.Length);
+            point = Random.Range(0, normalPatrolPoints.Length);
         }
         return point;
     }

@@ -31,7 +31,7 @@ namespace CustomPathfinding
             if (!source.Walkable || !goal.Walkable)
             {
                 Debug.LogError("No se puede llegar hasta el nodo indicado");
-                var pathError = true;
+                PathfindingManager.I.pathError = true;
                 return;
             }
 

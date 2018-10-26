@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class ChaseSteeringBehaviour : SteeringBehaviour
@@ -8,12 +9,8 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
     public float anticipationMultiplier;
     public float maxSpeed = 4f;
 
-    private Rigidbody rb;
-    private PlayerController controller;
-    private Transform trans;
     private CharacterController ccPlayer;
     private CharacterController ccEnemy;
-    private Vector3 startPos;
     private Vector3[] path;
     private Vector3 destination;
     private int pathIndex;
@@ -23,16 +20,20 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>();
-        trans = GetComponent<Transform>();
         ccPlayer = player.GetComponent<CharacterController>();
         ccEnemy = GetComponent<CharacterController>();
 
     }
     public override void Act()
     {
-        startPos = trans.position;
-        startPos.y = 0;
-        Pathfinding.PathfindingManager.I.RequestPath(new Pathfinding.PathfindingManager.PathRequest(startPos, ccPlayer.transform.position, PathReceived, ccPlayer.radius));
+        timer += Time.deltaTime;
+        Debug.Log(timer);
+        if (timer > 0.2f)
+        {
+            Pathfinding.PathfindingManager.I.RequestPath(new Pathfinding.PathfindingManager.PathRequest(ccEnemy.transform.position, ccPlayer.transform.position, PathReceived, ccPlayer.radius));
+            timer = 0;
+        }
+
         return;
     }
 
@@ -41,10 +42,15 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
         Debug.Log("pathReceived");
         path = wayPoints;
         Pursuit();
-
     }
     public void Pursuit()
     {
+
+        if (Pathfinding.PathfindingManager.I.pathError == true)
+        {
+            Pathfinding.PathfindingManager.I.RequestPath(new Pathfinding.PathfindingManager.PathRequest(ccEnemy.transform.position, ccPlayer.transform.position, PathReceived, ccPlayer.radius));
+            Pathfinding.PathfindingManager.I.pathError = false;
+        }
 
         if (path != null)
         {
@@ -64,7 +70,7 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
                 pathIndex++;
             }
             */
-            ccEnemy.Move((ccPlayer.transform.position - trans.position).normalized * maxSpeed * Time.deltaTime);
+            ccEnemy.transform.DOMove(path[1], maxSpeed);
         }
     }
 

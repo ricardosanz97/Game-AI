@@ -10,11 +10,9 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
     public float maxSpeed = 4f;
 
     private int actualPatrolPoint = 0;
-    private Transform trans;
     private CharacterController ccPlayer;
     private CharacterController ccEnemy;
     private bool isPathSuccesfull;
-    Vector3 startPos;
     private bool patrol = false;
     private Vector3[] path;
     Vector3 destination;
@@ -27,70 +25,76 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>();
-        trans = GetComponent<Transform>();
         ccPlayer = player.GetComponent<CharacterController>();
         ccEnemy = GetComponent<CharacterController>();
-        startPos = trans.position;
-        startPos.y = 0;
     }
 
     public override void Act()
     {
-        
-        if (!patrol && points != null) Pathfinding.PathfindingManager.I.RequestPath(new Pathfinding.PathfindingManager.PathRequest(startPos, points[actualPatrolPoint].position, PathReceived, ccPlayer.radius));
+        if (!patrol && points != null)
+        {
+            Pathfinding.PathfindingManager.I.RequestPath(new Pathfinding.PathfindingManager.PathRequest(ccEnemy.transform.position, points[actualPatrolPoint].position, PathReceived, ccPlayer.radius));
+            patrol = true;
+        }
         Patrol();
         return;
     }
 
     public void PathReceived(Vector3[] wayPoints, bool isPathSuccessfull)
     {
-        patrol = true;
         Debug.Log("pathReceived");
         path = wayPoints;
-        destination = path[1];
+        destination = path[0];
     }
 
     public void Patrol()
     {
+        if (Pathfinding.PathfindingManager.I.pathError == true)
+        {
+            Pathfinding.PathfindingManager.I.RequestPath(new Pathfinding.PathfindingManager.PathRequest(ccEnemy.transform.position, ccPlayer.transform.position, PathReceived, ccPlayer.radius));
+            Pathfinding.PathfindingManager.I.pathError = false;
+        }
+
         if (patrol && points != null && path != null)
-        {   
-            if (Vector3.Distance(trans.position, destination) < ccEnemy.radius * 2)
+        {
+            //Trying to smooth velocity  
+            
+           
+
+            realSpeed = maxSpeed / magnitude;
+            Debug.Log(magnitude);
+
+            if (Vector3.Distance(ccEnemy.transform.position, destination) < ccEnemy.radius * 2)
             {
-                if (currentPointInPath < path.Length)
-                {
-                    previousNodePosition = path[currentPointInPath];
-                    Debug.Log("previous"+previousNodePosition);
-                    currentPointInPath++;
-                    nodePosition = path[currentPointInPath];
-                    Debug.Log("current" + nodePosition);
-                }
-                magnitude = Vector3.Magnitude(nodePosition - previousNodePosition);
-                realSpeed = maxSpeed / magnitude;
-                Debug.Log(magnitude);
+                previousNodePosition = path[currentPointInPath];
+
+                currentPointInPath++;
 
                 if (currentPointInPath == path.Length)
                 {
+                    Debug.Log("ImIN");
                     path = null;
                     currentPointInPath = 0;
-                    startPos = trans.position;
-                    startPos.y = 0;
                     actualPatrolPoint = randomPoint(actualPatrolPoint);
                     patrol = false;
                     return;
                 }
-                    
-                destination = path[currentPointInPath];   
-                                
+
+                nodePosition = path[currentPointInPath];
+                magnitude = Vector3.Distance(nodePosition, previousNodePosition);
+                Debug.Log(magnitude);
+
+                destination = path[currentPointInPath];
             }
             //ccEnemy.Move((destination - trans.position).normalized * maxSpeed * Time.deltaTime);
-            trans.DOMove(destination, maxSpeed);
+            ccEnemy.transform.DOMove(destination, maxSpeed* magnitude);
         }
 
-        else if(path == null)
+        /*else if(path == null)
         {
             Debug.Log("pathnull");
-            trans.DOMove(points[currentPointInPath].transform.position, maxSpeed*4);
-        }
+            ccEnemy.transform.DOMove(points[currentPointInPath].transform.position, maxSpeed*4);
+        }*/
     }
 
     private int randomPoint(int actualPoint)

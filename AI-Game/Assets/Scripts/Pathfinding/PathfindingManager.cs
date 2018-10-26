@@ -9,6 +9,7 @@ namespace Pathfinding
 {
     public class PathfindingManager : Singleton<PathfindingManager>
     {
+        public bool pathError;
         private const int RESULTS_QUEUE_CAPACITY = 64;
         private readonly Queue<PathResult> results = new Queue<PathResult>(RESULTS_QUEUE_CAPACITY);
         private readonly Queue<PathRequest> requestsToProcess = new Queue<PathRequest>(RESULTS_QUEUE_CAPACITY);

@@ -52,7 +52,6 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
 
     public void Patrol()
     {
-
         if (patrol && points != null && path != null)
         {   
             if (Vector3.Distance(trans.position, destination) < ccEnemy.radius * 2)

@@ -10,7 +10,7 @@ public class ChaserNPC : NPCStatesBehaviour
         SetStates();
         SetTransitions();
 
-        currentState = states.Find((x) => x.stateName == STATE.Attack);
+        currentState = states.Find((x) => x.stateName == STATE.Patrol);
         currentTransitions = transitions.FindAll((x) => x.currentState == currentState);
     }
 

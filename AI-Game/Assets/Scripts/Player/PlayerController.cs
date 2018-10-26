@@ -57,7 +57,7 @@ public class PlayerController : Singleton<PlayerController> {
         {
             cameraRef.GetComponent<vThirdPersonCamera>().enabled = false;
         }
-        isDead();
+        //isDead();
     }
 
     void PlayerControl()

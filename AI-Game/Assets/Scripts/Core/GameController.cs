@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameController : Singleton<GameController>
 {
-    public bool playerAlive;
+    public bool playerAlive = true;
     public bool levelCompleted;
     public bool playerSpawned;
     public LevelManager currentLevel;

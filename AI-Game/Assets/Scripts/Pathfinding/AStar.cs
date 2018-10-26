@@ -13,6 +13,7 @@ namespace CustomPathfinding
 {
     public class AStar
     {
+        public bool PathError;
         //by now it uses a GridDebugger Class. It should have as a paramenter a IAstarSearchableSurface or something like that
         public static void AStarSearch(PathfindingGrid pathfindingGrid, PathfindingManager.PathRequest request, Action<PathfindingManager.PathResult> callback)
         {
@@ -31,6 +32,7 @@ namespace CustomPathfinding
             if (!source.Walkable || !goal.Walkable)
             {
                 Debug.LogError("No se puede llegar hasta el nodo indicado");
+                 PathError = true;
                 return;
             }
 

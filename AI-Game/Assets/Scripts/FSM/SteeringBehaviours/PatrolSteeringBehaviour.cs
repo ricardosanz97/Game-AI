@@ -1,32 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class PatrolSteeringBehaviour : SteeringBehaviour
 {
 
     public Transform[] points;
-    public bool arriveActive;
     public float maxSpeed = 4f;
-    public float modifierDeceleration = 0.8f;
 
     private int actualPatrolPoint = 0;
-    private Rigidbody rb;
     private Transform trans;
     private CharacterController ccPlayer;
     private CharacterController ccEnemy;
     private bool isPathSuccesfull;
-    private float distance;
-    float realDistance;
-    float distanceBetweenNodes = 0;
     Vector3 startPos;
-    [SerializeField]
-    private Deceleration deceleration;
     private bool patrol = false;
     private Vector3[] path;
     Vector3 destination;
     int currentPointInPath = 0;
-
+    Vector3 previousNodePosition;
+    Vector3 nodePosition;
+    float magnitude;
+    float realSpeed;
 
     void Start()
     {
@@ -61,8 +57,17 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
         {   
             if (Vector3.Distance(trans.position, destination) < ccEnemy.radius * 2)
             {
-                currentPointInPath++;
-                Debug.Log("currentPoint "+currentPointInPath);
+                if (currentPointInPath < path.Length)
+                {
+                    previousNodePosition = path[currentPointInPath];
+                    Debug.Log("previous"+previousNodePosition);
+                    currentPointInPath++;
+                    nodePosition = path[currentPointInPath];
+                    Debug.Log("current" + nodePosition);
+                }
+                magnitude = Vector3.Magnitude(nodePosition - previousNodePosition);
+                realSpeed = maxSpeed / magnitude;
+                Debug.Log(magnitude);
 
                 if (currentPointInPath == path.Length)
                 {
@@ -75,9 +80,17 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
                     return;
                 }
                     
-                destination = path[currentPointInPath];                   
+                destination = path[currentPointInPath];   
+                                
             }
-            ccEnemy.Move((destination - trans.position).normalized * maxSpeed * Time.deltaTime);
+            //ccEnemy.Move((destination - trans.position).normalized * maxSpeed * Time.deltaTime);
+            trans.DOMove(destination, maxSpeed);
+        }
+
+        else if(path == null)
+        {
+            Debug.Log("pathnull");
+            trans.DOMove(points[currentPointInPath].transform.position, maxSpeed*4);
         }
     }
 

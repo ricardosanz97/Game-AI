@@ -29,8 +29,8 @@ public class DetectPlayerCondition : Condition {
         Vector3 newVector = spreadAngle * transform.forward;
         Vector3 newVector2 = spreadAngle2 * transform.forward;
 
-        Debug.DrawRay(initialRay.position, newVector * viewRadius, Color.red);
-        Debug.DrawRay(initialRay.position, newVector2 * viewRadius, Color.red);
+        //Debug.DrawRay(initialRay.position, newVector * viewRadius, Color.red);
+       //Debug.DrawRay(initialRay.position, newVector2 * viewRadius, Color.red);
 
         Collider[] targetsInViewRadius = Physics.OverlapSphere(transform.position, viewRadius, targetMask);
         for (int i = 0; i < targetsInViewRadius.Length; i++)

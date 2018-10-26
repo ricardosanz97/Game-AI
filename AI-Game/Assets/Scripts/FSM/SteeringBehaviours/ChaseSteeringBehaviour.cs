@@ -27,7 +27,6 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
     public override void Act()
     {
         timer += Time.deltaTime;
-        Debug.Log(timer);
         if (timer > 0.2f)
         {
             Pathfinding.PathfindingManager.I.RequestPath(new Pathfinding.PathfindingManager.PathRequest(ccEnemy.transform.position, ccPlayer.transform.position, PathReceived, ccPlayer.radius));
@@ -39,7 +38,6 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
 
     public void PathReceived(Vector3[] wayPoints, bool isPathSuccessfull)
     {
-        Debug.Log("pathReceived");
         path = wayPoints;
         Pursuit();
     }
@@ -70,7 +68,9 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
                 pathIndex++;
             }
             */
-            ccEnemy.transform.DOMove(path[1], maxSpeed);
+           
+            ccEnemy.transform.DOMove(path[1]-(ccPlayer.transform.forward*2), maxSpeed);          
+            ccEnemy.transform.LookAt(ccPlayer.transform);
         }
     }
 

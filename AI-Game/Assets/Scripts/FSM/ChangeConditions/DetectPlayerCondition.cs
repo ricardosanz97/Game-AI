@@ -13,6 +13,7 @@ public class DetectPlayerCondition : Condition {
     public LayerMask obstacleMask;
 
     public Transform initialRay;
+    public bool playerDetected = false;
 
     public override bool Check()
     {
@@ -21,14 +22,16 @@ public class DetectPlayerCondition : Condition {
 
     bool FindPlayer()
     {
-        //Debug.DrawRay(transform.position, transform.forward * viewRadius, Color.red);
+        Debug.DrawRay(initialRay.position, transform.forward * viewRadius, Color.red);
 
         Quaternion spreadAngle = Quaternion.AngleAxis(-viewAngle / 2, new Vector3(0, 1, 0));
         Quaternion spreadAngle2 = Quaternion.AngleAxis(viewAngle / 2, new Vector3(0, 1, 0));
         
-        Vector3 newVector = spreadAngle * transform.forward;
-        Vector3 newVector2 = spreadAngle2 * transform.forward;
+        Vector3 newVector = spreadAngle * initialRay.forward;
+        Vector3 newVector2 = spreadAngle2 * initialRay.forward;
 
+        Debug.DrawRay(initialRay.position, newVector * viewRadius, Color.red);
+        Debug.DrawRay(initialRay.position, newVector2 * viewRadius, Color.red);
         //Debug.DrawRay(initialRay.position, newVector * viewRadius, Color.red);
        //Debug.DrawRay(initialRay.position, newVector2 * viewRadius, Color.red);
         //Debug.DrawRay(initialRay.position, newVector2 * viewRadius, Color.red);
@@ -39,21 +42,23 @@ public class DetectPlayerCondition : Condition {
 
             Transform target = targetsInViewRadius[i].transform;
             
-            Vector3 dirToTarget = (target.position - transform.position).normalized;
+            Vector3 dirToTarget = (target.position - initialRay.position).normalized;
             dirToTarget.y = 0;
 
             Debug.DrawRay(transform.position, dirToTarget * viewRadius, Color.green);
 
             if (Vector3.Angle(transform.forward, dirToTarget) < viewAngle / 2)
             {
-                float dstToTarget = Vector3.Distance(transform.position, target.position);
+                float dstToTarget = Vector3.Distance(initialRay.position, target.position);
 
-                if (!Physics.Raycast(transform.position, dirToTarget, dstToTarget, obstacleMask))
+                if (!Physics.Raycast(initialRay.position, dirToTarget, dstToTarget, obstacleMask))
                 {
+                    playerDetected = true;
                     return true;
                 }
             }
         }
+        playerDetected = false;
         return false;
     }
 

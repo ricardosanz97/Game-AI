@@ -36,6 +36,18 @@ public class AssassinNPC : NPCStatesBehaviour
             new NextStateInfo(this, STATE.None, STATE.Alert, commander.GetComponent<DetectPlayerCondition>())
         };
         FSMSystem.I.AddTransition(this, STATE.Attack, _nextStateInfo3);
+
+        List<NextStateInfo> _nextStateInfo4 = new List<NextStateInfo>()
+        {
+            new NextStateInfo(this, STATE.Attack, STATE.None, commander.GetComponent<DetectPlayerCondition>())
+        };
+        FSMSystem.I.AddTransition(this, STATE.Alert, _nextStateInfo4);
+
+        List<NextStateInfo> _nextStateInfo5 = new List<NextStateInfo>()
+        {
+            new NextStateInfo(this, STATE.None, STATE.Alert, GetComponent<PlayerAliveCondition>())
+        };
+        FSMSystem.I.AddTransition(this, STATE.Attack, _nextStateInfo5);
        
     }
 

@@ -11,7 +11,7 @@ public class PlayerController : Singleton<PlayerController> {
     public float speedSmoothTime = 0.1f;
     public float gravity = -12f;
     public float jumpHeight = 1f;
-    public float timeToJump = 2f;
+    public float timeToJump = 0.7f;
     public GameObject targetObjectRef;
     [Range(0,1)]
     public float airControlPercentage;
@@ -149,11 +149,7 @@ public class PlayerController : Singleton<PlayerController> {
     bool TimeToJumpElapsed()
     {
         currentTime += Time.deltaTime;
-        if (currentTime >= timeToJump)
-        {
-            return true;
-        }
-        return false;
+        return (currentTime >= timeToJump);
     }
 
     void isDead()

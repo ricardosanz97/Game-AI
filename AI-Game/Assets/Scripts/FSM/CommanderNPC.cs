@@ -31,7 +31,13 @@ public class CommanderNPC : NPCStatesBehaviour
     }
 
     public void SetIdleState(){
+        List<SteeringBehaviour> behavioursIdleState = new List<SteeringBehaviour>()
+        {
+            this.GetComponent<RotateSteeringBehaviour>(),
+            this.GetComponent<FacePlayerSteeringBehaviour>()
+        };
         FSMSystem.I.AddState(this, new State(STATE.Idle));
+        FSMSystem.I.AddBehaviours(this, behavioursIdleState, this.states.Find((x)=>x.stateName == STATE.Idle));
     }
 
     public void Update()

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DetectPlayerCondition : Condition {
+public class DetectPlayerHit : Condition {
 
     public float viewRadius;
     [Range(0, 360)]

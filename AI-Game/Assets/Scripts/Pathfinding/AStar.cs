@@ -21,7 +21,7 @@ namespace CustomPathfinding
             Dictionary<Node, float> costSoFar = new Dictionary<Node, float>();
             Stopwatch sw = new Stopwatch();
         
-            Debug.Log("Started search at thread number " + Thread.CurrentThread.ManagedThreadId);
+            //Debug.Log("Started search at thread number " + Thread.CurrentThread.ManagedThreadId);
             sw.Start();
             Profiler.BeginThreadProfiling("AStar", "Thread " + Thread.CurrentThread.ManagedThreadId);
 
@@ -51,7 +51,7 @@ namespace CustomPathfinding
                 if (currentNode.Equals(goal))
                 {
                     sw.Stop();
-                    Debug.Log("Finished search at thread number " + Thread.CurrentThread.ManagedThreadId + " in " + sw.ElapsedMilliseconds + "ms.");
+                    //Debug.Log("Finished search at thread number " + Thread.CurrentThread.ManagedThreadId + " in " + sw.ElapsedMilliseconds + "ms.");
                     Profiler.EndThreadProfiling();
                     break;
                 }

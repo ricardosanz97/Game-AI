@@ -35,7 +35,7 @@ public abstract class NPCStatesBehaviour : MonoBehaviour {
                 {  
                     if (nsi.stateCaseTrue.stateName == STATE.None)
                     {
-                        break;
+                        continue;
                     }
                     currentState = nsi.stateCaseTrue;
                 }
@@ -43,7 +43,7 @@ public abstract class NPCStatesBehaviour : MonoBehaviour {
                 {
                     if (nsi.stateCaseFalse.stateName == STATE.None)
                     {
-                        break;
+                        continue;
                     }         
                     currentState = nsi.stateCaseFalse;
                 }

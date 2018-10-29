@@ -1672,6 +1672,7 @@ GameObject:
   - component: {fileID: 54077755920763446}
   - component: {fileID: 136541710828316706}
   - component: {fileID: 114867045120263452}
+  - component: {fileID: 114609496115126640}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -5137,6 +5138,20 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114609496115126640
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1648505923352268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40639d6a43e70134499439ce2028d869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitRate: 2
+  maxDistance: 0
+  hitDamage: 20
 --- !u!114 &114686363069066850
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -1,10 +1,18 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
-		  
+using UnityEngine.UI;
+
 public class HUDManager : Singleton<HUDManager> 
 {
     public GameObject canvas;
-    
+    public Image YouDiedImage;
+    public Image FadeImage;
+
+    private void Awake()
+    {
+        EndHud();
+    }
+
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;

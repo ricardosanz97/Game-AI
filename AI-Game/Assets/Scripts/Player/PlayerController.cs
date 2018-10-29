@@ -150,7 +150,7 @@ public class PlayerController : Singleton<PlayerController> {
         return (currentTime >= timeToJump);
     }
 
-    void isDead()
+    public void SetDeadAnimatorParamenter()
     {
         if (!GameManager.I.playerAlive)
         {

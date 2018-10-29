@@ -18,9 +18,6 @@ public class LevelManager : MonoBehaviour {
     public bool playerAlive = true;
     public bool levelCompleted = false;
     public string targetObject = "TargetObject";
-    public Image youDiedImage;
-    public Text youDiedText;
-    public Image fadeImage;
 
     private void Awake()
     {
@@ -56,7 +53,7 @@ public class LevelManager : MonoBehaviour {
                 player.GetComponent<PlayerController>().enabled = false;
                 
             });
-            s.Append(youDiedImage.DOFade(0f, 0.001f));
+            s.Append(HUDManager.I.YouDiedImage.DOFade(0f, 0.001f));
             
             //s.AppendInterval(3f);
             
@@ -70,7 +67,7 @@ public class LevelManager : MonoBehaviour {
             s.AppendInterval(2f);
             s.AppendCallback(() =>
             {
-                s.Append(fadeImage.DOFade(0f, 3f));
+                s.Append(HUDManager.I.FadeImage.DOFade(0f, 3f));
 
                 player.GetComponent<CharacterController>().enabled = true;
                 player.GetComponent<PlayerController>().enabled = true;
@@ -88,7 +85,7 @@ public class LevelManager : MonoBehaviour {
 
             s.AppendCallback(() =>
             {
-                fadeImage.DOFade(0f, 5f);
+                HUDManager.I.FadeImage.DOFade(0f, 5f);
                 GameManager.I.playerSpawned = true;
             });
             s.AppendCallback(() =>
@@ -109,17 +106,8 @@ public class LevelManager : MonoBehaviour {
 
     public void PlayerDead()
     {
-        Sequence s = DOTween.Sequence();
-        s.Append(youDiedImage.DOFade(1f, 1f));
-        s.Append(youDiedText.DOFade(1f, 2f));
-        s.AppendInterval(1f);
-        s.Append(fadeImage.DOFade(1f, 2f));
-        s.AppendInterval(1.5f);
-        s.Append(youDiedText.DOFade(0f, 1f));
-        s.OnComplete(() =>
-        {
-           GameManager.I.StarLevel(this);
-        });
+        player.GetComponent<PlayerController>().SetDeadAnimatorParamenter();
+        player.GetComponent<PlayerHealth>().PlayerDeath(this);
     }
 
     public void LevelCompleted()

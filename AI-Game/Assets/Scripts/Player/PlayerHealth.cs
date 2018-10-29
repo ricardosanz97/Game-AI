@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,13 +12,19 @@ public class PlayerHealth : MonoBehaviour {
     [SerializeField] private Slider playerHealthSlider;
     [SerializeField] private Image fillImage;
     [SerializeField] private Image redFlash;
+    [SerializeField] private Image youDiedImage;
+    [SerializeField] private Text youDiedText;
+    [SerializeField] private Image fadeImage;
     private float maxPlayerHealth;
 
     private void Awake()
     {
-        canvas = HUDManager.I.gameObject;
+        canvas = HUDManager.I.canvas;
         redFlash = canvas.transform.GetChild(4).GetComponent<Image>();
+        youDiedImage = HUDManager.I.YouDiedImage;
+        youDiedText = canvas.transform.GetChild(3).GetComponent<Text>();
         playerHealthSlider = canvas.GetComponentInChildren<Slider>();
+        fadeImage = HUDManager.I.FadeImage;
         fillImage = playerHealthSlider.transform.GetChild(1).GetComponentInChildren<Image>();
     }
 
@@ -66,6 +73,21 @@ public class PlayerHealth : MonoBehaviour {
         redFlash.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.35f);
         redFlash.gameObject.SetActive(false);
+    }
+
+    public void PlayerDeath(LevelManager levelWhereDied)
+    {
+        Sequence s = DOTween.Sequence();
+        s.Append(youDiedImage.DOFade(1f, 1f));
+        s.Append(youDiedText.DOFade(1f, 2f));
+        s.AppendInterval(1f);
+        s.Append(fadeImage.DOFade(1f, 2f));
+        s.AppendInterval(1.5f);
+        s.Append(youDiedText.DOFade(0f, 1f));
+        s.OnComplete(() =>
+        {
+            GameManager.I.StarLevel(levelWhereDied);
+        });
     }
 
 }

@@ -10,18 +10,11 @@ public class GameManager : Singleton<GameManager>
     public bool playerSpawned;
     public LevelManager currentLevel;
 
-    private void Start()
-    {
-        InitCoroutines();
-    }
-
     private IEnumerator CheckPlayerAlive()
     {
         while (playerAlive)
-        {
             yield return null;
-        }
-        yield return new WaitForSeconds(5f);
+        
         currentLevel.PlayerDead();
     }
 

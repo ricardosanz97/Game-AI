@@ -34,9 +34,7 @@ public class LevelManager : MonoBehaviour {
     }
 
     public void SpawnPlayer()
-    {
-        player.GetComponent<PlayerController>().SetDeadAnimatorParamenter();
-        
+    {        
         if (GameManager.I.playerSpawned)
         {
             Sequence s = DOTween.Sequence();
@@ -58,10 +56,9 @@ public class LevelManager : MonoBehaviour {
             
             s.AppendCallback(() =>
             {
-                
-               
                 Camera.main.transform.DOMove(initialCameraSpawnPoint.transform.position, 2f);
                 Camera.main.transform.DORotate(initialCameraSpawnPoint.rotation.eulerAngles, 2f);
+                player.GetComponent<PlayerController>().SetDeadAnimatorParamenter();
             });
             s.AppendInterval(2f);
             s.AppendCallback(() =>

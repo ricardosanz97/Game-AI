@@ -78,6 +78,7 @@ public class PlayerHealth : MonoBehaviour {
     public void PlayerDeath(LevelManager levelWhereDied)
     {
         Sequence s = DOTween.Sequence();
+        s.AppendInterval(3.5f);
         s.Append(youDiedImage.DOFade(1f, 1f));
         s.Append(youDiedText.DOFade(1f, 2f));
         s.AppendInterval(1f);

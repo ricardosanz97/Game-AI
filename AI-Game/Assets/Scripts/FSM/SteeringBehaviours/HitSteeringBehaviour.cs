@@ -5,14 +5,13 @@ using UnityEngine;
 public class HitSteeringBehaviour : SteeringBehaviour
 {
     public float hitRate = 1f;
-    public float maxDistance;
+    public float maxDistance = 2f;
     public int hitDamage = 20;
 
     private float currentTime = 0f;
 
     private void Start()
     {
-        maxDistance = GetComponent<DetectPlayerHit>().viewRadius;
     }
 
     public override void Act()

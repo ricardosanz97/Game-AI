@@ -19,11 +19,24 @@ public class ChaserNPC : NPCStatesBehaviour
         List<NextStateInfo> _nextStateInfo = new List<NextStateInfo>()
         {
             new NextStateInfo(this, STATE.Attack, STATE.None, GetComponent<DetectPlayerCondition>()),
-            new NextStateInfo(this, STATE.Hit, STATE.Attack, GetComponent<DetectPlayerHit>())
-
         };
 
         FSMSystem.I.AddTransition(this, STATE.Patrol, _nextStateInfo);
+
+        List<NextStateInfo> _nextStateInfo2 = new List<NextStateInfo>()
+        {
+            new NextStateInfo(this, STATE.None, STATE.Alert, GetComponent<DetectPlayerCondition>()),
+        };
+
+        FSMSystem.I.AddTransition(this, STATE.Attack, _nextStateInfo2);
+
+        List<NextStateInfo> _nextStateInfo3 = new List<NextStateInfo>()
+        {
+            new NextStateInfo(this, STATE.Attack, STATE.None, GetComponent<DetectPlayerCondition>()),
+            new NextStateInfo(this, STATE.Patrol, STATE.None, GetComponent<TimeElapsedCondition>()),
+        };
+
+        FSMSystem.I.AddTransition(this, STATE.Alert, _nextStateInfo3);
     }
 
     public override void SetStates()
@@ -31,6 +44,7 @@ public class ChaserNPC : NPCStatesBehaviour
         SetNoneState();
         SetAttackState();
         SetPatrolState();
+        SetAlertState();
     }
 
     public void SetAttackState()
@@ -38,6 +52,7 @@ public class ChaserNPC : NPCStatesBehaviour
         List<SteeringBehaviour> behavioursAttackState = new List<SteeringBehaviour>()
         {
             this.GetComponent<ChaseSteeringBehaviour>(),
+            this.GetComponent<HitSteeringBehaviour>()
             //this.GetComponent<ShootSteeringBehaviour>()
         };
 
@@ -56,15 +71,9 @@ public class ChaserNPC : NPCStatesBehaviour
         FSMSystem.I.AddBehaviours(this, behavioursPatrolState, this.states.Find((x) => x.stateName == STATE.Patrol));
     }
 
-    public void SetHitState()
+    public void SetAlertState()
     {
-        List<SteeringBehaviour> behavioursHitState = new List<SteeringBehaviour>()
-        {
-            this.GetComponent<HitSteeringBehaviour>(),
-        };
-
-        FSMSystem.I.AddState(this, new State(STATE.Hit));
-        FSMSystem.I.AddBehaviours(this, behavioursHitState, this.states.Find((x) => x.stateName == STATE.Hit));
+        FSMSystem.I.AddState(this, new State(STATE.Alert));
     }
 
     public void SetNoneState()

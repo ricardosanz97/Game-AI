@@ -12,7 +12,6 @@ public enum STATE
     Alert,
     Recolocate,
     Hidden,
-    Hit,
     None
 }
 

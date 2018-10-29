@@ -47,11 +47,8 @@ public class GameManager : Singleton<GameManager>
         playerAlive = true;
         levelCompleted = false;
         startedLevel.KeyTaken = false;
-        playerAlive = true;
-        InitCoroutines();
-        playerSpawned = false;
         
-        //TODO DESTRUIR AL JUGADOR
+        InitCoroutines();
         startedLevel.SpawnPlayer();
     }
 }

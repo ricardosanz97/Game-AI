@@ -131,6 +131,7 @@
             <e p="ChangeConditions" t="Include">
               <e p="Condition.cs" t="Include" />
               <e p="DetectPlayerCondition.cs" t="Include" />
+              <e p="DetectPlayerHit.cs" t="Include" />
               <e p="PlayerAliveCondition.cs" t="Include" />
               <e p="TimeElapsedCondition.cs" t="Include" />
             </e>

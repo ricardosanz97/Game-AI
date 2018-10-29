@@ -53,6 +53,17 @@ public class ChaserNPC : NPCStatesBehaviour
         FSMSystem.I.AddBehaviours(this, behavioursPatrolState, this.states.Find((x) => x.stateName == STATE.Patrol));
     }
 
+    public void SetHitState()
+    {
+        List<SteeringBehaviour> behavioursHitState = new List<SteeringBehaviour>()
+        {
+            this.GetComponent<HitSteeringBehaviour>(),
+        };
+
+        FSMSystem.I.AddState(this, new State(STATE.Hit));
+        FSMSystem.I.AddBehaviours(this, behavioursHitState, this.states.Find((x) => x.stateName == STATE.Hit));
+    }
+
     public void SetNoneState()
     {
         FSMSystem.I.AddState(this, new State(STATE.None));

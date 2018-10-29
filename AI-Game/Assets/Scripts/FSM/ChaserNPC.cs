@@ -18,8 +18,11 @@ public class ChaserNPC : NPCStatesBehaviour
     {
         List<NextStateInfo> _nextStateInfo = new List<NextStateInfo>()
         {
-            new NextStateInfo(this, STATE.Attack, STATE.None, GetComponent<DetectPlayerCondition>())
+            new NextStateInfo(this, STATE.Attack, STATE.None, GetComponent<DetectPlayerCondition>()),
+            new NextStateInfo(this, STATE.Hit, STATE.Attack, GetComponent<DetectPlayerHit>())
+
         };
+
         FSMSystem.I.AddTransition(this, STATE.Patrol, _nextStateInfo);
     }
 

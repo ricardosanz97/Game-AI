@@ -12,7 +12,7 @@ public class HitSteeringBehaviour : SteeringBehaviour
 
     private void Start()
     {
-        maxDistance = GetComponent<DetectPlayerCondition>().viewRadius;
+        maxDistance = GetComponent<DetectPlayerHit>().viewRadius;
     }
 
     public override void Act()

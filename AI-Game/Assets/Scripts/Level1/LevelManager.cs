@@ -35,8 +35,7 @@ public class LevelManager : MonoBehaviour {
 
     public void SpawnPlayer()
     {
-        //GameManager.I.playerAlive = true;
-        //GameManager.I.InitCoroutines();
+        player.GetComponent<PlayerController>().SetDeadAnimatorParamenter();
         
         if (GameManager.I.playerSpawned)
         {

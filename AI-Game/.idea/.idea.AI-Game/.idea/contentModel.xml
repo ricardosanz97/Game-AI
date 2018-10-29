@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\edu97\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\edu97\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_AI-Game.-1457066214.00" t="ExcludeRecursive" />
-    <e p="D:\Unity\AI-Game\AI-Game" t="IncludeRecursive">
+    <e p="C:\Users\Eduardo SImón Picón\.Rider2018.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Eduardo SImón Picón\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Eduardo SImón Picón\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_AI-Game.1880130677.00" t="ExcludeRecursive" />
+    <e p="D:\Repositorios\Game-AI\AI-Game" t="IncludeRecursive">
       <e p="AI-Game.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Plugins" t="Include">
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Modules" t="Include">
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+              <e p="readme.txt" t="Include" />
+            </e>
+          </e>
           <e p="High-Speed-Priority-Queue-for-C-Sharp-master" t="Include">
             <e p="Priority Queue" t="Include">
               <e p="FastPriorityQueue.cs" t="Include" />
@@ -66,22 +81,62 @@
               </e>
             </e>
           </e>
+          <e p="TextMesh Pro" t="Include">
+            <e p="Resources" t="Include">
+              <e p="LineBreaking Following Characters.txt" t="Include" />
+              <e p="LineBreaking Leading Characters.txt" t="Include" />
+              <e p="Shaders" t="Include">
+                <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+                <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+                <e p="TMP_Bitmap.shader" t="Include" />
+                <e p="TMP_SDF Overlay.shader" t="Include" />
+                <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+                <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+                <e p="TMP_SDF-Mobile.shader" t="Include" />
+                <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+                <e p="TMP_SDF-Surface.shader" t="Include" />
+                <e p="TMP_SDF.shader" t="Include" />
+                <e p="TMP_Sprite.shader" t="Include" />
+                <e p="TMPro.cginc" t="Include" />
+                <e p="TMPro_Properties.cginc" t="Include" />
+                <e p="TMPro_Surface.cginc" t="Include" />
+              </e>
+            </e>
+            <e p="Sprites" t="Include">
+              <e p="EmojiOne Attribution.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Resources" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="GlowAdditiveSimple.shader" t="Include" />
+            <e p="GlowAdditiveTwoColor 1.shader" t="Include" />
+          </e>
+          <e p="TilesetDungeon" t="Include">
+            <e p="DetailedRockKey" t="Include">
+              <e p="RocksAnimation.cs" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="Scripts" t="Include">
           <e p="BulletBehaviour.cs" t="Include" />
           <e p="Core" t="Include">
-            <e p="GameController.cs" t="Include" />
+            <e p="GameManager.cs" t="Include" />
+            <e p="Loader.cs" t="Include" />
             <e p="SceneLoader.cs" t="Include" />
             <e p="Singleton.cs" t="Include" />
           </e>
           <e p="FSM" t="Include">
+            <e p="AssassinNPC.cs" t="Include" />
             <e p="ChangeConditions" t="Include">
               <e p="Condition.cs" t="Include" />
               <e p="DetectPlayerCondition.cs" t="Include" />
+              <e p="DetectPlayerHit.cs" t="Include" />
               <e p="PlayerAliveCondition.cs" t="Include" />
               <e p="TimeElapsedCondition.cs" t="Include" />
             </e>
             <e p="ChaserNPC.cs" t="Include" />
+            <e p="CommanderNPC.cs" t="Include" />
             <e p="ConfigurationSO.cs" t="Include" />
             <e p="FSMSystem.cs" t="Include" />
             <e p="NextStateInfo" t="Include">
@@ -92,7 +147,9 @@
               <e p="State.cs" t="Include" />
             </e>
             <e p="SteeringBehaviours" t="Include">
+              <e p="AppearSteeringBehaviour.cs" t="Include" />
               <e p="ChaseSteeringBehaviour.cs" t="Include" />
+              <e p="FacePlayerSteeringBehaviour.cs" t="Include" />
               <e p="HitSteeringBehaviour.cs" t="Include" />
               <e p="MoveLastPositionPlayerSteeringBehaviour.cs" t="Include" />
               <e p="PatrolSteeringBehaviour.cs" t="Include" />
@@ -111,6 +168,10 @@
             </e>
             <e p="WatcherNPC.cs" t="Include" />
           </e>
+          <e p="HUDManager.cs" t="Include" />
+          <e p="Level1" t="Include">
+            <e p="LevelManager.cs" t="Include" />
+          </e>
           <e p="Pathfinding" t="Include">
             <e p="AStar.cs" t="Include" />
             <e p="DebugAgentPathfinding.cs" t="Include" />
@@ -122,40 +183,13 @@
           </e>
           <e p="Player" t="Include">
             <e p="PlayerController.cs" t="Include" />
+            <e p="PlayerHealth.cs" t="Include" />
             <e p="ThirdPersonCamera.cs" t="Include" />
           </e>
-          <e p="ScenesController" t="Include">
-            <e p="Level1" t="Include">
-              <e p="LevelManager.cs" t="Include" />
-            </e>
-            <e p="MainMenuController.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="UIBehaviour.cs" t="Include" />
           </e>
           <e p="WatcherAnimationController.cs" t="Include" />
-        </e>
-        <e p="TextMesh Pro" t="Include">
-          <e p="Resources" t="Include">
-            <e p="LineBreaking Following Characters.txt" t="Include" />
-            <e p="LineBreaking Leading Characters.txt" t="Include" />
-            <e p="Shaders" t="Include">
-              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
-              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
-              <e p="TMP_Bitmap.shader" t="Include" />
-              <e p="TMP_SDF Overlay.shader" t="Include" />
-              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
-              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
-              <e p="TMP_SDF-Mobile.shader" t="Include" />
-              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
-              <e p="TMP_SDF-Surface.shader" t="Include" />
-              <e p="TMP_SDF.shader" t="Include" />
-              <e p="TMP_Sprite.shader" t="Include" />
-              <e p="TMPro.cginc" t="Include" />
-              <e p="TMPro_Properties.cginc" t="Include" />
-              <e p="TMPro_Surface.cginc" t="Include" />
-            </e>
-          </e>
-          <e p="Sprites" t="Include">
-            <e p="EmojiOne Attribution.txt" t="Include" />
-          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

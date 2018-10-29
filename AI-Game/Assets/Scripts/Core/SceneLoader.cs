@@ -3,21 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+[DisallowMultipleComponent]
 public class SceneLoader : Singleton<SceneLoader>
 {
     public enum SCENES
     {
-        Menu = 0,
-        Options = 1,
-        Credits = 2,
-        Level1 = 3
+        Loader = 0,
+        Menu = 1,
+        Level1 = 2
     }
 
-    public SCENES currentScene = SCENES.Menu;
-    
+    public SCENES CurrentScene { get; private set; }
+
+    private void Awake()
+    {
+        CurrentScene = SCENES.Loader;
+    }
+
     public void LoadScene(SCENES sceneToLoad)
     {
+        CurrentScene = sceneToLoad;
         SceneManager.LoadScene((int)sceneToLoad);
     }
+    
+    //todo implement async loading
+    //todo trigger fade
 
 }

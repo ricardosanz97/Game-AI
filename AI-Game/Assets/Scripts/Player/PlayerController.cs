@@ -26,7 +26,6 @@ public class PlayerController : Singleton<PlayerController> {
     private float velocityY;
     private bool jumping;
     private float currentTime = 2f;
-    private PlayerHealth playerHealthRef;
 
     public Vector3 velocity;
 
@@ -35,7 +34,6 @@ public class PlayerController : Singleton<PlayerController> {
         playerAnimator = GetComponent<Animator>();
         cameraRef = FindObjectOfType<vThirdPersonCamera>();
         controller = GetComponent<CharacterController>();
-        playerHealthRef = GetComponent<PlayerHealth>();
         if (targetObjectRef == null)
         {
             Debug.Log("No hay arrastrado ningún target");
@@ -49,7 +47,7 @@ public class PlayerController : Singleton<PlayerController> {
 
 	// Update is called once per frame
 	void FixedUpdate () {
-        if (GameController.I.playerAlive)
+        if (GameManager.I.playerAlive)
         {
             PlayerControl();
         }
@@ -154,7 +152,7 @@ public class PlayerController : Singleton<PlayerController> {
 
     void isDead()
     {
-        if (!GameController.I.playerAlive)
+        if (!GameManager.I.playerAlive)
         {
             Debug.Log("muerto");
             playerAnimator.SetBool("death", true);

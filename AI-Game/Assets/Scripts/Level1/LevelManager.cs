@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 
+[DisallowMultipleComponent]
 public class LevelManager : MonoBehaviour {
 
     public List<NPCStatesBehaviour> LevelEnemies;
@@ -23,24 +24,24 @@ public class LevelManager : MonoBehaviour {
 
     private void Awake()
     {
+        GameManager.I.StarLevel(this);
         //Camera.main.GetComponent<vThirdPersonCamera>();
-        SpawnPlayer();
     }
 
     private void Start()
     {
-        GameController.I.currentLevel = this;
-        GameController.I.playerAlive = true;
-        GameController.I.levelCompleted = false;
-        KeyTaken = false;
+//        GameManager.I.currentLevel = this;
+//        GameManager.I.playerAlive = true;
+//        GameManager.I.levelCompleted = false;
+//        KeyTaken = false;
     }
 
     public void SpawnPlayer()
     {
-        GameController.I.playerAlive = true;
-        GameController.I.InitCoroutines();
-
-        if (GameController.I.playerSpawned)
+        //GameManager.I.playerAlive = true;
+        //GameManager.I.InitCoroutines();
+        
+        if (GameManager.I.playerSpawned)
         {
             Sequence s = DOTween.Sequence();
             s.AppendCallback(() =>
@@ -77,7 +78,7 @@ public class LevelManager : MonoBehaviour {
         }
 
         else
-        {
+        {   
             Sequence s = DOTween.Sequence();
             Camera.main.GetComponent<vThirdPersonCamera>().enabled = true;
             player = Instantiate(thePlayer, initialPlayerSpawnPosition.position, initialPlayerSpawnPosition.rotation);
@@ -88,7 +89,7 @@ public class LevelManager : MonoBehaviour {
             s.AppendCallback(() =>
             {
                 fadeImage.DOFade(0f, 5f);
-                GameController.I.playerSpawned = true;
+                GameManager.I.playerSpawned = true;
             });
             s.AppendCallback(() =>
             {
@@ -101,8 +102,8 @@ public class LevelManager : MonoBehaviour {
                 player.GetComponent<CharacterController>().enabled = true;
                 player.GetComponent<PlayerController>().enabled = true;
             }); 
-        }
         
+        }
        
     }
 
@@ -117,7 +118,7 @@ public class LevelManager : MonoBehaviour {
         s.Append(youDiedText.DOFade(0f, 1f));
         s.OnComplete(() =>
         {
-            SpawnPlayer();
+           GameManager.I.StarLevel(this);
         });
     }
 

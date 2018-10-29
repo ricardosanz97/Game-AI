@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameController : Singleton<GameController>
+[DisallowMultipleComponent]
+public class GameManager : Singleton<GameManager>
 {
     public bool playerAlive = true;
     public bool levelCompleted;
@@ -14,7 +15,7 @@ public class GameController : Singleton<GameController>
         InitCoroutines();
     }
 
-    IEnumerator CheckPlayerAlive()
+    private IEnumerator CheckPlayerAlive()
     {
         while (playerAlive)
         {
@@ -24,7 +25,7 @@ public class GameController : Singleton<GameController>
         currentLevel.PlayerDead();
     }
 
-    IEnumerator CheckLevelCompleted()
+    private IEnumerator CheckLevelCompleted()
     {
         while (!levelCompleted)
         {
@@ -38,5 +39,19 @@ public class GameController : Singleton<GameController>
     {
         StartCoroutine(CheckPlayerAlive());
         StartCoroutine(CheckLevelCompleted());
+    }
+
+    public void StarLevel(LevelManager startedLevel)
+    {
+        currentLevel = startedLevel;
+        playerAlive = true;
+        levelCompleted = false;
+        startedLevel.KeyTaken = false;
+        playerAlive = true;
+        InitCoroutines();
+        playerSpawned = false;
+        
+        //TODO DESTRUIR AL JUGADOR
+        startedLevel.SpawnPlayer();
     }
 }

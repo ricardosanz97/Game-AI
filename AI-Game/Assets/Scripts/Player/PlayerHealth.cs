@@ -15,7 +15,7 @@ public class PlayerHealth : MonoBehaviour {
 
     private void Awake()
     {
-        canvas = GameObject.FindObjectOfType<Canvas>().gameObject;
+        canvas = HUDManager.I.gameObject;
         redFlash = canvas.transform.GetChild(4).GetComponent<Image>();
         playerHealthSlider = canvas.GetComponentInChildren<Slider>();
         fillImage = playerHealthSlider.transform.GetChild(1).GetComponentInChildren<Image>();
@@ -35,7 +35,7 @@ public class PlayerHealth : MonoBehaviour {
         playerHealth -= value;
         if (playerHealth <= 0)
         {
-            GameController.I.playerAlive = false;
+            GameManager.I.playerAlive = false;
             GetComponent<CharacterController>().enabled = false;
         }
     }

@@ -6,6 +6,6 @@ public class PlayerAliveCondition : Condition
 {
     public override bool Check()
     {
-        return GameController.I.playerAlive;
+        return GameManager.I.playerAlive;
     }
 }

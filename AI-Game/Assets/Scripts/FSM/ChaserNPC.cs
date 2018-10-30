@@ -53,7 +53,6 @@ public class ChaserNPC : NPCStatesBehaviour
         {
             this.GetComponent<ChaseSteeringBehaviour>(),
             this.GetComponent<HitSteeringBehaviour>()
-            //this.GetComponent<ShootSteeringBehaviour>()
         };
 
         FSMSystem.I.AddState(this, new State(STATE.Attack));

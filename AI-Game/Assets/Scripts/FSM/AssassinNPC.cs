@@ -6,6 +6,7 @@ using System;
 public class AssassinNPC : NPCStatesBehaviour 
 {
     public List<Transform> assassinSpawnPoints;
+    public GameObject assassinSpawnPointsGO;
     public bool appeared = false;
     public CommanderNPC commander;
     private void Start()
@@ -15,6 +16,11 @@ public class AssassinNPC : NPCStatesBehaviour
 
         currentState = states.Find((x) => x.stateName == STATE.Hidden);
         currentTransitions = transitions.FindAll((x) => x.currentState == currentState);
+
+        for(int i = 0; i < assassinSpawnPointsGO.transform.childCount; i++)
+        {
+            assassinSpawnPoints.Add(assassinSpawnPointsGO.transform.GetChild(i));
+        }
     }
 
     public override void SetTransitions()
@@ -68,8 +74,9 @@ public class AssassinNPC : NPCStatesBehaviour
     {
         List<SteeringBehaviour> behavioursAttackState = new List<SteeringBehaviour>()
         {
-            //this.GetComponent<ChaseSteeringBehaviour>(),
-            //this.GetComponent<ShootSteeringBehaviour>()
+            this.GetComponent<ChaseSteeringBehaviour>(),
+            this.GetComponent<AppearSteeringBehaviour>()
+            
         };
 
         FSMSystem.I.AddState(this, new State(STATE.Attack));

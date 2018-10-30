@@ -11,7 +11,6 @@ public class AppearSteeringBehaviour : SteeringBehaviour
         {
             return;
         }
-
         int random = Random.Range(0, GetComponent<AssassinNPC>().assassinSpawnPoints.Count);
         Transform spawnPoint = GetComponent<AssassinNPC>().assassinSpawnPoints[random];
 

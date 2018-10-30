@@ -27,6 +27,7 @@ public class ShootSteeringBehaviour : SteeringBehaviour
         
         if (TimeRateElapsed())
         {
+            Debug.Log("DISSSSPARO!");
             GameObject _bullet = Instantiate(bullet, barrelGun.position, barrelGun.rotation);
             Vector3 direction = (PlayerController.I.targetObjectRef.transform.position - barrelGun.transform.position).normalized;
             _bullet.GetComponent<BulletBehaviour>().Move(direction);

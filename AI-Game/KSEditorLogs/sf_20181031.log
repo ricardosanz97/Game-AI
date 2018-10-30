@@ -8,3 +8,118 @@
 2018-10-31 00:11:47.1204 [DEBUG] Play mode: True, sync in play mode: False
 2018-10-31 00:11:56.1793 [DEBUG] Play mode: False
 2018-10-31 00:15:34.7737 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:20:21.4357 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:22:13.6827 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:22:13.7237 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:22:15.4765 [ERROR] UnassignedReferenceException: The variable assassinSpawnPointsGO of AssassinNPC has not been assigned.
+You probably need to assign the assassinSpawnPointsGO variable of the AssassinNPC script in the inspector.
+AssassinNPC.Start () (at Assets/Scripts/FSM/AssassinNPC.cs:20)
+
+2018-10-31 00:22:32.8146 [DEBUG] Play mode: False
+2018-10-31 00:22:50.9555 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:22:50.9915 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:22:52.9446 [ERROR] UnassignedReferenceException: The variable assassinSpawnPointsGO of AssassinNPC has not been assigned.
+You probably need to assign the assassinSpawnPointsGO variable of the AssassinNPC script in the inspector.
+AssassinNPC.Start () (at Assets/Scripts/FSM/AssassinNPC.cs:20)
+
+2018-10-31 00:24:06.0396 [DEBUG] Play mode: False
+2018-10-31 00:24:19.3348 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:24:19.3693 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:24:20.9467 [ERROR] UnassignedReferenceException: The variable assassinSpawnPointsGO of AssassinNPC has not been assigned.
+You probably need to assign the assassinSpawnPointsGO variable of the AssassinNPC script in the inspector.
+AssassinNPC.Start () (at Assets/Scripts/FSM/AssassinNPC.cs:20)
+
+2018-10-31 00:26:05.8727 [DEBUG] Play mode: False
+2018-10-31 00:26:43.1935 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:26:43.2245 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:26:45.7210 [ERROR] UnassignedReferenceException: The variable assassinSpawnPointsGO of AssassinNPC has not been assigned.
+You probably need to assign the assassinSpawnPointsGO variable of the AssassinNPC script in the inspector.
+AssassinNPC.Start () (at Assets/Scripts/FSM/AssassinNPC.cs:20)
+
+2018-10-31 00:27:21.6031 [DEBUG] Play mode: False
+2018-10-31 00:27:57.9588 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:27:57.9926 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:28:00.0631 [ERROR] UnassignedReferenceException: The variable assassinSpawnPointsGO of AssassinNPC has not been assigned.
+You probably need to assign the assassinSpawnPointsGO variable of the AssassinNPC script in the inspector.
+AssassinNPC.Start () (at Assets/Scripts/FSM/AssassinNPC.cs:20)
+
+2018-10-31 00:28:41.9720 [DEBUG] Play mode: False
+2018-10-31 00:29:51.2319 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:29:51.2669 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:29:52.7096 [ERROR] UnassignedReferenceException: The variable assassinSpawnPointsGO of AssassinNPC has not been assigned.
+You probably need to assign the assassinSpawnPointsGO variable of the AssassinNPC script in the inspector.
+AssassinNPC.Start () (at Assets/Scripts/FSM/AssassinNPC.cs:20)
+
+2018-10-31 00:30:02.6717 [DEBUG] Play mode: False
+2018-10-31 00:31:00.8103 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:31:00.8521 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:31:02.8291 [ERROR] UnassignedReferenceException: The variable assassinSpawnPointsGO of AssassinNPC has not been assigned.
+You probably need to assign the assassinSpawnPointsGO variable of the AssassinNPC script in the inspector.
+AssassinNPC.Start () (at Assets/Scripts/FSM/AssassinNPC.cs:20)
+
+2018-10-31 00:32:00.3967 [DEBUG] Play mode: False
+2018-10-31 00:33:02.8363 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:33:02.8726 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:33:11.4619 [ERROR] UnassignedReferenceException: The variable assassinSpawnPointsGO of AssassinNPC has not been assigned.
+You probably need to assign the assassinSpawnPointsGO variable of the AssassinNPC script in the inspector.
+AssassinNPC.Start () (at Assets/Scripts/FSM/AssassinNPC.cs:20)
+
+2018-10-31 00:34:38.7182 [DEBUG] Play mode: False
+2018-10-31 00:35:14.9528 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:35:20.4208 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:35:20.4554 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:35:22.1788 [ERROR] UnassignedReferenceException: The variable assassinSpawnPointsGO of AssassinNPC has not been assigned.
+You probably need to assign the assassinSpawnPointsGO variable of the AssassinNPC script in the inspector.
+AssassinNPC.Start () (at Assets/Scripts/FSM/AssassinNPC.cs:20)
+
+2018-10-31 00:35:50.1139 [DEBUG] Play mode: False
+2018-10-31 00:37:23.9047 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:37:23.9596 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:37:25.4690 [ERROR] UnassignedReferenceException: The variable assassinSpawnPointsGO of AssassinNPC has not been assigned.
+You probably need to assign the assassinSpawnPointsGO variable of the AssassinNPC script in the inspector.
+AssassinNPC.Start () (at Assets/Scripts/FSM/AssassinNPC.cs:20)
+
+2018-10-31 00:37:52.5747 [DEBUG] Play mode: False
+2018-10-31 00:37:55.0177 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:37:55.0812 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:37:56.2023 [ERROR] UnassignedReferenceException: The variable assassinSpawnPointsGO of AssassinNPC has not been assigned.
+You probably need to assign the assassinSpawnPointsGO variable of the AssassinNPC script in the inspector.
+AssassinNPC.Start () (at Assets/Scripts/FSM/AssassinNPC.cs:20)
+
+2018-10-31 00:39:56.3843 [DEBUG] Play mode: False
+2018-10-31 00:39:58.2683 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:39:58.3077 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:40:04.3724 [ERROR] UnassignedReferenceException: The variable assassinSpawnPointsGO of AssassinNPC has not been assigned.
+You probably need to assign the assassinSpawnPointsGO variable of the AssassinNPC script in the inspector.
+AssassinNPC.Start () (at Assets/Scripts/FSM/AssassinNPC.cs:20)
+
+2018-10-31 00:40:54.8084 [DEBUG] Play mode: False
+2018-10-31 00:41:27.0044 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:41:27.0563 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:41:29.0944 [ERROR] UnassignedReferenceException: The variable assassinSpawnPointsGO of AssassinNPC has not been assigned.
+You probably need to assign the assassinSpawnPointsGO variable of the AssassinNPC script in the inspector.
+AssassinNPC.Start () (at Assets/Scripts/FSM/AssassinNPC.cs:20)
+
+2018-10-31 00:43:03.9639 [DEBUG] Play mode: False
+2018-10-31 00:43:49.8758 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:43:49.9227 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:43:51.9103 [ERROR] UnassignedReferenceException: The variable assassinSpawnPointsGO of AssassinNPC has not been assigned.
+You probably need to assign the assassinSpawnPointsGO variable of the AssassinNPC script in the inspector.
+AssassinNPC.Start () (at Assets/Scripts/FSM/AssassinNPC.cs:20)
+
+2018-10-31 00:45:11.7286 [DEBUG] Play mode: False
+2018-10-31 00:45:52.2312 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:45:52.2778 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:45:53.7740 [ERROR] UnassignedReferenceException: The variable assassinSpawnPointsGO of AssassinNPC has not been assigned.
+You probably need to assign the assassinSpawnPointsGO variable of the AssassinNPC script in the inspector.
+AssassinNPC.Start () (at Assets/Scripts/FSM/AssassinNPC.cs:20)
+
+2018-10-31 00:46:11.7603 [DEBUG] Play mode: False
+2018-10-31 00:51:14.6771 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:51:14.7341 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:51:16.5493 [ERROR] UnassignedReferenceException: The variable assassinSpawnPointsGO of AssassinNPC has not been assigned.
+You probably need to assign the assassinSpawnPointsGO variable of the AssassinNPC script in the inspector.
+AssassinNPC.Start () (at Assets/Scripts/FSM/AssassinNPC.cs:20)
+
+2018-10-31 00:51:35.8830 [DEBUG] Play mode: False
+2018-10-31 00:51:59.0344 [DEBUG] Scene Fusion version 1.8.1-4

@@ -1,3 +1,35 @@
 2018-10-30 19:56:42.9953 [DEBUG] Scene Fusion version 1.8.1-4
 2018-10-30 19:56:43.0104 [INFO] Setting define symbol SCENE_FUSION
 2018-10-30 19:56:55.1878 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 19:59:50.6481 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 19:59:50.6791 [INFO] Setting define symbol SCENE_FUSION
+2018-10-30 20:00:07.7751 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 20:04:50.7248 [DEBUG] Connecting
+2018-10-30 20:04:50.7568 [DEBUG] Connecting to room (84434:SceneFusion:SceneFusion) via TCP at matchmaker-console.kinematicsoup.com:1081
+2018-10-30 20:04:56.9821 [DEBUG] Sent C:/Users/ricar/Desktop/UnityProjects/Game-AI/AI-Game/KSEditorLogs/SessionLogs/session.84434-636765266907618159.log
+2018-10-30 20:04:56.9851 [DEBUG] Connection failed. (84434:SceneFusion:SceneFusion)
+2018-10-30 20:05:48.5965 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 20:08:30.9941 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 20:08:32.9230 [DEBUG] Invalid token sent as part of a web request token. Token = KEw7D4uxPDfG4Yu6mmkDICC6RDgbSZWDfmApFkl85PZBgrlwbmZKG5R7ml3s1r9arjySpsS6uleqmGJIPXEMqjBWcA7RPYp7szaycqbAg1IecQ1geUti3eEGQiCTc00z6Tw0yf4bHd5YoUNQq0dFjwnzankKf6bFOK0EnQbfhshuEpPuuKf2qqbQcbl2NeQI10XO5x0l5L52qgWn3GZ4qUoAa7YjLLKyu82wL1pOYjfc3WXDJpi8usrDQoeaRCz
+2018-10-30 20:09:20.7766 [DEBUG] Connecting
+2018-10-30 20:09:20.8096 [DEBUG] Connecting to room (84437:SceneFusion:SceneFusion) via TCP at matchmaker-console.kinematicsoup.com:1064
+2018-10-30 20:09:47.0410 [DEBUG] Sent C:/Users/ricar/Desktop/UnityProjects/Game-AI/AI-Game/KSEditorLogs/SessionLogs/session.84437-636765269608156674.log
+2018-10-30 20:09:54.3272 [INFO] Launching Session: Level1Final
+2018-10-30 20:09:55.2117 [DEBUG] Connecting
+2018-10-30 20:09:55.2227 [DEBUG] Connecting to room (84438:SceneFusion:SceneFusion) via TCP at matchmaker-console.kinematicsoup.com:1071
+2018-10-30 20:10:32.0976 [DEBUG] Sent C:/Users/ricar/Desktop/UnityProjects/Game-AI/AI-Game/KSEditorLogs/SessionLogs/session.84438-636765269952437303.log
+2018-10-30 20:10:58.9745 [DEBUG] Connecting
+2018-10-30 20:10:58.9924 [DEBUG] Connecting to room (84439:SceneFusion:SceneFusion) via TCP at matchmaker-console.kinematicsoup.com:1072
+2018-10-30 20:11:26.4690 [DEBUG] Sent C:/Users/ricar/Desktop/UnityProjects/Game-AI/AI-Game/KSEditorLogs/SessionLogs/session.84439-636765270589934997.log
+2018-10-30 20:11:54.0287 [DEBUG] Connecting
+2018-10-30 20:11:54.0437 [DEBUG] Connecting to room (84440:SceneFusion:SceneFusion) via TCP at matchmaker-console.kinematicsoup.com:1083
+2018-10-30 20:12:15.3865 [DEBUG] Sent C:/Users/ricar/Desktop/UnityProjects/Game-AI/AI-Game/KSEditorLogs/SessionLogs/session.84440-636765271140447844.log
+2018-10-30 20:12:22.2414 [INFO] Launching Session: Level1Final
+2018-10-30 20:12:23.1419 [DEBUG] Connecting
+2018-10-30 20:12:23.1609 [DEBUG] Connecting to room (84441:SceneFusion:SceneFusion) via TCP at matchmaker-console.kinematicsoup.com:1056
+2018-10-30 20:12:24.2462 [DEBUG] Sent C:/Users/ricar/Desktop/UnityProjects/Game-AI/AI-Game/KSEditorLogs/SessionLogs/session.84441-636765271431629078.log
+2018-10-30 20:12:36.1989 [DEBUG] Connecting
+2018-10-30 20:12:36.2239 [DEBUG] Connecting to room (84441:SceneFusion:SceneFusion) via TCP at matchmaker-console.kinematicsoup.com:1056
+2018-10-30 20:13:43.2818 [DEBUG] Sent C:/Users/ricar/Desktop/UnityProjects/Game-AI/AI-Game/KSEditorLogs/SessionLogs/session.84441-636765271562249809.log
+2018-10-30 20:16:34.5942 [DEBUG] Error: Invalid token
+2018-10-30 20:16:44.6193 [DEBUG] Invalid token sent as part of a web request token. Token = RbJkDlCHokoaJai8Z8LkDFURt3cO8SsppTqCEpjuwkOqTt2samr8lcNpiJBZuJuxiOQ9EE3PXwadBeocbJJeTcMi06PgJXOpnSdd5kZBkbKcXUyqmQuReL4S4tbESgU3it0Pg0tBfFyZkKkpIMS3K2BmaRcfnKoxO8dgJJYUtP4yZl3kxqfXY6g7t05kmHq1W3254yq35IGIUarFc6fjKI3mtC8pALzCMO5eYOcdMsqLpEXHMZq15m86SeAmNYo

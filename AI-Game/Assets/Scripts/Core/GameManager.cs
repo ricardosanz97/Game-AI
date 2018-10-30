@@ -13,8 +13,9 @@ public class GameManager : Singleton<GameManager>
     private IEnumerator CheckPlayerAlive()
     {
         while (playerAlive)
+        {
             yield return null;
-        
+        }
         currentLevel.PlayerDead();
     }
 

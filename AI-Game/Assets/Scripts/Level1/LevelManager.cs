@@ -29,9 +29,7 @@ public class LevelManager : MonoBehaviour {
 
     public List<NPCStatesBehaviour> LevelEnemies;
     public List<KeyObject> levelKeys;
-    private KeyBehaviour[] levelKeysGameObject;
     public List<DoorObject> levelDoors;
-    private DoorBehaviour[] levelDoorsGameObject;
     public int LevelId;
     public Transform initialPlayerSpawnPosition;
     public Transform initialCameraSpawnPoint;
@@ -43,26 +41,16 @@ public class LevelManager : MonoBehaviour {
     public bool levelCompleted = false;
     public string targetObject = "TargetObject";
 
+    [SerializeField] private Image fadeImage;
+    [SerializeField] private Text youDiedText;
+    [SerializeField] private GameObject canvas;
+
     private void Awake()
     {
         GameManager.I.StarLevel(this);
-    }
-
-    private void Start()
-    {
-        /*
-        levelKeysGameObject = FindObjectsOfType<KeyBehaviour>();
-        levelDoorsGameObject = FindObjectsOfType<DoorBehaviour>();
-
-        for (int i = 0; i < levelKeysGameObject.Length; i++){
-            levelKeys.Add(new KeyObject(levelKeysGameObject[i].gameObject, i));
-        }
-
-        for (int i = 0; i < levelDoorsGameObject.Length; i++)
-        {
-            levelDoors.Add(new DoorObject(levelDoorsGameObject[i].gameObject, i));
-        }
-        */
+        canvas = HUDManager.I.canvas;
+        fadeImage = HUDManager.I.FadeImage;
+        youDiedText = canvas.transform.GetChild(3).GetComponent<Text>();
     }
 
     public void SpawnPlayer()
@@ -140,6 +128,22 @@ public class LevelManager : MonoBehaviour {
 
     public void LevelCompleted()
     {
-        SceneLoader.I.LoadScene(SceneLoader.SCENES.Menu);
+        Sequence s = DOTween.Sequence();
+        s.AppendInterval(3.5f);
+        s.Append(fadeImage.DOFade(0f, 0.001f));
+        s.Append(youDiedText.DOFade(0f, 0.001f));
+        fadeImage.color = Color.white;
+        s.Append(fadeImage.DOFade(1f, 2f));
+        s.AppendInterval(1f);
+        youDiedText.text = "LEVEL COMPLETED";
+        youDiedText.color = Color.green;
+        s.Append(youDiedText.DOFade(1f, 1f));
+        s.AppendInterval(1f);
+        s.Append(youDiedText.DOFade(0f, 1f));
+        s.OnComplete(() =>
+        {
+            SceneLoader.I.LoadScene(SceneLoader.SCENES.Menu);
+        });
+        
     }
 }

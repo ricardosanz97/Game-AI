@@ -4,10 +4,34 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 
+[System.Serializable]
+public struct KeyObject{
+    public GameObject keyGameObject;
+    public int idDoor;
+    public KeyObject(GameObject _go, int _id){
+        this.keyGameObject = _go;
+        this.idDoor = _id;
+    }
+}
+
+[System.Serializable]
+public struct DoorObject{
+    public GameObject doorGameObject;
+    public int idKey;
+    public DoorObject (GameObject _go, int _id){
+        this.doorGameObject = _go;
+        this.idKey = _id;
+    }
+}
+
 [DisallowMultipleComponent]
 public class LevelManager : MonoBehaviour {
 
     public List<NPCStatesBehaviour> LevelEnemies;
+    public List<KeyObject> levelKeys;
+    private KeyBehaviour[] levelKeysGameObject;
+    public List<DoorObject> levelDoors;
+    private DoorBehaviour[] levelDoorsGameObject;
     public int LevelId;
     public Transform initialPlayerSpawnPosition;
     public Transform initialCameraSpawnPoint;
@@ -22,15 +46,23 @@ public class LevelManager : MonoBehaviour {
     private void Awake()
     {
         GameManager.I.StarLevel(this);
-        //Camera.main.GetComponent<vThirdPersonCamera>();
     }
 
     private void Start()
     {
-//        GameManager.I.currentLevel = this;
-//        GameManager.I.playerAlive = true;
-//        GameManager.I.levelCompleted = false;
-//        KeyTaken = false;
+        /*
+        levelKeysGameObject = FindObjectsOfType<KeyBehaviour>();
+        levelDoorsGameObject = FindObjectsOfType<DoorBehaviour>();
+
+        for (int i = 0; i < levelKeysGameObject.Length; i++){
+            levelKeys.Add(new KeyObject(levelKeysGameObject[i].gameObject, i));
+        }
+
+        for (int i = 0; i < levelDoorsGameObject.Length; i++)
+        {
+            levelDoors.Add(new DoorObject(levelDoorsGameObject[i].gameObject, i));
+        }
+        */
     }
 
     public void SpawnPlayer()

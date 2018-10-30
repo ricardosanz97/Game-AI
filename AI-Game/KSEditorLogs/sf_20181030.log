@@ -1,3 +1,12 @@
 2018-10-30 19:56:42.9953 [DEBUG] Scene Fusion version 1.8.1-4
 2018-10-30 19:56:43.0104 [INFO] Setting define symbol SCENE_FUSION
 2018-10-30 19:56:55.1878 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 20:15:50.5180 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 20:15:50.5315 [INFO] Setting define symbol SCENE_FUSION
+2018-10-30 20:16:07.3955 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 20:16:30.3360 [DEBUG] Connecting
+2018-10-30 20:16:30.3885 [DEBUG] Connecting to room (84444:SceneFusion:SceneFusion) via TCP at matchmaker-console.kinematicsoup.com:1058
+2018-10-30 20:16:50.5208 [DEBUG] Sent /Users/ricardo/Desktop/UnityProjects/Game-AI/AI-Game/AI-Game/KSEditorLogs/SessionLogs/session.84444-636765273903936070.log
+2018-10-30 20:17:01.9871 [INFO] Launching Session: Level1Final
+2018-10-30 20:17:03.0970 [DEBUG] Connecting
+2018-10-30 20:17:03.1275 [DEBUG] Connecting to room (84445:SceneFusion:SceneFusion) via TCP at matchmaker-console.kinematicsoup.com:1099

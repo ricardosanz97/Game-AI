@@ -1,0 +1,24 @@
+2018-10-30 20:17:04.4389 [DEBUG] Validating model...
+2018-10-30 20:17:04.9322 [DEBUG] Model updated
+2018-10-30 20:17:04.9324 [DEBUG] Authenticating with server...
+2018-10-30 20:17:06.8686 [DEBUG] Connected to room. (84445:SceneFusion:SceneFusion)
+2018-10-30 20:17:06.8724 [INFO] Connected to server.
+2018-10-30 20:17:06.8726 [DEBUG] OS : Unix 18.0.0.0
+2018-10-30 20:17:06.8727 [DEBUG] Unity Version : 2018.2.14f1
+2018-10-30 20:17:06.8729 [DEBUG] Pro License : False
+2018-10-30 20:17:06.8730 [DEBUG] Platform : OSXEditor
+2018-10-30 20:17:06.8731 [DEBUG] Build Target : StandaloneOSXUniversal
+2018-10-30 20:17:06.8732 [DEBUG] Scene Fusion version : 1.8.1
+2018-10-30 20:17:06.8733 [DEBUG] Scene Fusion client build : 4
+2018-10-30 20:17:06.8734 [DEBUG] User : ricardet28@gmail.com
+2018-10-30 20:17:06.8735 [DEBUG] Waiting for server response
+2018-10-30 20:17:06.8780 [DEBUG] Tier: Scene Fusion Free, Permissions: 00001400
+2018-10-30 20:17:06.8781 [DEBUG] User Permissions: FFFFFFFF
+2018-10-30 20:17:06.8796 [DEBUG] No stand-in for UnityEngine.ProceduralMaterial
+2018-10-30 20:17:06.8797 [DEBUG] No stand-in for UnityEngine.ProceduralTexture
+2018-10-30 20:17:08.0128 [DEBUG] Uploading scene 'Level1Final'
+2018-10-30 20:17:08.1056 [DEBUG] Encoding objects for KinematicSoup/SceneFusion/Temp/_Scenes/Levels/Level1Final.unity
+2018-10-30 20:17:09.6012 [DEBUG] Compressing scene data
+2018-10-30 20:17:11.6980 [DEBUG] Spawn request. (Objects: 1638)
+2018-10-30 20:17:11.7030 [DEBUG] Entity RPC. (Id: 1, Size: 22862, Reporting Threshold: 10000)
+2018-10-30 20:17:14.1472 [DEBUG] Loading complete

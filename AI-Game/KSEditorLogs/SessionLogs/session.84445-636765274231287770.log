@@ -22,3 +22,7 @@
 2018-10-30 20:17:11.6980 [DEBUG] Spawn request. (Objects: 1638)
 2018-10-30 20:17:11.7030 [DEBUG] Entity RPC. (Id: 1, Size: 22862, Reporting Threshold: 10000)
 2018-10-30 20:17:14.1472 [DEBUG] Loading complete
+2018-10-30 20:20:54.6649 [DEBUG] Disconnecting temporarily to recompile.
+2018-10-30 20:20:54.6658 [DEBUG] Disconnecting from room (84445:SceneFusion:SceneFusion)
+2018-10-30 20:20:54.6822 [INFO] Disconnected from server.
+2018-10-30 20:20:54.6824 [DEBUG] Disconnect. (Duration: 224)

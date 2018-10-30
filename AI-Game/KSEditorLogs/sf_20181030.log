@@ -10,3 +10,7 @@
 2018-10-30 20:17:01.9871 [INFO] Launching Session: Level1Final
 2018-10-30 20:17:03.0970 [DEBUG] Connecting
 2018-10-30 20:17:03.1275 [DEBUG] Connecting to room (84445:SceneFusion:SceneFusion) via TCP at matchmaker-console.kinematicsoup.com:1099
+2018-10-30 20:21:51.0129 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 20:22:03.3244 [DEBUG] Connecting
+2018-10-30 20:22:03.3661 [DEBUG] Connecting to room (84445:SceneFusion:SceneFusion) via TCP at matchmaker-console.kinematicsoup.com:1099
+2018-10-30 20:22:57.9309 [DEBUG] Sent /Users/ricardo/Desktop/UnityProjects/Game-AI/AI-Game/AI-Game/KSEditorLogs/SessionLogs/session.84445-636765277233739040.log

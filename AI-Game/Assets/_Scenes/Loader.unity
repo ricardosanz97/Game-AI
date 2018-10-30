@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -118,6 +118,12 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224073776374916948, guid: b31d4260f0a30754384eab6c5ffecad5,
     type: 2}
   m_PrefabInternal: {fileID: 2033607541}
+--- !u!114 &1160046693 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114276979635967690, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1407443431}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1001 &1407443431
 Prefab:
   m_ObjectHideFlags: 0
@@ -225,6 +231,66 @@ Prefab:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224471893475000900, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.00024414062
+      objectReference: {fileID: 0}
+    - target: {fileID: 114014439977364552, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+        type: 2}
+      propertyPath: YouDiedtext
+      value: 
+      objectReference: {fileID: 1407443433}
+    - target: {fileID: 224471893475000900, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114014439977364552, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+        type: 2}
+      propertyPath: LevelCompletedText
+      value: 
+      objectReference: {fileID: 1160046693}
+    - target: {fileID: 114014439977364552, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+        type: 2}
+      propertyPath: YouDiedText
+      value: 
+      objectReference: {fileID: 1407443433}
+    - target: {fileID: 114014439977364552, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+        type: 2}
+      propertyPath: FadeImageLevelCompleted
+      value: 
+      objectReference: {fileID: 1505481696}
+    - target: {fileID: 114075860936427432, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075860936427432, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075860936427432, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114014439977364552, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+        type: 2}
+      propertyPath: PlayerHealthSlider
+      value: 
+      objectReference: {fileID: 1407443436}
+    - target: {fileID: 114014439977364552, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+        type: 2}
+      propertyPath: FillImage
+      value: 
+      objectReference: {fileID: 1407443435}
+    - target: {fileID: 114014439977364552, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+        type: 2}
+      propertyPath: RedFlash
+      value: 
+      objectReference: {fileID: 1407443434}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 511534fc1925f1342a9fd2a060ae1c2f, type: 2}
   m_IsPrefabAsset: 0
@@ -233,6 +299,36 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224948212011958232, guid: 511534fc1925f1342a9fd2a060ae1c2f,
     type: 2}
   m_PrefabInternal: {fileID: 1407443431}
+--- !u!114 &1407443433 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114426239141247686, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1407443431}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!114 &1407443434 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114194236045328678, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1407443431}
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!114 &1407443435 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114189719033307508, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1407443431}
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!114 &1407443436 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114899950795229174, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1407443431}
+  m_Script: {fileID: -113659843, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!114 &1505481696 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114075860936427432, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1407443431}
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1505800070
 GameObject:
   m_ObjectHideFlags: 0

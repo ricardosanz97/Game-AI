@@ -80,7 +80,7 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
                     if (randomPatrol)
                     {
                         previousPatrolPoint = actualPatrolPoint;
-                        actualPatrolPoint = randomPoint(actualPatrolPoint);
+                        actualPatrolPoint = RandomPoint(actualPatrolPoint);
                     }
                     else
                     {
@@ -117,7 +117,7 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
         if (randomPatrol)
         {
             previousPatrolPoint = actualPatrolPoint;
-            actualPatrolPoint = randomPoint(actualPatrolPoint);
+            actualPatrolPoint = RandomPoint(actualPatrolPoint);
         }
         else
         {
@@ -129,7 +129,7 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
 
     }
 
-    private int randomPoint(int actualPoint)
+    private int RandomPoint(int actualPoint)
     {
         int point = actualPoint;
         while(actualPoint == point)

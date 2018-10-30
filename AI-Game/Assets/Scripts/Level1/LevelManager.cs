@@ -42,19 +42,20 @@ public class LevelManager : MonoBehaviour {
     public string targetObject = "TargetObject";
 
     [SerializeField] private Image fadeImage;
-    [SerializeField] private Text youDiedText;
+    [SerializeField] private Text levelCompletedText;
     [SerializeField] private GameObject canvas;
 
     private void Awake()
     {
-        GameManager.I.StarLevel(this);
+        GameManager.I.RestartLevel(this);
         canvas = HUDManager.I.canvas;
-        fadeImage = HUDManager.I.FadeImage;
-        youDiedText = canvas.transform.GetChild(3).GetComponent<Text>();
+        fadeImage = HUDManager.I.FadeImageLevelCompleted;
+        levelCompletedText = HUDManager.I.LevelCompletedText;
     }
 
     public void SpawnPlayer()
-    {        
+    {
+        HUDManager.I.ResetHUD();
         if (GameManager.I.playerSpawned)
         {
             Sequence s = DOTween.Sequence();
@@ -70,7 +71,6 @@ public class LevelManager : MonoBehaviour {
                 player.GetComponent<PlayerController>().enabled = false;
                 
             });
-            s.Append(HUDManager.I.YouDiedImage.DOFade(0f, 0.001f));
             
             //s.AppendInterval(3f);
             
@@ -128,21 +128,20 @@ public class LevelManager : MonoBehaviour {
 
     public void LevelCompleted()
     {
+        //enviar todos los enemigos al punto de inicio
+
         Sequence s = DOTween.Sequence();
+        s.Append(fadeImage.DOFade(0f, 0f));
+        s.Append(levelCompletedText.DOFade(0f, 0f));
         s.AppendInterval(3.5f);
-        s.Append(fadeImage.DOFade(0f, 0.001f));
-        s.Append(youDiedText.DOFade(0f, 0.001f));
-        fadeImage.color = Color.white;
         s.Append(fadeImage.DOFade(1f, 2f));
         s.AppendInterval(1f);
-        youDiedText.text = "LEVEL COMPLETED";
-        youDiedText.color = Color.green;
-        s.Append(youDiedText.DOFade(1f, 1f));
+        s.Append(levelCompletedText.DOFade(1f, 1f));
         s.AppendInterval(1f);
-        s.Append(youDiedText.DOFade(0f, 1f));
+        s.Append(levelCompletedText.DOFade(0f, 1f));
         s.OnComplete(() =>
         {
-            SceneLoader.I.LoadScene(SceneLoader.SCENES.Menu);
+            GameManager.I.RestartLevel(this);
         });
         
     }

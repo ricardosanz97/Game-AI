@@ -35,7 +35,7 @@ public class GameManager : Singleton<GameManager>
         StartCoroutine(CheckLevelCompleted());
     }
 
-    public void StarLevel(LevelManager startedLevel)
+    public void RestartLevel(LevelManager startedLevel)
     {
         currentLevel = startedLevel;
         playerAlive = true;

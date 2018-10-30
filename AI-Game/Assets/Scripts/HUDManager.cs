@@ -1,12 +1,19 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public class HUDManager : Singleton<HUDManager> 
 {
     public GameObject canvas;
     public Image YouDiedImage;
+    public Text YouDiedText;
+    public Text LevelCompletedText;
     public Image FadeImage;
+    public Image FadeImageLevelCompleted;
+    public Slider PlayerHealthSlider;
+    public Image FillImage;
+    public Image RedFlash;
 
     private void Awake()
     {
@@ -49,5 +56,14 @@ public class HUDManager : Singleton<HUDManager>
     private void StartHud()
     {
         canvas.SetActive(true);
+    }
+
+    public void ResetHUD()
+    {
+        YouDiedImage.DOFade(0f, 0f);
+        YouDiedText.DOFade(0f, 0f);
+        LevelCompletedText.DOFade(0f, 0f);
+        FadeImage.DOFade(1f, 0f);
+        FadeImageLevelCompleted.DOFade(0f, 0f);
     }
 }

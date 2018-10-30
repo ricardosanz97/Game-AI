@@ -20,12 +20,12 @@ public class PlayerHealth : MonoBehaviour {
     private void Awake()
     {
         canvas = HUDManager.I.canvas;
-        redFlash = canvas.transform.GetChild(4).GetComponent<Image>();
+        redFlash = HUDManager.I.RedFlash;
         youDiedImage = HUDManager.I.YouDiedImage;
-        youDiedText = canvas.transform.GetChild(3).GetComponent<Text>();
-        playerHealthSlider = canvas.GetComponentInChildren<Slider>();
+        youDiedText = HUDManager.I.YouDiedText;
+        playerHealthSlider = HUDManager.I.PlayerHealthSlider;
         fadeImage = HUDManager.I.FadeImage;
-        fillImage = playerHealthSlider.transform.GetChild(1).GetComponentInChildren<Image>();
+        fillImage = HUDManager.I.FillImage;
     }
 
     private void Start()
@@ -87,7 +87,7 @@ public class PlayerHealth : MonoBehaviour {
         s.Append(youDiedText.DOFade(0f, 1f));
         s.OnComplete(() =>
         {
-            GameManager.I.StarLevel(levelWhereDied);
+            GameManager.I.RestartLevel(levelWhereDied);
         });
     }
 

@@ -457,6 +457,7 @@ GameObject:
   - component: {fileID: 114390021776091162}
   - component: {fileID: 114252908550044740}
   - component: {fileID: 114372755856807900}
+  - component: {fileID: 114959028540147936}
   m_Layer: 0
   m_Name: EnemyChaser
   m_TagString: Untagged
@@ -1939,8 +1940,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10c56042bcd2bb94dbb01f87c08206bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewRadius: 10
-  viewAngle: 30
+  viewRadius: 20
+  viewAngle: 60
   heightAngle: 5
   targetMask:
     serializedVersion: 2
@@ -1979,7 +1980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef883e9ee6408484f868808015b57d7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToRecolocate: 10
+  timeToRecolocate: 2
 --- !u!114 &114372755856807900
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2004,7 +2005,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitRate: 1
-  maxDistance: 2
+  maxDistance: 3
   hitDamage: 20
 --- !u!114 &114785974380560848
 MonoBehaviour:
@@ -2034,8 +2035,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc6305debdbe0e1419e7e223ce0ef07c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anticipationMultiplier: 0.3
-  maxSpeed: 50
+  anticipationMultiplier: 1
+  maxSpeed: 4
+  distanceToHit: 3
+--- !u!114 &114959028540147936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1388329334871082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09b9e4f4264699247870cf4aa3aa4c81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135384994769818966
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -2171,7 +2184,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 3
-  m_Radius: 0.8
+  m_Radius: 0.2
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08

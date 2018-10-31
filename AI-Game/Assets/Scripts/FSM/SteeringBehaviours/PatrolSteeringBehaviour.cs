@@ -80,7 +80,7 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
                     if (randomPatrol)
                     {
                         previousPatrolPoint = actualPatrolPoint;
-                        actualPatrolPoint = randomPoint(actualPatrolPoint);
+                        actualPatrolPoint = RandomPoint(actualPatrolPoint);
                     }
                     else
                     {
@@ -117,7 +117,7 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
         if (randomPatrol)
         {
             previousPatrolPoint = actualPatrolPoint;
-            actualPatrolPoint = randomPoint(actualPatrolPoint);
+            actualPatrolPoint = RandomPoint(actualPatrolPoint);
         }
         else
         {
@@ -125,11 +125,12 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
             actualPatrolPoint += 1;
             if (actualPatrolPoint >= patrolPoints.Length) actualPatrolPoint = 0;
         }
+
         Pathfinding.PathfindingManager.I.RequestPath(new Pathfinding.PathfindingManager.PathRequest(ccEnemy.transform.position, patrolPoints[actualPatrolPoint].position, PathReceived, ccPlayer.radius));
 
     }
 
-    private int randomPoint(int actualPoint)
+    private int RandomPoint(int actualPoint)
     {
         int point = actualPoint;
         while(actualPoint == point)

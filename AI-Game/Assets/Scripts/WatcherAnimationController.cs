@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class WatcherAnimationController : MonoBehaviour {
 
-    public float smoothTime = 0.1f;
 
     private Animator watcherAnimator;
     private WatcherNPC watcherRef;

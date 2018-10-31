@@ -29,9 +29,7 @@ public class LevelManager : MonoBehaviour {
 
     public List<NPCStatesBehaviour> LevelEnemies;
     public List<KeyObject> levelKeys;
-    private KeyBehaviour[] levelKeysGameObject;
     public List<DoorObject> levelDoors;
-    private DoorBehaviour[] levelDoorsGameObject;
     public int LevelId;
     public Transform initialPlayerSpawnPosition;
     public Transform initialCameraSpawnPoint;
@@ -43,30 +41,21 @@ public class LevelManager : MonoBehaviour {
     public bool levelCompleted = false;
     public string targetObject = "TargetObject";
 
+    [SerializeField] private Image fadeImage;
+    [SerializeField] private Text levelCompletedText;
+    [SerializeField] private GameObject canvas;
+
     private void Awake()
     {
-        GameManager.I.StarLevel(this);
-    }
-
-    private void Start()
-    {
-        /*
-        levelKeysGameObject = FindObjectsOfType<KeyBehaviour>();
-        levelDoorsGameObject = FindObjectsOfType<DoorBehaviour>();
-
-        for (int i = 0; i < levelKeysGameObject.Length; i++){
-            levelKeys.Add(new KeyObject(levelKeysGameObject[i].gameObject, i));
-        }
-
-        for (int i = 0; i < levelDoorsGameObject.Length; i++)
-        {
-            levelDoors.Add(new DoorObject(levelDoorsGameObject[i].gameObject, i));
-        }
-        */
+        GameManager.I.RestartLevel(this);
+        canvas = HUDManager.I.canvas;
+        fadeImage = HUDManager.I.FadeImageLevelCompleted;
+        levelCompletedText = HUDManager.I.LevelCompletedText;
     }
 
     public void SpawnPlayer()
-    {        
+    {
+        HUDManager.I.ResetHUD();
         if (GameManager.I.playerSpawned)
         {
             Sequence s = DOTween.Sequence();
@@ -82,7 +71,6 @@ public class LevelManager : MonoBehaviour {
                 player.GetComponent<PlayerController>().enabled = false;
                 
             });
-            s.Append(HUDManager.I.YouDiedImage.DOFade(0f, 0.001f));
             
             //s.AppendInterval(3f);
             
@@ -140,6 +128,21 @@ public class LevelManager : MonoBehaviour {
 
     public void LevelCompleted()
     {
-        SceneLoader.I.LoadScene(SceneLoader.SCENES.Menu);
+        //enviar todos los enemigos al punto de inicio
+
+        Sequence s = DOTween.Sequence();
+        s.Append(fadeImage.DOFade(0f, 0f));
+        s.Append(levelCompletedText.DOFade(0f, 0f));
+        s.AppendInterval(3.5f);
+        s.Append(fadeImage.DOFade(1f, 2f));
+        s.AppendInterval(1f);
+        s.Append(levelCompletedText.DOFade(1f, 1f));
+        s.AppendInterval(1f);
+        s.Append(levelCompletedText.DOFade(0f, 1f));
+        s.OnComplete(() =>
+        {
+            GameManager.I.RestartLevel(this);
+        });
+        
     }
 }

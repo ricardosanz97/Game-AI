@@ -72,7 +72,13 @@ public class ChaserNPC : NPCStatesBehaviour
 
     public void SetAlertState()
     {
+        List<SteeringBehaviour> behavioursAlertState = new List<SteeringBehaviour>()
+        {
+            this.GetComponent<MoveLastPositionPlayerSteeringBehaviour>(),
+        };
+
         FSMSystem.I.AddState(this, new State(STATE.Alert));
+        FSMSystem.I.AddBehaviours(this, behavioursAlertState, this.states.Find((x) => x.stateName == STATE.Alert));
     }
 
     public void SetNoneState()

@@ -9,6 +9,7 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
     public float anticipationMultiplier;
     public float maxSpeed = 4f;
 
+    private Rigidbody rbEnemy;
     private CharacterController ccPlayer;
     private CharacterController ccEnemy;
     private Vector3[] path;
@@ -20,6 +21,7 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>();
+        rbEnemy = GetComponent<Rigidbody>();
         ccPlayer = player.GetComponent<CharacterController>();
         ccEnemy = GetComponent<CharacterController>();
 
@@ -52,24 +54,17 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
 
         if (path != null)
         {
-            /*Vector3 toEvader = base.player.position - trans.position;
+            Vector3 toEvader = ccPlayer.transform.position - rbEnemy.position;
 
-            float relativeHeading = Vector3.Dot(base.player.transform.forward, trans.forward);
+            float relativeHeading = Vector3.Dot(ccPlayer.transform.forward, ccEnemy.transform.forward);
 
-            float lookAheadTime = toEvader.magnitude / (maxSpeed + ccPlayer.velocity.magnitude);
+            float lookAheadTime = toEvader.magnitude / (maxSpeed + rbEnemy.velocity.magnitude);
 
-            Debug.Log(base.player.velocity);
-            Debug.DrawLine(trans.position, trans.position + ccPlayer.velocity * 50, Color.red);
+            Debug.Log((((path[1] + rbEnemy.velocity * (lookAheadTime * anticipationMultiplier)) - ccEnemy.transform.position).normalized * maxSpeed));
 
-            ccEnemy.Move(((destination + controller.velocity * (lookAheadTime * anticipationMultiplier)) - trans.position).normalized * maxSpeed * Time.deltaTime);
-
-            if(Vector3.Distance(trans.position, destination) < ccPlayer.radius * 2)
-            {
-                pathIndex++;
-            }
-            */
+            rbEnemy.velocity = (((path[1] + rbEnemy.velocity * (lookAheadTime * anticipationMultiplier)) - ccEnemy.transform.position).normalized * maxSpeed);
            
-            ccEnemy.transform.DOMove(path[1]-(ccPlayer.transform.forward*2), maxSpeed);          
+            //ccEnemy.transform.DOMove(path[1]-(ccPlayer.transform.forward*2), maxSpeed);          
             ccEnemy.transform.LookAt(ccPlayer.transform);
         }
     }

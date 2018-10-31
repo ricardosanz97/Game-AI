@@ -1,0 +1,377 @@
+2018-10-31 00:01:55.3608 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:01:55.5071 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:02:03.2502 [DEBUG] Play mode: False
+2018-10-31 00:02:05.9784 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:02:06.0947 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:02:07.8320 [DEBUG] Play mode: False
+2018-10-31 00:07:15.1322 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:07:15.2941 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:07:32.2223 [DEBUG] Play mode: False
+2018-10-31 00:07:39.4375 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:07:39.5553 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:08:05.6493 [DEBUG] Play mode: False
+2018-10-31 00:10:17.5015 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:10:17.6124 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:10:29.4014 [DEBUG] Play mode: False
+2018-10-31 00:10:39.8339 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:10:39.9646 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:10:46.5278 [DEBUG] Play mode: False
+2018-10-31 00:10:53.9398 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:10:54.0810 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:11:52.3454 [DEBUG] Play mode: False
+2018-10-31 00:12:01.4728 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:12:01.5971 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:12:12.9982 [DEBUG] Play mode: False
+2018-10-31 00:12:15.8723 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:12:15.9791 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:12:28.7036 [DEBUG] Play mode: False
+2018-10-31 00:12:33.1731 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:12:33.2864 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:13:00.7042 [DEBUG] Play mode: False
+2018-10-31 00:13:14.2400 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:13:14.3348 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:13:16.3419 [ERROR] IndexOutOfRangeException: Index was outside the bounds of the array.
+ChaseSteeringBehaviour.Pursuit () (at Assets/Scripts/FSM/SteeringBehaviours/ChaseSteeringBehaviour.cs:72)
+ChaseSteeringBehaviour.PathReceived (UnityEngine.Vector3[] wayPoints, System.Boolean isPathSuccessfull) (at Assets/Scripts/FSM/SteeringBehaviours/ChaseSteeringBehaviour.cs:42)
+Pathfinding.PathfindingManager+<ReadPathfindingResults>c__Iterator0.MoveNext () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:47)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+
+2018-10-31 00:13:33.7986 [DEBUG] Play mode: False
+2018-10-31 00:13:49.5957 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:13:49.6923 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:13:50.0385 [DEBUG] Play mode: False
+2018-10-31 00:14:17.7253 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:14:17.8377 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:14:19.7958 [ERROR] IndexOutOfRangeException: Index was outside the bounds of the array.
+ChaseSteeringBehaviour.Pursuit () (at Assets/Scripts/FSM/SteeringBehaviours/ChaseSteeringBehaviour.cs:72)
+ChaseSteeringBehaviour.PathReceived (UnityEngine.Vector3[] wayPoints, System.Boolean isPathSuccessfull) (at Assets/Scripts/FSM/SteeringBehaviours/ChaseSteeringBehaviour.cs:42)
+Pathfinding.PathfindingManager+<ReadPathfindingResults>c__Iterator0.MoveNext () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:47)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+
+2018-10-31 00:14:27.6384 [DEBUG] Play mode: False
+2018-10-31 00:15:04.0685 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:15:04.1598 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:15:25.8231 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<ReduceHealthSlider>c__Iterator0.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:64)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:40)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:15:25.8246 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<RedFlash>c__Iterator1.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:73)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:41)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:15:36.3141 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<ReduceHealthSlider>c__Iterator0.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:64)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:40)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:15:36.3151 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<RedFlash>c__Iterator1.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:73)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:41)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:15:37.3199 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<ReduceHealthSlider>c__Iterator0.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:64)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:40)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:15:37.3209 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<RedFlash>c__Iterator1.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:73)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:41)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:15:54.3059 [DEBUG] Play mode: False
+2018-10-31 00:15:57.4595 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:15:57.5857 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:16:09.5547 [DEBUG] Play mode: False
+2018-10-31 00:16:12.7999 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:16:12.8967 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:16:17.6720 [DEBUG] Play mode: False
+2018-10-31 00:16:57.7689 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:18:32.4458 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:18:32.5866 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:19:09.9328 [DEBUG] Play mode: False
+2018-10-31 00:23:23.3948 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:23:23.5196 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:23:50.7954 [DEBUG] Play mode: False
+2018-10-31 00:24:04.6894 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:24:04.8012 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:24:27.3297 [DEBUG] Play mode: False
+2018-10-31 00:25:51.8018 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:25:51.9211 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:25:57.2794 [DEBUG] Play mode: False
+2018-10-31 00:26:06.6075 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:26:06.7197 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:26:14.5088 [DEBUG] Play mode: False
+2018-10-31 00:26:35.0646 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:26:35.1684 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:26:43.6508 [DEBUG] Play mode: False
+2018-10-31 00:27:45.1773 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:27:45.2896 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:27:49.4554 [DEBUG] Play mode: False
+2018-10-31 00:28:03.9748 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:28:04.0848 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:28:16.6869 [DEBUG] Play mode: False
+2018-10-31 00:28:43.7810 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:28:43.8829 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:28:55.6690 [DEBUG] Play mode: False
+2018-10-31 00:29:20.4047 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:29:20.5025 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:29:46.8546 [DEBUG] Play mode: False
+2018-10-31 00:29:49.9332 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:29:50.0370 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:30:52.7858 [DEBUG] Play mode: False
+2018-10-31 00:31:59.2178 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:31:59.3349 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:32:21.2810 [DEBUG] Play mode: False
+2018-10-31 00:32:26.5598 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:32:26.6751 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:32:39.7240 [DEBUG] Play mode: False
+2018-10-31 00:32:48.4656 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:32:48.5754 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:34:02.1298 [DEBUG] Play mode: False
+2018-10-31 00:36:09.9625 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:36:10.0209 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:36:12.9592 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<ReduceHealthSlider>c__Iterator0.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:64)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:40)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:36:12.9602 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<RedFlash>c__Iterator1.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:73)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:41)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:36:14.0079 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<ReduceHealthSlider>c__Iterator0.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:64)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:40)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:36:14.0084 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<RedFlash>c__Iterator1.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:73)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:41)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:36:15.0405 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<ReduceHealthSlider>c__Iterator0.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:64)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:40)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:36:15.0415 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<RedFlash>c__Iterator1.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:73)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:41)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:36:19.8710 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<ReduceHealthSlider>c__Iterator0.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:64)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:40)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:36:19.8715 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<RedFlash>c__Iterator1.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:73)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:41)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:36:20.7365 [DEBUG] Play mode: False
+2018-10-31 00:36:46.1803 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:36:49.7426 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:36:49.8501 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:36:52.8345 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<ReduceHealthSlider>c__Iterator0.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:64)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:40)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:36:52.8370 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<RedFlash>c__Iterator1.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:73)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:41)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:36:53.8791 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<ReduceHealthSlider>c__Iterator0.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:64)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:40)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:36:53.8801 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<RedFlash>c__Iterator1.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:73)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:41)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:36:57.4977 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<ReduceHealthSlider>c__Iterator0.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:64)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:40)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:36:57.4987 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<RedFlash>c__Iterator1.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:73)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:41)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:36:59.4407 [DEBUG] Play mode: False
+2018-10-31 00:37:12.0139 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:37:12.1281 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:37:45.3735 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<ReduceHealthSlider>c__Iterator0.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:64)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:40)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:37:45.3755 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<RedFlash>c__Iterator1.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:73)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:41)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:37:52.6230 [DEBUG] Play mode: False
+2018-10-31 00:37:55.4368 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:37:55.5437 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:38:11.8526 [DEBUG] Play mode: False
+2018-10-31 00:42:00.1513 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:42:00.2711 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:42:20.8280 [DEBUG] Play mode: False
+2018-10-31 00:43:38.6098 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:43:38.7120 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:44:10.4738 [DEBUG] Play mode: False
+2018-10-31 00:44:48.8166 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:44:48.9129 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:44:53.8229 [DEBUG] Play mode: False
+2018-10-31 00:45:27.3116 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:45:27.4069 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:45:43.7054 [DEBUG] Play mode: False
+2018-10-31 00:47:23.5013 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:47:23.6053 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:47:32.9398 [DEBUG] Play mode: False
+2018-10-31 00:48:46.8885 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:48:46.9998 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:48:57.6632 [DEBUG] Play mode: False
+2018-10-31 00:49:14.2767 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:49:14.3929 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:49:30.8447 [DEBUG] Play mode: False
+2018-10-31 00:49:51.8240 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:49:51.9312 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:50:28.5561 [DEBUG] Play mode: False
+2018-10-31 00:50:32.8117 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:50:32.9035 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:50:47.4609 [DEBUG] Play mode: False
+2018-10-31 00:52:27.0005 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:52:27.1002 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:52:41.1734 [DEBUG] Play mode: False
+2018-10-31 00:52:51.8850 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:52:51.9780 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:52:57.1568 [DEBUG] Play mode: False
+2018-10-31 00:58:00.8037 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:58:00.9045 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:58:37.3998 [DEBUG] Play mode: False
+2018-10-31 00:58:59.1912 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:58:59.2828 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:59:16.8859 [DEBUG] Play mode: False
+2018-10-31 00:59:26.8254 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 00:59:26.9307 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 00:59:41.9340 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<ReduceHealthSlider>c__Iterator0.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:64)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:40)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:59:41.9349 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<RedFlash>c__Iterator1.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:73)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:41)
+HitSteeringBehaviour:Act() (at Assets/Scripts/FSM/SteeringBehaviours/HitSteeringBehaviour.cs:28)
+NPCStatesBehaviour:ActBehaviours() (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:21)
+ChaserNPC:Update() (at Assets/Scripts/FSM/ChaserNPC.cs:86)
+
+2018-10-31 00:59:48.9797 [DEBUG] Play mode: False
+2018-10-31 01:01:02.5971 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-31 01:01:02.7513 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-31 01:01:30.7733 [DEBUG] Play mode: False

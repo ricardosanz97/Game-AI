@@ -46347,3 +46347,93 @@ ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:86)
 2018-10-30 22:08:05.0696 [DEBUG] Scene Fusion version 1.8.1-4
 2018-10-30 22:08:05.1335 [DEBUG] Play mode: True, sync in play mode: False
 2018-10-30 22:08:09.4718 [DEBUG] Play mode: False
+2018-10-30 23:21:38.2485 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:21:41.4702 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:35:17.4586 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:35:17.5817 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:35:21.3309 [DEBUG] Play mode: False
+2018-10-30 23:35:57.6831 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:35:57.8263 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:36:02.6995 [DEBUG] Play mode: False
+2018-10-30 23:36:12.8837 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:36:12.9871 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:36:14.7303 [DEBUG] Play mode: False
+2018-10-30 23:36:38.5167 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:36:38.6484 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:36:58.5272 [DEBUG] Play mode: False
+2018-10-30 23:38:33.2110 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:38:33.3364 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:38:33.7739 [DEBUG] Play mode: False
+2018-10-30 23:39:03.1308 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:39:03.3229 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:39:13.1023 [DEBUG] Play mode: False
+2018-10-30 23:39:32.8800 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:39:32.9958 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:39:37.6511 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<ReduceHealthSlider>c__Iterator0.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:64)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:40)
+BulletBehaviour:OnTriggerEnter(Collider) (at Assets/Scripts/BulletBehaviour.cs:32)
+
+2018-10-30 23:39:37.6526 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<RedFlash>c__Iterator1.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:73)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:41)
+BulletBehaviour:OnTriggerEnter(Collider) (at Assets/Scripts/BulletBehaviour.cs:32)
+
+2018-10-30 23:39:41.7654 [DEBUG] Play mode: False
+2018-10-30 23:39:48.6517 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:39:48.7789 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:40:16.6172 [DEBUG] Play mode: False
+2018-10-30 23:40:19.3818 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:40:19.4926 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:41:22.7328 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<ReduceHealthSlider>c__Iterator0.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:64)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:40)
+BulletBehaviour:OnTriggerEnter(Collider) (at Assets/Scripts/BulletBehaviour.cs:32)
+
+2018-10-30 23:41:22.7348 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+PlayerHealth+<RedFlash>c__Iterator1.MoveNext () (at Assets/Scripts/Player/PlayerHealth.cs:73)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+PlayerHealth:ReceiveDamage(Single) (at Assets/Scripts/Player/PlayerHealth.cs:41)
+BulletBehaviour:OnTriggerEnter(Collider) (at Assets/Scripts/BulletBehaviour.cs:32)
+
+2018-10-30 23:41:32.4776 [DEBUG] Play mode: False
+2018-10-30 23:42:09.0924 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:42:09.2325 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:42:26.5918 [DEBUG] Play mode: False
+2018-10-30 23:42:50.8057 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:42:50.9203 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:43:50.1858 [DEBUG] Play mode: False
+2018-10-30 23:44:07.6138 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:44:07.7546 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:44:17.9520 [DEBUG] Play mode: False
+2018-10-30 23:44:28.3497 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:44:28.4858 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:44:54.7814 [DEBUG] Play mode: False
+2018-10-30 23:45:02.0605 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:45:02.1917 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:45:16.3038 [DEBUG] Play mode: False
+2018-10-30 23:47:08.7079 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:47:14.6414 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:47:14.7901 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:47:26.3828 [DEBUG] Play mode: False
+2018-10-30 23:47:33.6229 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:47:33.7339 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:47:51.9004 [DEBUG] Play mode: False
+2018-10-30 23:48:39.0869 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:48:39.2157 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:48:47.3703 [DEBUG] Play mode: False
+2018-10-30 23:48:53.5313 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:48:53.6731 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:49:12.5485 [DEBUG] Play mode: False
+2018-10-30 23:59:03.0905 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:59:03.2275 [DEBUG] Play mode: True, sync in play mode: False
+2018-10-30 23:59:14.0168 [DEBUG] Play mode: False
+2018-10-30 23:59:35.1502 [DEBUG] Scene Fusion version 1.8.1-4
+2018-10-30 23:59:35.2560 [DEBUG] Play mode: True, sync in play mode: False

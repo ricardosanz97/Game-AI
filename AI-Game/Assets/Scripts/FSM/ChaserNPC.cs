@@ -5,13 +5,15 @@ using System;
 
 public class ChaserNPC : NPCStatesBehaviour 
 {
-    private void Start()
+    public override void Start()
     {
         SetStates();
         SetTransitions();
 
         currentState = states.Find((x) => x.stateName == STATE.Patrol);
         currentTransitions = transitions.FindAll((x) => x.currentState == currentState);
+
+        base.Start();
     }
 
     public override void SetTransitions()

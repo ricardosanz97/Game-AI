@@ -35,7 +35,7 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
 
     public override void Act()
     {
-        Debug.Log(actualPatrolPoint);
+        //Debug.Log(actualPatrolPoint);
         
         if (!patrol && patrolPoints != null)
         {
@@ -74,7 +74,7 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
 
                 if (path != null && currentPointInPath == path.Length)
                 {
-                    Debug.Log("ImIN");
+                    //Debug.Log("ImIN");
                     path = null;
                     currentPointInPath = 0;
                     if (randomPatrol)
@@ -102,7 +102,7 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
             {
                 Vector3 direction = destination - transform.position;
                 direction = direction.normalized;
-                Debug.Log(direction);
+                //Debug.Log(direction);
                 ccEnemy.Move(direction * maxSpeed * Time.deltaTime);
                 ccEnemy.transform.LookAt(new Vector3(transform.position.x, transform.position.y, transform.position.z) + new Vector3(direction.x, 0, direction.z));
                 //ccEnemy.transform.rotation = Quaternion.Slerp(ccEnemy.transform.rotation, Quaternion.LookRotation(patrolPoints[actualPatrolPoint].position - patrolPoints[previousPatrolPoint].position), .2f);

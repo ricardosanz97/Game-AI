@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class WatcherNPC : NPCStatesBehaviour
 {
-    private void Start()
+    public override void Start()
     {
         SetStates();
         SetTransitions();
 
         currentState = states.Find((x) => x.stateName == STATE.Idle);
         currentTransitions = transitions.FindAll((x) => x.currentState == currentState);
+
+        base.Start();
     }
 
     public override void SetStates()
@@ -73,7 +75,8 @@ public class WatcherNPC : NPCStatesBehaviour
 
     public void SetAttackState(){
         List<SteeringBehaviour> behavioursAttackState = new List<SteeringBehaviour>(){
-            this.GetComponent<ShootSteeringBehaviour>()
+            this.GetComponent<ShootSteeringBehaviour>(),
+            this.GetComponent<FacePlayerSteeringBehaviour>()
         };
         FSMSystem.I.AddState(this, new State(STATE.Attack));
         FSMSystem.I.AddBehaviours(this, behavioursAttackState, this.states.Find((x) => x.stateName == STATE.Attack));

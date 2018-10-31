@@ -9,7 +9,7 @@ public class AssassinNPC : NPCStatesBehaviour
     public GameObject assassinSpawnPointsGO;
     public bool appeared = false;
     public CommanderNPC commander;
-    private void Start()
+    public override void Start()
     {
         SetStates();
         SetTransitions();
@@ -17,10 +17,12 @@ public class AssassinNPC : NPCStatesBehaviour
         currentState = states.Find((x) => x.stateName == STATE.Hidden);
         currentTransitions = transitions.FindAll((x) => x.currentState == currentState);
 
-        for(int i = 0; i < assassinSpawnPointsGO.transform.childCount; i++)
+        for (int i = 0; i < assassinSpawnPointsGO.transform.childCount; i++)
         {
             assassinSpawnPoints.Add(assassinSpawnPointsGO.transform.GetChild(i));
         }
+
+        base.Start();
     }
 
     public override void SetTransitions()

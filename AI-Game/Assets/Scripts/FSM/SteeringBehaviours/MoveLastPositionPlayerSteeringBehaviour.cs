@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class MoveLastPositionPlayerSteeringBehaviour : SteeringBehaviour
 {
+    private Rigidbody rbEnemy;
+    void Start()
+    {
+        rbEnemy = GetComponent<Rigidbody>();
+    }
     public override void Act()
     {
-        Debug.Log("Going to the last position where I last saw the player. ");
+        rbEnemy.velocity = Vector3.zero;
+        Debug.Log("entro");
     }
 }

@@ -8,6 +8,7 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
 
     public float anticipationMultiplier;
     public float maxSpeed = 4f;
+    public float distanceToHit = 3f;
 
     private Rigidbody rbEnemy;
     private CharacterController ccPlayer;
@@ -60,10 +61,9 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
 
             float lookAheadTime = toEvader.magnitude / (maxSpeed + rbEnemy.velocity.magnitude);
 
-            Debug.Log((((path[1] + rbEnemy.velocity * (lookAheadTime * anticipationMultiplier)) - ccEnemy.transform.position).normalized * maxSpeed));
+            if (Vector3.Distance(ccEnemy.transform.position, ccPlayer.transform.position) < distanceToHit) rbEnemy.velocity = Vector3.zero;
+            else rbEnemy.velocity = (((path[1] + rbEnemy.velocity * (lookAheadTime * anticipationMultiplier)) - ccEnemy.transform.position).normalized * maxSpeed);
 
-            rbEnemy.velocity = (((path[1] + rbEnemy.velocity * (lookAheadTime * anticipationMultiplier)) - ccEnemy.transform.position).normalized * maxSpeed);
-           
             //ccEnemy.transform.DOMove(path[1]-(ccPlayer.transform.forward*2), maxSpeed);          
             ccEnemy.transform.LookAt(ccPlayer.transform);
         }

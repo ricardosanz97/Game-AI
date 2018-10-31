@@ -5,7 +5,7 @@ using UnityEngine;
 public class TimeElapsedCondition : Condition
 {
     public float timeToRecolocate;
-    private float currentTime;
+    private float currentTime = 0f;
     public override bool Check()
     {
         currentTime += Time.deltaTime;

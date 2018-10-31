@@ -51,6 +51,15 @@ public class LevelManager : MonoBehaviour {
         canvas = HUDManager.I.canvas;
         fadeImage = HUDManager.I.FadeImageLevelCompleted;
         levelCompletedText = HUDManager.I.LevelCompletedText;
+        if (LevelEnemies.Count == 0){
+            Debug.LogError("No se ha asignado la variable LevelEnemies! Arrastralo en el inspector!");
+        }
+        if (levelDoors.Count == 0){
+            Debug.LogError("No se ha asignado la variable LevelDoorss! Arrastralo en el inspector!");
+        }
+        if (levelKeys.Count == 0){
+            Debug.LogError("No se ha asignado la variable LevelKeys! Arrastralo en el inspector!");
+        }
     }
 
     public void SpawnPlayer()
@@ -122,8 +131,14 @@ public class LevelManager : MonoBehaviour {
 
     public void PlayerDead()
     {
+        for (int i = 0; i < LevelEnemies.Count; i++)
+        {
+            LevelEnemies[i].SetInitialState();
+            Debug.Log(LevelEnemies[i].name + " resetado a " + LevelEnemies[i].currentState.stateName);
+        }
         player.GetComponent<PlayerController>().SetDeadAnimatorParamenter();
         player.GetComponent<PlayerHealth>().PlayerDeath(this);
+
     }
 
     public void LevelCompleted()
@@ -143,6 +158,6 @@ public class LevelManager : MonoBehaviour {
         {
             GameManager.I.RestartLevel(this);
         });
-        
+ 
     }
 }

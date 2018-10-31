@@ -12,6 +12,6 @@ public class MoveLastPositionPlayerSteeringBehaviour : SteeringBehaviour
     public override void Act()
     {
         rbEnemy.velocity = Vector3.zero;
-        Debug.Log("entro");
+        //Debug.Log("entro");
     }
 }

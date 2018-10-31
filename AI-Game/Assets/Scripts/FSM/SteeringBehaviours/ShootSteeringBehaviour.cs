@@ -8,8 +8,9 @@ public class ShootSteeringBehaviour : SteeringBehaviour
     public float maxDistance;
     public GameObject bullet;
     public Transform barrelGun;
+    public bool shotEnable;
 
-    private float currentTime = 0f;
+    private float currentTime = -1f;
 
     private void Start()
     {
@@ -27,22 +28,24 @@ public class ShootSteeringBehaviour : SteeringBehaviour
         
         if (TimeRateElapsed())
         {
-            Debug.Log("DISSSSPARO!");
             GameObject _bullet = Instantiate(bullet, barrelGun.position, barrelGun.rotation);
             Vector3 direction = (PlayerController.I.targetObjectRef.transform.position - barrelGun.transform.position).normalized;
             _bullet.GetComponent<BulletBehaviour>().Move(direction);
+            
         }
 
     }
 
-    public bool TimeRateElapsed()
+    private bool TimeRateElapsed()
     {
         currentTime += Time.deltaTime;
         if (currentTime >= shootRate)
         {
+            shotEnable = true;
             currentTime = 0f;
             return true;
         }
+        shotEnable = false;
         return false;
     }
 }

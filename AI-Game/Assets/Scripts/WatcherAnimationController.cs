@@ -14,24 +14,21 @@ public class WatcherAnimationController : MonoBehaviour {
         watcherAnimator = GetComponent<Animator>();
         watcherRef = GetComponent<WatcherNPC>();
         shootRef = GetComponent<ShootSteeringBehaviour>();
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
-        if (watcherRef.currentState.stateName == STATE.Idle)
+        
+        if (watcherRef.currentState.stateName == STATE.Attack)
+        {
+            if (GetComponent<ShootSteeringBehaviour>().shotEnable)
+            {
+                watcherAnimator.SetTrigger("attackTrigger");
+            }
+        }
+        else if (watcherRef.currentState.stateName == STATE.Idle)
         {
             watcherAnimator.SetFloat("animationPercentage", 0f);
         }
-        if (watcherRef.currentState.stateName == STATE.Attack)
-        {
-            if (shootRef.TimeRateElapsed())
-            {
-                watcherAnimator.SetBool("attack",true);
-            }
-            else
-            {
-                watcherAnimator.SetBool("attack", false);
-            } 
-        }
-	}
+    }
 }

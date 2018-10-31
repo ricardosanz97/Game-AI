@@ -204,7 +204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageBullet: 20
-  speedBullet: 500
+  speedBullet: 1500
 --- !u!135 &135059687438064858
 SphereCollider:
   m_ObjectHideFlags: 1

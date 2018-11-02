@@ -12,7 +12,6 @@ namespace Pathfinding
         public bool pathError;
         private const int RESULTS_QUEUE_CAPACITY = 64;
         private readonly Queue<PathResult> results = new Queue<PathResult>(RESULTS_QUEUE_CAPACITY);
-        private readonly Queue<PathRequest> requestsToProcess = new Queue<PathRequest>(RESULTS_QUEUE_CAPACITY);
 
         [Range(1,4)]
         public int _maxThreadCount;
@@ -23,7 +22,7 @@ namespace Pathfinding
         private void Awake()
         {
            _pathfindingGraph = GetComponent<PathfindingGrid>();
-            _wfs = new WaitForSeconds(0.16f);
+            _wfs = new WaitForSeconds(0.001f);
             _threads = new Thread[_maxThreadCount];
         }
 
@@ -81,34 +80,11 @@ namespace Pathfinding
         
         public void RequestPath(PathRequest request)
         {
-            requestsToProcess.Enqueue(request); 
-        }
-
-        //TODO hacer que haya threads background no que se cree uno cada vez
-        private void Update()
-        {
-            lock (requestsToProcess)
+            ThreadPool.QueueUserWorkItem(delegate(object state)
             {
-                if (requestsToProcess.Count > 0)
-                {
-                    for (var index = 0; index < _threads.Length; index++)
-                    {
-                        if (_threads[index] == null || !_threads[index].IsAlive)
-                        {
-                            PathRequest request = requestsToProcess.Dequeue();
-                            ThreadStart threadStart = new ThreadStart(() =>
-                                AStar.AStarSearch(_pathfindingGraph, request, FinishedProcessingPath));
-
-                            _threads[index] = new Thread(threadStart);
-
-                            _threads[index].Start();
-                        }
-                    }
-                }    
-            }
-            
+                AStar.AStarSearch(_pathfindingGraph, request, FinishedProcessingPath);
+            });
         }
-
 
         public struct PathResult
         {

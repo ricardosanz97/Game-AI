@@ -13,6 +13,8 @@ namespace CustomPathfinding
 {
     public class AStar
     {
+        private static List<float> mediciones = new List<float>();
+        
         //by now it uses a GridDebugger Class. It should have as a paramenter a IAstarSearchableSurface or something like that
         public static void AStarSearch(PathfindingGrid pathfindingGrid, PathfindingManager.PathRequest request, Action<PathfindingManager.PathResult> callback)
         {
@@ -51,6 +53,8 @@ namespace CustomPathfinding
                 if (currentNode.Equals(goal))
                 {
                     sw.Stop();
+                    mediciones.Add(sw.ElapsedMilliseconds);
+                    Debug.Log("Tiempo medio de pathfinding: " + GetAverageSearchTime() + " ms.");
                     Debug.Log("Finished search at thread number " + Thread.CurrentThread.ManagedThreadId + " in " + sw.ElapsedMilliseconds + "ms.");
                     Profiler.EndThreadProfiling();
                     break;
@@ -104,6 +108,17 @@ namespace CustomPathfinding
         private static float Heuristic(Node node1, Node node2)
         {
             return Mathf.Abs(Vector3.Distance(node1.WorldPosition, node2.WorldPosition));
+        }
+
+        private static float GetAverageSearchTime()
+        {
+            float total = 0;
+            foreach (var medicion in mediciones)
+            {
+                total += medicion;
+            }
+
+            return total / mediciones.Count;
         }
     }
 }

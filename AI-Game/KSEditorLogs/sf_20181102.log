@@ -2654,3 +2654,46 @@ Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/Pathfind
 
 2018-11-02 12:54:37.5010 [DEBUG] Play mode: False
 2018-11-02 12:57:08.2983 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 13:40:28.3257 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 14:31:15.2064 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 14:43:17.4384 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEditor.Scripting.ScriptCompilation.CSharpNamespaceParser.FindNamespaceForMono (System.String className, System.String source) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/CSharpNamespaceParser.cs:72)
+UnityEditor.Scripting.ScriptCompilation.CSharpNamespaceParser.GetNamespace (System.String sourceCode, System.String className, System.String[] defines) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/CSharpNamespaceParser.cs:35)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+JetBrains.Rider.Unity.Editor.UnityUtils:SyncSolution()
+JetBrains.Rider.Unity.Editor.<>c__DisplayClass22_0:<AdviseRefresh>b__1()
+JetBrains.Rider.Unity.Editor.MainThreadDispatcher:Queue(Action)
+JetBrains.Rider.Unity.Editor.<>c:<AdviseRefresh>b__22_0(Lifetime, Boolean)
+JetBrains.Platform.RdFramework.Tasks.RdEndpoint`2:OnWireReceived(UnsafeReader)
+JetBrains.Platform.RdFramework.Impl.MessageBroker:Execute(IRdReactive, Byte[])
+JetBrains.Platform.RdFramework.Impl.<>c__DisplayClass7_0:<Invoke>b__0()
+JetBrains.Rider.Unity.Editor.MainThreadDispatcher:DispatchTasks()
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2018-11-02 14:43:17.4404 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+UnityEditor.Scripting.ScriptCompilation.CSharpNamespaceParser.FindNamespaceForMono (System.String className, System.String source) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/CSharpNamespaceParser.cs:72)
+UnityEditor.Scripting.ScriptCompilation.CSharpNamespaceParser.GetNamespace (System.String sourceCode, System.String className, System.String[] defines) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/CSharpNamespaceParser.cs:41)
+UnityEditor.Scripting.Compilers.CSharpLanguage.GetNamespaceNewRuntime (System.String filePath, System.String definedSymbols) (at C:/buildslave/unity/build/Editor/Mono/Scripting/Compilers/CSharpLanguage.cs:73)
+UnityEditor.Scripting.Compilers.CSharpLanguage.GetNamespace (System.String filePath, System.String definedSymbols) (at C:/buildslave/unity/build/Editor/Mono/Scripting/Compilers/CSharpLanguage.cs:122)
+UnityEditor.Scripting.ScriptCompilers.GetNamespace (System.String file, System.String definedSymbols) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilers.cs:101)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+JetBrains.Rider.Unity.Editor.UnityUtils:SyncSolution()
+JetBrains.Rider.Unity.Editor.<>c__DisplayClass22_0:<AdviseRefresh>b__1()
+JetBrains.Rider.Unity.Editor.MainThreadDispatcher:Queue(Action)
+JetBrains.Rider.Unity.Editor.<>c:<AdviseRefresh>b__22_0(Lifetime, Boolean)
+JetBrains.Platform.RdFramework.Tasks.RdEndpoint`2:OnWireReceived(UnsafeReader)
+JetBrains.Platform.RdFramework.Impl.MessageBroker:Execute(IRdReactive, Byte[])
+JetBrains.Platform.RdFramework.Impl.<>c__DisplayClass7_0:<Invoke>b__0()
+JetBrains.Rider.Unity.Editor.MainThreadDispatcher:DispatchTasks()
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2018-11-02 14:43:53.2398 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 14:44:17.3775 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 14:44:28.7277 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 14:44:33.8631 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 14:44:33.9421 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 14:46:24.9530 [DEBUG] Play mode: False
+2018-11-02 14:49:46.0877 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 14:50:05.4050 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 14:50:05.4620 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 14:51:14.4719 [DEBUG] Play mode: False

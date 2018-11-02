@@ -24,6 +24,7 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
     float magnitude;
     float realSpeed;
     Vector3 startPos;
+    private bool canPatrol = false;
 
     void Start()
     {
@@ -49,16 +50,16 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
     public void PathReceived(Vector3[] wayPoints, bool isPathSuccessfull)
     {
         patrol = true;
+        canPatrol = isPathSuccessfull;
         path = wayPoints;
         destination = path[0];
     }
 
     public void Patrol()
     {
-        if (Pathfinding.PathfindingManager.I.pathError == true)
+        if (!canPatrol)
         {
             errorController();
-            Pathfinding.PathfindingManager.I.pathError = false;
         }
 
         if (patrol && patrolPoints != null && path != null)

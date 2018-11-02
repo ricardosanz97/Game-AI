@@ -56,9 +56,6 @@ namespace CustomPathfinding
 			AStar = new AStar();
 		}
 
-
-
-
 		private void CreateGrid()
 		{
 			Grid = new Node[GridSizeX, GridSizeZ];

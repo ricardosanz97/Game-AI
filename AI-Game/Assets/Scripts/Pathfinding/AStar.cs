@@ -33,7 +33,7 @@ namespace CustomPathfinding
             if (source.NodeType != Node.ENodeType.Walkable || goal.NodeType != Node.ENodeType.Walkable)
             {
                 Debug.LogError("No se puede llegar hasta el nodo indicado");
-                PathfindingManager.I.pathError = true;
+                callback( new PathfindingManager.PathResult(null,false,request.Callback, Thread.CurrentThread.ManagedThreadId));
                 return;
             }
 
@@ -78,8 +78,7 @@ namespace CustomPathfinding
             }
             
             Vector3[] smoothedWaypoints = pathfindingGrid.SmoothPath(ReconstructPath(pathSoFar, goal), request.AgentRadius);
-            bool succeded = smoothedWaypoints.Length > 0;
-            callback( new PathfindingManager.PathResult(smoothedWaypoints,succeded,request.Callback, Thread.CurrentThread.ManagedThreadId));
+            callback( new PathfindingManager.PathResult(smoothedWaypoints,true,request.Callback, Thread.CurrentThread.ManagedThreadId));
         }
 
         public static Vector3[] ReconstructPath(Dictionary<Node,Node> pathSoFar, Node pathStartNode)

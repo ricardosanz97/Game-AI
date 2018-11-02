@@ -35,22 +35,20 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
             Pathfinding.PathfindingManager.I.RequestPath(new Pathfinding.PathfindingManager.PathRequest(ccEnemy.transform.position, ccPlayer.transform.position, PathReceived, ccPlayer.radius));
             timer = 0;
         }
-
-        return;
     }
 
     public void PathReceived(Vector3[] wayPoints, bool isPathSuccessfull)
     {
         path = wayPoints;
-        Pursuit();
+        Pursuit(isPathSuccessfull);
     }
-    public void Pursuit()
+    
+    public void Pursuit(bool isPathSuccesfull)
     {
 
-        if (Pathfinding.PathfindingManager.I.pathError == true)
+        if (!isPathSuccesfull)
         {
             Pathfinding.PathfindingManager.I.RequestPath(new Pathfinding.PathfindingManager.PathRequest(ccEnemy.transform.position, ccPlayer.transform.position, PathReceived, ccPlayer.radius));
-            Pathfinding.PathfindingManager.I.pathError = false;
         }
 
         if (path != null)

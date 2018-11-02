@@ -14,8 +14,6 @@ namespace Pathfinding
 
         [Range(1,4)]
         public int _maxThreadCount;
-        [HideInInspector]
-        public bool pathError;
         private PathfindingGrid _pathfindingGraph;
         private WaitForSeconds _wfs;
         private Thread[] _threads;

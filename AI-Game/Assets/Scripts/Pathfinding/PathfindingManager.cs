@@ -9,12 +9,13 @@ namespace Pathfinding
 {
     public class PathfindingManager : Singleton<PathfindingManager>
     {
-        public bool pathError;
         private const int RESULTS_QUEUE_CAPACITY = 64;
         private readonly Queue<PathResult> results = new Queue<PathResult>(RESULTS_QUEUE_CAPACITY);
 
         [Range(1,4)]
         public int _maxThreadCount;
+        [HideInInspector]
+        public bool pathError;
         private PathfindingGrid _pathfindingGraph;
         private WaitForSeconds _wfs;
         private Thread[] _threads;
@@ -23,7 +24,7 @@ namespace Pathfinding
         {
            _pathfindingGraph = GetComponent<PathfindingGrid>();
             _wfs = new WaitForSeconds(0.001f);
-            _threads = new Thread[_maxThreadCount];
+            ThreadPool.SetMaxThreads(_maxThreadCount, _maxThreadCount);
         }
 
         private void Start()

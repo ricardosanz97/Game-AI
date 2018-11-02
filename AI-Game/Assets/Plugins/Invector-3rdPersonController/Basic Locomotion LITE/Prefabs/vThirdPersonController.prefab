@@ -3,9 +3,9 @@
 --- !u!1 &155668
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 414352}
   - component: {fileID: 2093728}
@@ -22,12 +22,12 @@ GameObject:
 --- !u!4 &414352
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 155668}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.10676516, y: -0.6977741, z: -0.1063828, w: 0.7002822}
+  m_LocalPosition: {x: 23.5, y: 0.7, z: -0.7}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -35,13 +35,17 @@ Transform:
 --- !u!20 &2093728
 Camera:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 155668}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -71,14 +75,14 @@ Camera:
 --- !u!81 &8123696
 AudioListener:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 155668}
   m_Enabled: 1
 --- !u!114 &11486748
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 155668}
   m_Enabled: 1
@@ -90,11 +94,11 @@ MonoBehaviour:
   smoothCameraRotation: 12
   cullingLayer:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 513
   lockCamera: 0
   rightOffset: 0
-  defaultDistance: 2.5
-  height: 1.4
+  defaultDistance: 1.5
+  height: 0
   smoothFollow: 10
   xMouseSensitivity: 3
   yMouseSensitivity: 3
@@ -109,7 +113,7 @@ MonoBehaviour:
 --- !u!124 &12434702
 Behaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 155668}
   m_Enabled: 1
@@ -121,6 +125,6 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 155668}
-  m_IsPrefabParent: 1
+  m_IsPrefabAsset: 1

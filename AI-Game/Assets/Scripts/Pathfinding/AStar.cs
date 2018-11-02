@@ -28,7 +28,7 @@ namespace CustomPathfinding
             Node source = pathfindingGrid.GetNodeFromWorldPosition(request.PathStart);
             Node goal = pathfindingGrid.GetNodeFromWorldPosition(request.PathEnd);
 
-            if (!source.Walkable || !goal.Walkable)
+            if (source.NodeType != Node.ENodeType.Walkable || goal.NodeType != Node.ENodeType.Walkable)
             {
                 Debug.LogError("No se puede llegar hasta el nodo indicado");
                 PathfindingManager.I.pathError = true;

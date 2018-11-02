@@ -87,22 +87,26 @@ namespace Pathfinding
         //TODO hacer que haya threads background no que se cree uno cada vez
         private void Update()
         {
-            if (requestsToProcess.Count > 0)
+            lock (requestsToProcess)
             {
-                for (var index = 0; index < _threads.Length; index++)
+                if (requestsToProcess.Count > 0)
                 {
-                    if (_threads[index] == null || !_threads[index].IsAlive)
+                    for (var index = 0; index < _threads.Length; index++)
                     {
-                        PathRequest request = requestsToProcess.Dequeue();
-                        ThreadStart threadStart = new ThreadStart(() =>
-                            AStar.AStarSearch(_pathfindingGraph, request, FinishedProcessingPath));
+                        if (_threads[index] == null || !_threads[index].IsAlive)
+                        {
+                            PathRequest request = requestsToProcess.Dequeue();
+                            ThreadStart threadStart = new ThreadStart(() =>
+                                AStar.AStarSearch(_pathfindingGraph, request, FinishedProcessingPath));
 
-                        _threads[index] = new Thread(threadStart);
+                            _threads[index] = new Thread(threadStart);
 
-                        _threads[index].Start();
+                            _threads[index].Start();
+                        }
                     }
-                }
+                }    
             }
+            
         }
 
 

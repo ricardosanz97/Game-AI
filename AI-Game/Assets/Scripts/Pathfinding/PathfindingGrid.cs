@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Pathfinding;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
@@ -68,19 +69,31 @@ namespace CustomPathfinding
 			{
 				for (int j = 0; j < GridSizeZ; j++)
 				{
-                    Vector3 nodeWorldPosition = bottomLeft + Vector3.right * (i * _nodeDiameter + NodeRadius) + Vector3.forward * (j * _nodeDiameter + NodeRadius);
-					bool walkable = !Physics.CheckBox(nodeWorldPosition,
-						new Vector3(NodeRadius, NodeRadius, NodeRadius), Quaternion.identity, UnwalkableMask,
-						QueryTriggerInteraction.UseGlobal);
-					InitializeNode(i, j, nodeWorldPosition, walkable);
+					Node.ENodeType nodeType = Node.ENodeType.Walkable;
+					Vector3 nodeWorldPosition = bottomLeft + Vector3.right * (i * _nodeDiameter + NodeRadius) +
+					                            Vector3.forward * (j * _nodeDiameter + NodeRadius);
+					
+					Collider[] results = Physics.OverlapBox(nodeWorldPosition, new Vector3(NodeRadius, NodeRadius, NodeRadius),Quaternion.identity);
+
+					if (results.Length == 0)
+					{
+						nodeType = Node.ENodeType.Invisible;
+					}
+					else if (Physics.CheckBox(nodeWorldPosition, new Vector3(NodeRadius, NodeRadius, NodeRadius),
+						quaternion.identity, UnwalkableMask))
+					{
+						nodeType = Node.ENodeType.NonWalkable;
+					}
+					
+					InitializeNode(i, j, nodeWorldPosition, nodeType);
 				}
 			}
 		}
 
-		private void InitializeNode(int i, int j, Vector3 nodeWorldPosition, bool walkable)
+		private void InitializeNode(int i, int j, Vector3 nodeWorldPosition, Node.ENodeType nodeType)
 		{
 			Grid[i, j].WorldPosition = nodeWorldPosition;
-			Grid[i, j].Walkable = walkable;
+			Grid[i, j].NodeType = nodeType;
 			Grid[i, j].GridX = i;
 			Grid[i, j].GridZ = j;
 		}
@@ -111,7 +124,7 @@ namespace CustomPathfinding
 					var x = currentNode.GridX + i;
 					var z = currentNode.GridZ + j;
 
-					if ((x >= 0 && x < GridSizeX) && (z >= 0 && z < GridSizeZ) && Grid[x,z].Walkable)
+					if ((x >= 0 && x < GridSizeX) && (z >= 0 && z < GridSizeZ) && Grid[x,z].NodeType == Node.ENodeType.Walkable)
 					{
 						yield return Grid[currentNode.GridX + i, currentNode.GridZ + j];
 					}
@@ -182,16 +195,16 @@ namespace CustomPathfinding
 				Vector3 SamplePoint = n1.WorldPosition + i * dir;
 
 				Vector3 rightSampledPoint = SamplePoint + new Vector3(agentRadius,0,0);
-				if (!GetNodeFromWorldPosition(rightSampledPoint).Walkable) return false;
+				if (GetNodeFromWorldPosition(rightSampledPoint).NodeType != Node.ENodeType.Walkable) return false;
 				
 				Vector3 bottomSamplePoint = SamplePoint + new Vector3(0,0,- agentRadius);
-				if (!GetNodeFromWorldPosition(bottomSamplePoint).Walkable) return false;
+				if (GetNodeFromWorldPosition(bottomSamplePoint).NodeType != Node.ENodeType.Walkable) return false;
 				
 				Vector3 topSampledPoint = SamplePoint + new Vector3(0,0,agentRadius);
-				if (!GetNodeFromWorldPosition(topSampledPoint).Walkable) return false;
+				if (GetNodeFromWorldPosition(topSampledPoint).NodeType != Node.ENodeType.Walkable) return false;
 				
 				Vector3 leftSampledPoint = SamplePoint + new Vector3(- agentRadius,0,0);
-				if (!GetNodeFromWorldPosition(leftSampledPoint).Walkable) return false;
+				if (GetNodeFromWorldPosition(leftSampledPoint).NodeType != Node.ENodeType.Walkable) return false;
 				
 
 			}

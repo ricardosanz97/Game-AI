@@ -5,19 +5,23 @@ namespace CustomPathfinding
 {
     public struct Node : IEquatable<Node>
     {
+        public enum ENodeType
+        {
+            Walkable, NonWalkable, Invisible
+        }
         private int _cost;
         public Vector3 WorldPosition { get; set; }
         public int GridX { get; set; }
         public int GridZ { get; set; }
-        public bool Walkable { get; set; }
+        public ENodeType NodeType { get; set; }
 
-        public Node(int cost, Vector3 worldPosition, int gridX, int gridZ, bool walkable) : this()
+        public Node(int cost, Vector3 worldPosition, int gridX, int gridZ, ENodeType eNodeType) : this()
         {
             _cost = cost;
             WorldPosition = worldPosition;
             GridX = gridX;
             GridZ = gridZ;
-            Walkable = walkable;
+            NodeType = eNodeType;
         }
 
         public int Cost

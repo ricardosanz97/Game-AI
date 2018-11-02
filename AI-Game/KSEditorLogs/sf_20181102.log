@@ -2023,3 +2023,634 @@ ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
 2018-11-02 01:32:53.7300 [DEBUG] Play mode: True, sync in play mode: True
 2018-11-02 01:34:17.9843 [DEBUG] Play mode: False
 2018-11-02 01:37:31.0594 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:06:03.7251 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:06:13.1998 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:06:13.2667 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 12:09:46.1279 [DEBUG] Play mode: False
+2018-11-02 12:11:08.9774 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:11:09.0196 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 12:12:14.9873 [DEBUG] Play mode: False
+2018-11-02 12:12:25.6549 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:12:28.9567 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:12:29.0746 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 12:12:58.9470 [DEBUG] Play mode: False
+2018-11-02 12:30:30.2136 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:30:30.3445 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 12:30:44.6292 [DEBUG] Play mode: False
+2018-11-02 12:30:58.8055 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:31:28.8297 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:31:38.7567 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:31:38.9046 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 12:33:57.4069 [DEBUG] Play mode: False
+2018-11-02 12:35:02.1792 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:35:02.2651 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 12:36:25.6128 [DEBUG] Play mode: False
+2018-11-02 12:36:29.0608 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:36:29.2417 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 12:37:30.7677 [DEBUG] Play mode: False
+2018-11-02 12:37:34.8921 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:37:34.9551 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 12:37:41.9310 [DEBUG] Play mode: False
+2018-11-02 12:37:47.6884 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:38:01.4829 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:38:01.5329 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 12:39:15.4406 [DEBUG] Play mode: False
+2018-11-02 12:39:39.5245 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:39:39.5884 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 12:39:53.4719 [DEBUG] Play mode: False
+2018-11-02 12:40:29.9944 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:40:30.1393 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 12:41:13.0859 [DEBUG] Play mode: False
+2018-11-02 12:44:12.1228 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:44:12.1828 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 12:44:38.6618 [DEBUG] Play mode: False
+2018-11-02 12:44:46.2695 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:44:46.3985 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 12:45:10.8977 [DEBUG] Play mode: False
+2018-11-02 12:45:40.1618 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:45:40.2947 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 12:46:13.2964 [DEBUG] Play mode: False
+2018-11-02 12:49:23.9230 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:50:20.2448 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:50:20.2858 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 12:50:22.7362 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:50:27.5950 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:50:34.5719 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:50:37.9478 [DEBUG] Play mode: False
+2018-11-02 12:50:55.6059 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:50:55.7389 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 12:51:05.1289 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:09.9320 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:19.6055 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:20.0343 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:20.2482 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:20.4690 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:20.7019 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:20.9258 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:21.1287 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:21.3515 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:21.5594 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:21.7653 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:21.9712 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:22.2030 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:22.4219 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:22.6608 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:22.8517 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:23.0596 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:23.2694 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:23.5113 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:23.7172 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:23.9181 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:24.1489 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:24.3588 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:24.5507 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:24.7696 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:24.9845 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:25.2023 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:25.4162 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:25.6201 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:25.8310 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:26.0648 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:26.2917 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:26.5076 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:26.7265 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:26.9533 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:27.1612 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:27.3841 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:27.6000 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:27.8328 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:28.0427 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:28.2486 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:28.4505 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:28.6693 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:28.8822 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:29.0901 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:29.2970 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:29.5079 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:29.7138 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:29.9246 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:96)
+
+2018-11-02 12:51:36.4037 [DEBUG] Play mode: False
+2018-11-02 12:52:47.4539 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:52:47.5099 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 12:52:50.1888 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:52:54.9869 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:53:01.0734 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:53:10.6939 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:53:20.3174 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:53:22.1404 [DEBUG] Play mode: False
+2018-11-02 12:53:33.2453 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 12:53:33.3802 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 12:53:36.3452 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:53:41.1638 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:53:49.0603 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:53:53.7386 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:04.1127 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:14.0181 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:21.9355 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:25.3556 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:25.5874 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:25.8213 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:26.0262 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:26.2521 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:26.4689 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:26.6858 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:26.8977 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:27.1186 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:27.3564 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:27.5893 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:27.8112 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:28.0350 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:28.2579 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:28.4888 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:28.7157 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:28.9315 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:29.1544 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:29.3713 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:29.5872 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:29.8160 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:30.0339 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:30.2478 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:30.4727 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:30.6925 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:30.9204 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:31.1533 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:31.3692 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:31.6390 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:31.8709 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:32.0618 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:32.2726 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:32.4785 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:32.6774 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:32.8973 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:33.1182 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:33.3380 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:33.6019 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:33.8018 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:34.0596 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:34.3065 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:34.5144 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:34.7422 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:34.9551 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:35.1780 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:35.3989 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:35.6007 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:35.8086 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:36.0125 [ERROR] InvalidOperationException: Queue empty.
+System.Collections.Generic.Queue`1[T].ThrowForEmptyQueue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+System.Collections.Generic.Queue`1[T].Dequeue () (at <3acaa45225a54f778710ee6eff26f77f>:0)
+Pathfinding.PathfindingManager.Update () (at Assets/Scripts/Pathfinding/PathfindingManager.cs:98)
+
+2018-11-02 12:54:37.5010 [DEBUG] Play mode: False
+2018-11-02 12:57:08.2983 [DEBUG] Scene Fusion version 1.8.1-4

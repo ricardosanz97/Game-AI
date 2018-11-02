@@ -6,7 +6,8 @@ using UnityEngine;
 [RequireComponent(typeof(PathfindingGrid))]
 public class PathfindingGridDebug : MonoBehaviour
 {
-    public float DistanceBetweenCubes = 0.4f;
+    [Range(0.3f,0.9f)]
+    public float cubeSeparation = 0.4f;
     
     private PathfindingGrid _grid;
 
@@ -26,12 +27,14 @@ public class PathfindingGridDebug : MonoBehaviour
                 {
                     Node n = _grid.Grid[i, j];
 						
-                    if(!n.Walkable)
+                    if(n.NodeType == Node.ENodeType.NonWalkable)
                         Gizmos.color = Color.red;
-                    else if(n.Walkable)
+                    else if(n.NodeType == Node.ENodeType.Walkable)
                         Gizmos.color = Color.green;
+                    else if(n.NodeType == Node.ENodeType.Invisible)
+                        continue;
 						
-                    Gizmos.DrawCube(n.WorldPosition,Vector3.one * (_grid.NodeRadius * 2 - DistanceBetweenCubes));
+                    Gizmos.DrawCube(n.WorldPosition,Vector3.one * cubeSeparation);
                 }
             }
 				
@@ -41,7 +44,7 @@ public class PathfindingGridDebug : MonoBehaviour
                 Gizmos.color = Color.cyan;
                 foreach (Vector3 pos in _grid.LastPath)
                 {
-                    Gizmos.DrawCube(pos,Vector3.one * (_grid.NodeRadius * 2 - DistanceBetweenCubes));
+                    Gizmos.DrawCube(pos,Vector3.one * cubeSeparation);
 	
                 }
             }

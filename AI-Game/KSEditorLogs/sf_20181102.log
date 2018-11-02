@@ -1,0 +1,2025 @@
+2018-11-02 00:17:57.6351 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 00:18:35.1017 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 00:18:35.1616 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 00:20:04.9950 [DEBUG] Play mode: False
+2018-11-02 00:57:58.1437 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 00:58:40.5747 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 00:58:59.0770 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 01:00:09.3633 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 01:20:54.9015 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 01:21:41.9268 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 01:22:00.0762 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 01:22:00.1832 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 01:22:02.8392 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:02.8991 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:02.9281 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:02.9531 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:02.9671 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:02.9921 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.0141 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.0301 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.0461 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.0631 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.0790 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.0960 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.1120 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.1310 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.1490 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.1650 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.1820 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.1990 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.2160 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.2330 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.2499 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.2669 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.2839 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.2999 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.3169 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.3399 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.3579 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.3759 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.3929 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.4109 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.4258 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.4428 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.4618 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.4758 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.4998 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.5148 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.5318 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.5588 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.5778 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.5927 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.6097 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.6287 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.6457 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.6617 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.6777 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.6937 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.7117 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.7277 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.7477 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.7656 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.7826 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.8016 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.8176 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.8356 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.8536 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.8696 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.8896 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.9076 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.9236 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.9405 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.9595 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.9775 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:03.9945 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.0115 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.0285 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.0455 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.0625 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.0795 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.0965 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.1134 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.1294 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.1464 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.1634 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.1804 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.1964 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.2134 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.2304 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.2474 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.2644 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.2804 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.2973 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.3143 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.3323 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.3493 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.3673 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.3923 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.4113 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.4263 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.4433 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.4622 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.4792 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.4972 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.5132 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.5312 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.5502 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.5672 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.5922 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.6102 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.6292 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.6471 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.6651 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.6801 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.6971 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.7141 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.7301 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.7471 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.7641 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.7801 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.8011 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.8170 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.8370 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.8540 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.8720 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.8880 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.9040 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.9200 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.9370 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.9550 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.9740 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:04.9910 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.0089 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.0259 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.0459 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.0619 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.0869 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.0969 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.1139 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.1299 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.1469 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.1629 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.1798 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.1958 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.2138 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.2308 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.2488 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.2658 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.2818 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.2988 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.3158 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.3318 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.3487 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.3657 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.3857 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.4017 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.4257 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.4427 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.4617 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.4767 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.4947 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.5097 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.5266 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.5446 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.5606 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.5796 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.5956 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.6136 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.6396 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.6596 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.6736 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.6905 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.7085 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.7235 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.7415 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.7565 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.7735 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.7925 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.8075 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.8255 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.8415 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.8585 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.8764 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.8914 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.9094 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.9244 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.9414 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.9594 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.9744 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:05.9914 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.0074 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.0234 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.0413 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.0583 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.0763 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.0913 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.1093 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.1263 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.1423 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.1593 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.1753 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.1913 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.2093 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.2242 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.2422 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.2592 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.2752 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.2932 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.3092 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.3262 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.3422 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.3582 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.3772 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.3921 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.4101 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.4251 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.4421 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.4651 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.4821 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.5031 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.5201 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.5381 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.5561 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.5760 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.5910 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.6080 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.6260 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.6430 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.6630 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.6800 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.6970 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.7140 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.7300 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.7479 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.7689 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.7859 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.8059 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.8219 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.8389 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.8569 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.8789 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.8969 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.9139 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.9388 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.9568 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.9768 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:06.9888 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.0078 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.0238 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.0418 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.0568 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.0778 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.0917 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.1097 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.1257 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.1417 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.1587 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.1747 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.1927 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.2107 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.2267 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.2517 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.2627 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.2796 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.2986 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.3156 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.3346 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.3516 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.3686 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.3886 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.4086 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.4226 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.4406 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.4585 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.4755 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.4985 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.5155 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.5325 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.5515 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.5685 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.5865 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.6045 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.6224 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.6424 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.6594 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.6774 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.6934 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.7114 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.7294 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.7464 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.7634 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.7804 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.7963 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.8133 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.8303 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.8463 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.8633 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.8793 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.8963 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.9173 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.9323 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.9503 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.9712 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:07.9862 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.0042 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.0202 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.0372 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.0542 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.0712 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.0862 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.1052 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.1282 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.1441 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.1611 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.1781 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.1941 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.2111 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.2291 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.2441 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.2611 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.2781 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.2941 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.3111 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.3290 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.3460 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.3640 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.3830 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.3990 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.4180 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.4350 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.4520 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.4730 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.4919 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.5069 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.5269 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.5529 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.5719 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.5889 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.6079 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.6269 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.6409 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.6589 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.6748 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.6908 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.7078 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:08.7258 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+DetectPlayerCondition.FindPlayer () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:25)
+DetectPlayerCondition.Check () (at Assets/Scripts/FSM/ChangeConditions/DetectPlayerHit.cs:20)
+NPCStatesBehaviour.CheckConditions () (at Assets/Scripts/FSM/NPCStatesBehaviour.cs:41)
+ChaserNPC.Update () (at Assets/Scripts/FSM/ChaserNPC.cs:93)
+
+2018-11-02 01:22:09.1206 [DEBUG] Play mode: False
+2018-11-02 01:23:28.7030 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 01:23:28.7540 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 01:23:45.2202 [DEBUG] Play mode: False
+2018-11-02 01:32:32.0874 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 01:32:53.5411 [DEBUG] Scene Fusion version 1.8.1-4
+2018-11-02 01:32:53.7300 [DEBUG] Play mode: True, sync in play mode: True
+2018-11-02 01:34:17.9843 [DEBUG] Play mode: False
+2018-11-02 01:37:31.0594 [DEBUG] Scene Fusion version 1.8.1-4

@@ -69,7 +69,9 @@ namespace CustomPathfinding
 				for (int j = 0; j < GridSizeZ; j++)
 				{
                     Vector3 nodeWorldPosition = bottomLeft + Vector3.right * (i * _nodeDiameter + NodeRadius) + Vector3.forward * (j * _nodeDiameter + NodeRadius);
-					bool walkable = !Physics.CheckSphere(nodeWorldPosition,NodeRadius,UnwalkableMask,QueryTriggerInteraction.UseGlobal);
+					bool walkable = !Physics.CheckBox(nodeWorldPosition,
+						new Vector3(NodeRadius, NodeRadius, NodeRadius), Quaternion.identity, UnwalkableMask,
+						QueryTriggerInteraction.UseGlobal);
 					InitializeNode(i, j, nodeWorldPosition, walkable);
 				}
 			}

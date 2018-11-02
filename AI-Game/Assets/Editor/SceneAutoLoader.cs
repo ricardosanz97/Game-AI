@@ -1,7 +1,9 @@
-﻿using UnityEngine;
+﻿using System.Runtime.InteropServices;
+using UnityEngine;
 using UnityEditor;
 using UnityEditor.SceneManagement;
- 
+using UnityEngine.SceneManagement;
+
 /// <summary>
 /// Scene auto loader.
 /// </summary>
@@ -36,7 +38,22 @@ static class SceneAutoLoader
 			LoadMasterOnPlay = true;
 		}
 	}
- 
+
+	[MenuItem("EDU/Set Game scene")]
+	public static void SetGameSceneInBuildSettings()
+	{
+		Scene currentScene = EditorSceneManager.GetActiveScene();
+		EditorBuildSettingsScene[] buildSettingsScenes = EditorBuildSettings.scenes;
+
+		foreach (var editorBuildSettingsScene in buildSettingsScenes)
+		{
+			Debug.Log(editorBuildSettingsScene.path);
+		}
+
+		buildSettingsScenes[(int) SceneLoader.SCENES.Level1] = new EditorBuildSettingsScene(currentScene.path,true);
+		EditorBuildSettings.scenes = buildSettingsScenes;
+	}
+	
 	[MenuItem("File/Scene Autoload/Load Master On Play", true)]
 	private static bool ShowLoadMasterOnPlay()
 	{

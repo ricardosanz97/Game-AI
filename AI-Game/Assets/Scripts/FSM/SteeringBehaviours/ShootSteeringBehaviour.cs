@@ -11,9 +11,14 @@ public class ShootSteeringBehaviour : SteeringBehaviour
     public bool shotEnable;
 
     private float currentTime = -1f;
+	private AudioSource audio;
+	public AudioClip disparo;
+	public AudioClip gruñido;
+
 
     private void Start()
     {
+		audio = GetComponent<AudioSource> ();
         maxDistance = GetComponent<DetectPlayerCondition>().viewRadius;
     }
 
@@ -22,6 +27,8 @@ public class ShootSteeringBehaviour : SteeringBehaviour
         float distanceToPlayer = Vector3.Distance(PlayerController.I.targetObjectRef.transform.position, this.transform.position);
         if (distanceToPlayer > maxDistance)
         {
+			audio.clip = gruñido;
+			audio.Play ();
             Debug.Log("distanceToPlayer is higher than maxDistance");
             return;
         }
@@ -31,7 +38,9 @@ public class ShootSteeringBehaviour : SteeringBehaviour
             GameObject _bullet = Instantiate(bullet, barrelGun.position, barrelGun.rotation);
             Vector3 direction = (PlayerController.I.targetObjectRef.transform.position - barrelGun.transform.position).normalized;
             _bullet.GetComponent<BulletBehaviour>().Move(direction);
-            
+			audio.clip = disparo;
+			audio.Play ();
+
         }
 
     }

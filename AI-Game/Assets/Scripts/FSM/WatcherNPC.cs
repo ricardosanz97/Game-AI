@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class WatcherNPC : NPCStatesBehaviour
 {
+	
     public override void Start()
     {
+
+
         SetStates();
         SetTransitions();
 
@@ -13,6 +16,8 @@ public class WatcherNPC : NPCStatesBehaviour
         currentTransitions = transitions.FindAll((x) => x.currentState == currentState);
 
         base.Start();
+
+
     }
 
     public override void SetStates()

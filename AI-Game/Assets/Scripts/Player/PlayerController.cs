@@ -29,8 +29,14 @@ public class PlayerController : Singleton<PlayerController> {
 
     public Vector3 velocity;
 
+	private AudioSource audio;
+	public AudioClip salto;
+
     // Use this for initialization
     void Start () {
+
+		audio = GetComponent<AudioSource> ();
+
         playerAnimator = GetComponent<Animator>();
         cameraRef = FindObjectOfType<vThirdPersonCamera>();
         controller = GetComponent<CharacterController>();
@@ -70,6 +76,8 @@ public class PlayerController : Singleton<PlayerController> {
                 Jump();
                 playerAnimator.SetTrigger("jump");
                 currentTime = 0f;
+				audio.clip = salto;
+				audio.Play ();
             }
         }
 

@@ -10,13 +10,13 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
     public bool randomPatrol;
     public float maxSpeed = 4f;
     public GameObject SphereDebug;
+    public bool patrol = false;
 
     private int actualPatrolPoint = 0;
     private int previousPatrolPoint = 0;
     private CharacterController ccPlayer;
     private CharacterController ccEnemy;
     private bool isPathSuccesfull;
-    private bool patrol = false;
     private GameObject player;
     private Vector3[] path;
     Vector3 destination;

@@ -54,6 +54,7 @@ public class DetectPlayerHit : Condition {
                 if (!Physics.Raycast(initialRay.position, dirToTarget, dstToTarget, obstacleMask))
                 {
                     playerDetected = true;
+                    
                     return true;
                 }
             }

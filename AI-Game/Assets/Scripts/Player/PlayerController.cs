@@ -31,6 +31,7 @@ public class PlayerController : Singleton<PlayerController> {
 
 	private AudioSource audio;
 	public AudioClip salto;
+	public AudioClip muerte;
 
     // Use this for initialization
     void Start () {
@@ -163,6 +164,8 @@ public class PlayerController : Singleton<PlayerController> {
         if (!GameManager.I.playerAlive)
         {
             Debug.Log("muerto");
+			audio.clip = muerte;
+			audio.Play ();
             playerAnimator.SetBool("death", true);
         }
         else

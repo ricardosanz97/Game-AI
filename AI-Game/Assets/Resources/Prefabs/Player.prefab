@@ -5271,6 +5271,7 @@ MonoBehaviour:
   airControlPercentage: 0
   velocity: {x: 0, y: 0, z: 0}
   salto: {fileID: 8300000, guid: 577890ff82eed614b8faddbd5d91b24b, type: 3}
+  muerte: {fileID: 8300000, guid: c630cbb810f1d7e48b3d6a7585848089, type: 3}
 --- !u!114 &114867045120263452
 MonoBehaviour:
   m_ObjectHideFlags: 1

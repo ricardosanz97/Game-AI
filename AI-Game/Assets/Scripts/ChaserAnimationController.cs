@@ -6,8 +6,10 @@ public class ChaserAnimationController : MonoBehaviour {
 
     public float smoothTime = 0.1f;
 
+	private float currentTime = 0.0f;
 	private AudioSource audio;
-	public AudioClip arañazo;
+	//public AudioClip arañazo;
+	public AudioClip gruñido;
     private Animator chaserAnimator;
     private ChaserNPC chaserRef;
 
@@ -20,6 +22,7 @@ public class ChaserAnimationController : MonoBehaviour {
         chaserRef = GetComponent<ChaserNPC>();
     }
 
+
     void Update()
     {
         if (chaserRef.currentState.stateName == STATE.Alert)
@@ -29,13 +32,21 @@ public class ChaserAnimationController : MonoBehaviour {
         if (chaserRef.currentState.stateName == STATE.Patrol)
         {
             chaserAnimator.SetFloat("speedPercentage", 0.5f);
+			audio.clip = gruñido;
 
         }
         if(chaserRef.currentState.stateName == STATE.Attack)
         {
             chaserAnimator.SetFloat("speedPercentage", 1f);
-			audio.clip = arañazo;
-			audio.Play ();
+			//audio.clip = arañazo;
+
         } 
+		currentTime += Time.deltaTime;
+		if (currentTime > 3.0f) {
+			currentTime = 0.0f;
+			audio.Play ();
+		}
+
+		
     }
 }

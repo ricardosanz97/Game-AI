@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class CommanderNPC : NPCStatesBehaviour
 {
+	private AudioSource audio;
+	public AudioClip risaMalvada;
+
     public override void Start()
     {
+		audio = GetComponent<AudioSource> ();
+
         SetStates();
         SetTransitions();
 
@@ -40,6 +45,8 @@ public class CommanderNPC : NPCStatesBehaviour
         };
         FSMSystem.I.AddState(this, new State(STATE.Idle));
         FSMSystem.I.AddBehaviours(this, behavioursIdleState, this.states.Find((x)=>x.stateName == STATE.Idle));
+		audio.clip = risaMalvada;
+		audio.Play ();
     }
 
     public void Update()

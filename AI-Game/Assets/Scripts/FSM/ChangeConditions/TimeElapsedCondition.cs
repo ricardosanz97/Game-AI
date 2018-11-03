@@ -11,6 +11,7 @@ public class TimeElapsedCondition : Condition
         currentTime += Time.deltaTime;
         if (currentTime >= timeToRecolocate)
         {
+            this.GetComponent<PatrolSteeringBehaviour>().recalculatePath();
             currentTime = 0f;
             return true;
         }

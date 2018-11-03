@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using DG.Tweening;
+
 
 public class PatrolSteeringBehaviour : SteeringBehaviour
 {
@@ -9,6 +9,7 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
     public Transform[] patrolPoints;
     public bool randomPatrol;
     public float maxSpeed = 4f;
+    public GameObject SphereDebug;
 
     private int actualPatrolPoint = 0;
     private int previousPatrolPoint = 0;
@@ -16,6 +17,7 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
     private CharacterController ccEnemy;
     private bool isPathSuccesfull;
     private bool patrol = false;
+    private GameObject player;
     private Vector3[] path;
     Vector3 destination;
     int currentPointInPath = 0;
@@ -28,7 +30,7 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>();
+        player = GameObject.FindGameObjectWithTag("Player");
         ccPlayer = player.GetComponent<CharacterController>();
         ccEnemy = GetComponent<CharacterController>();
         startPos = ccEnemy.transform.position;
@@ -37,7 +39,6 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
     public override void Act()
     {
         //Debug.Log(actualPatrolPoint);
-        
         if (!patrol && patrolPoints != null)
         {
             Pathfinding.PathfindingManager.I.RequestPath(new Pathfinding.PathfindingManager.PathRequest(ccEnemy.transform.position, patrolPoints[actualPatrolPoint].position, PathReceived, ccPlayer.radius));
@@ -52,40 +53,38 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
         patrol = true;
         canPatrol = isPathSuccessfull;
         path = wayPoints;
-        destination = path[0];
+        currentPointInPath = 0;
+        destination = path[currentPointInPath];
+        //Instantiate(SphereDebug, destination, Quaternion.identity);
+
     }
 
     public void Patrol()
     {
         if (!canPatrol)
         {
-            errorController();
+            recalculatePath();
         }
 
         if (patrol && patrolPoints != null && path != null)
         {
                         
-            realSpeed = maxSpeed / magnitude;
             if (Vector3.Distance(ccEnemy.transform.position, destination) < ccEnemy.radius * 2)
             {
-                if (previousNodePosition == null) previousNodePosition = startPos;
-                else previousNodePosition = path[currentPointInPath];
 
                 currentPointInPath++;
+                Debug.Log("current " + currentPointInPath + "length " + path.Length);
 
                 if (path != null && currentPointInPath == path.Length)
                 {
-                    //Debug.Log("ImIN");
                     path = null;
                     currentPointInPath = 0;
                     if (randomPatrol)
                     {
-                        previousPatrolPoint = actualPatrolPoint;
                         actualPatrolPoint = RandomPoint(actualPatrolPoint);
                     }
                     else
                     {
-                        previousPatrolPoint = actualPatrolPoint;
                         actualPatrolPoint += 1;
                         if (actualPatrolPoint >= patrolPoints.Length) actualPatrolPoint = 0;
                     }
@@ -93,17 +92,17 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
                     patrol = false;
                     return;
                 }
+
                 destination = path[currentPointInPath];
-                nodePosition = path[currentPointInPath];
+                //Instantiate(SphereDebug, destination, Quaternion.identity);
                 ccEnemy.Move(Vector3.zero);
                 return;
             }
 
-            else
+            else 
             {
                 Vector3 direction = destination - transform.position;
                 direction = direction.normalized;
-                //Debug.Log(direction);
                 ccEnemy.Move(direction * maxSpeed * Time.deltaTime);
                 ccEnemy.transform.LookAt(new Vector3(transform.position.x, transform.position.y, transform.position.z) + new Vector3(direction.x, 0, direction.z));
                 //ccEnemy.transform.rotation = Quaternion.Slerp(ccEnemy.transform.rotation, Quaternion.LookRotation(patrolPoints[actualPatrolPoint].position - patrolPoints[previousPatrolPoint].position), .2f);
@@ -113,16 +112,14 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
         ccEnemy.Move(Vector3.zero);
     }
 
-    private void errorController()
+    public void recalculatePath()
     {
         if (randomPatrol)
         {
-            previousPatrolPoint = actualPatrolPoint;
             actualPatrolPoint = RandomPoint(actualPatrolPoint);
         }
         else
         {
-            previousPatrolPoint = actualPatrolPoint;
             actualPatrolPoint += 1;
             if (actualPatrolPoint >= patrolPoints.Length) actualPatrolPoint = 0;
         }

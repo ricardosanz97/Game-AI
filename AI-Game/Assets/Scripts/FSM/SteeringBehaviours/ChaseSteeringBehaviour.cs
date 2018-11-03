@@ -11,6 +11,7 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
     public float distanceToHit = 3f;
 
     private Rigidbody rbEnemy;
+    private GameObject player;
     private CharacterController ccPlayer;
     private CharacterController ccEnemy;
     private Vector3[] path;
@@ -21,7 +22,7 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>();
+        player = GameObject.FindGameObjectWithTag("Player");
         rbEnemy = GetComponent<Rigidbody>();
         ccPlayer = player.GetComponent<CharacterController>();
         ccEnemy = GetComponent<CharacterController>();

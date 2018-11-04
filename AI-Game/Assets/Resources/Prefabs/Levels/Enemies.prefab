@@ -10404,7 +10404,7 @@ MonoBehaviour:
   bullet: {fileID: 1193209379260906, guid: 92449c49dfa6c6246b6ab6da5b6f7450, type: 2}
   barrelGun: {fileID: 4083331587224742}
   shotEnable: 0
-  disparo: {fileID: 8300000, guid: 4f5cfc8aed3b57047a7bc7a2100c765d, type: 3}
+  disparo: {fileID: 8300000, guid: 7f31945f6d58345479663f91ec7667e2, type: 3}
   "gru\xF1ido": {fileID: 8300000, guid: 3d16c2513556b374aa098d0b5ecb158e, type: 3}
 --- !u!114 &114950906965117028
 MonoBehaviour:

@@ -37,17 +37,6 @@ public class PathfindingGridDebug : MonoBehaviour
                     Gizmos.DrawCube(n.WorldPosition,Vector3.one * cubeSeparation);
                 }
             }
-				
-            if(_grid.LastPath != null)
-            {
-                //draw recorded path
-                Gizmos.color = Color.cyan;
-                foreach (Vector3 pos in _grid.LastPath)
-                {
-                    Gizmos.DrawCube(pos,Vector3.one * cubeSeparation);
-	
-                }
-            }
         }
     }
 }

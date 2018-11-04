@@ -15,6 +15,7 @@ namespace CustomPathfinding
     {
         private static List<float> mediciones = new List<float>();
         private static int MaxBfsSteps = 10;
+        public static bool isDebugMode = true;
         
         //by now it uses a GridDebugger Class. It should have as a paramenter a IAstarSearchableSurface or something like that
         public static void AStarSearch(PathfindingGrid pathfindingGrid, PathfindingManager.PathRequest request, Action<PathfindingManager.PathResult> callback)
@@ -24,10 +25,13 @@ namespace CustomPathfinding
             Dictionary<Node, Node> pathSoFar = new Dictionary<Node, Node>();
             Dictionary<Node, float> costSoFar = new Dictionary<Node, float>();
             Stopwatch sw = new Stopwatch();
-        
-            //Debug.Log("Started search at thread number " + Thread.CurrentThread.ManagedThreadId);
-            sw.Start();
-            Profiler.BeginThreadProfiling("AStar", "Thread " + Thread.CurrentThread.ManagedThreadId);
+
+            if (isDebugMode)
+            {
+                Debug.Log("Started search at thread number " + Thread.CurrentThread.ManagedThreadId);
+                sw.Start();
+                Profiler.BeginThreadProfiling("AStar", "Thread " + Thread.CurrentThread.ManagedThreadId);                
+            }
 
             Node source = pathfindingGrid.GetNodeFromWorldPosition(request.PathStart);
             Node goal = pathfindingGrid.GetNodeFromWorldPosition(request.PathEnd);
@@ -62,11 +66,14 @@ namespace CustomPathfinding
 
                 if (currentNode.Equals(goal))
                 {
-                    sw.Stop();
-                    mediciones.Add(sw.ElapsedMilliseconds);
-                    Debug.Log("Tiempo medio de pathfinding: " + GetAverageSearchTime() + " ms.");
-                    Debug.Log("Finished search at thread number " + Thread.CurrentThread.ManagedThreadId + " in " + sw.ElapsedMilliseconds + "ms.");
-                    Profiler.EndThreadProfiling();
+                    if (isDebugMode)
+                    {
+                        sw.Stop();
+                        mediciones.Add(sw.ElapsedMilliseconds);
+                        Debug.Log("Tiempo medio de pathfinding: " + GetAverageSearchTime() + " ms.");
+                        Debug.Log("Finished search at thread number " + Thread.CurrentThread.ManagedThreadId + " in " + sw.ElapsedMilliseconds + "ms.");                        
+                        Profiler.EndThreadProfiling();
+                    }
                     break;
                 }
 
@@ -86,8 +93,9 @@ namespace CustomPathfinding
                     }
                 }
             }
-            
-            Vector3[] smoothedWaypoints = pathfindingGrid.SmoothPath(ReconstructPath(pathSoFar, goal), request.AgentRadius);
+
+            Vector3[] path = ReconstructPath(pathSoFar, goal);
+            Vector3[] smoothedWaypoints = pathfindingGrid.SmoothPath(path, request.AgentRadius);
             callback( new PathfindingManager.PathResult(smoothedWaypoints,true,request.Callback, Thread.CurrentThread.ManagedThreadId));
         }
 
@@ -172,5 +180,14 @@ namespace CustomPathfinding
 
             return start;
         }
+
+        public static void DebugPath(Vector3[] path)
+        {
+            for (int i = 0; i < path.Length - 1; i++)
+            {
+                Debug.DrawLine(path[i],path[i + 1],Color.yellow, 10.0f);
+            }
+        }
     }
+    
 }

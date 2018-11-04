@@ -42,6 +42,10 @@ namespace Pathfinding
                     if (results.Count > 0)
                     {
                         PathResult result = results.Dequeue();
+                        
+                        if(AStar.isDebugMode)
+                            AStar.DebugPath(result.path);
+                        
                         result.callback(result.path, result.success);
 
                     }

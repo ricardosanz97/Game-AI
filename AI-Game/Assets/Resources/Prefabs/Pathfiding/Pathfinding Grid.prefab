@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 114114858103609290}
   - component: {fileID: 114904601626208208}
   - component: {fileID: 114108385189552736}
+  - component: {fileID: 33563605247844714}
+  - component: {fileID: 23118681713343080}
   m_Layer: 0
   m_Name: Pathfinding Grid
   m_TagString: Untagged
@@ -37,11 +39,53 @@ Transform:
   m_GameObject: {fileID: 1293313477349054}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 3, z: 10}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23118681713343080
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1293313477349054}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 6d0e9a0e9b12fca448a8eefdeb7ca46c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33563605247844714
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1293313477349054}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &114108385189552736
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -53,8 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 575da646aafb3fb4b9b6efff1312b4d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pathError: 0
-  _maxThreadCount: 1
+  _maxThreadCount: 2
 --- !u!114 &114114858103609290
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -67,8 +110,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GridWorldSize: {x: 100, y: 100}
-  NodeRadius: 0.5
-  UnwalkableMask:
+  NodeRadius: 0.3
+  NextToWallsNodeCost: 15
+  _unwalkableMask:
     serializedVersion: 2
     m_Bits: 512
 --- !u!114 &114904601626208208
@@ -82,4 +126,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60173983492346d49b113f83e518cf35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DistanceBetweenCubes: 0.5
+  cubeSeparation: 0.328

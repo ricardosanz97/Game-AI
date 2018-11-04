@@ -22,24 +22,14 @@ namespace CustomPathfinding
 		public float NodeRadius;
 		public float NextToWallsNodeCost = 15;
 
-		[SerializeField] private LayerMask UnwalkableMask;
+		[SerializeField] private LayerMask _unwalkableMask;
 		private float _nodeDiameter = 0;
-
-		public Node Source { get; private set; }
-		public Node Target { get; private set; }
 		public Node[,] Grid { get; private set; }
 		public int GridSizeX { get; private set; }
 		public int GridSizeZ { get; private set; }
-		public Vector3[] LastPath { get; private set; }
-		public AStar AStar { get; set; }
+		
 
-		public int NodeCount
-		{
-			get
-			{
-				return GridSizeX * GridSizeZ;
-			}
-		}
+		public int NodeCount => GridSizeX * GridSizeZ;
 
 		void Start ()
 		{
@@ -53,8 +43,6 @@ namespace CustomPathfinding
 			GridSizeZ = Mathf.RoundToInt(GridWorldSize.y / _nodeDiameter);
 
 			CreateGrid();
-
-			AStar = new AStar();
 		}
 
 		private void CreateGrid()
@@ -78,7 +66,7 @@ namespace CustomPathfinding
 						nodeType = Node.ENodeType.Invisible;
 					}
 					else if (Physics.CheckBox(nodeWorldPosition, new Vector3(NodeRadius, NodeRadius, NodeRadius),
-						quaternion.identity, UnwalkableMask))
+						quaternion.identity, _unwalkableMask))
 					{
 						nodeType = Node.ENodeType.NonWalkable;
 					}
@@ -154,28 +142,10 @@ namespace CustomPathfinding
 		{
 			LinkedList<Vector3> smoothedPath = new LinkedList<Vector3>(pathToSmooth);
 			
-			/*
-			 
-			 El walkable mira a los 4 vecinos de alrededor de cada punto en una linea
-			    checkPoint = starting point of path
-			    currentPoint = next point in path
-			    while (currentPoint->next != NULL)
-			    if Walkable(checkPoint, currentPoint->next)
-			    // Make a straight path between those points:
-			    temp = currentPoint
-			    currentPoint = currentPoint->next
-			    delete temp from the path
-			    else
-			    checkPoint = currentPoint
-			    currentPoint = currentPoint->next
-
-
-			 */
-			
 			LinkedListNode<Vector3> startingPoint = smoothedPath.First;
 			LinkedListNode<Vector3> current = startingPoint.Next;
 			
-			while (current.Next != null)
+			while (current != null && current.Next != null)
 			{
 				if (IsWalkable(GetNodeFromWorldPosition(startingPoint.Value), GetNodeFromWorldPosition(current.Next.Value), agentRadius))
 				{
@@ -191,7 +161,7 @@ namespace CustomPathfinding
 					
 			}
 			
-			return LastPath = smoothedPath.ToArray();
+			return smoothedPath.ToArray();
 		}
 		
 		private bool IsWalkable(Node n1, Node n2, float agentRadius)
@@ -200,18 +170,18 @@ namespace CustomPathfinding
 
 			for (float i = 0; i < 1; i += NodeRadius/5.0f)
 			{
-				Vector3 SamplePoint = n1.WorldPosition + i * dir;
+				Vector3 samplePoint = n1.WorldPosition + i * dir;
 
-				Vector3 rightSampledPoint = SamplePoint + new Vector3(agentRadius,0,0);
+				Vector3 rightSampledPoint = samplePoint + new Vector3(agentRadius,0,0);
 				if (GetNodeFromWorldPosition(rightSampledPoint).NodeType != Node.ENodeType.Walkable) return false;
 				
-				Vector3 bottomSamplePoint = SamplePoint + new Vector3(0,0,- agentRadius);
+				Vector3 bottomSamplePoint = samplePoint + new Vector3(0,0,- agentRadius);
 				if (GetNodeFromWorldPosition(bottomSamplePoint).NodeType != Node.ENodeType.Walkable) return false;
 				
-				Vector3 topSampledPoint = SamplePoint + new Vector3(0,0,agentRadius);
+				Vector3 topSampledPoint = samplePoint + new Vector3(0,0,agentRadius);
 				if (GetNodeFromWorldPosition(topSampledPoint).NodeType != Node.ENodeType.Walkable) return false;
 				
-				Vector3 leftSampledPoint = SamplePoint + new Vector3(- agentRadius,0,0);
+				Vector3 leftSampledPoint = samplePoint + new Vector3(- agentRadius,0,0);
 				if (GetNodeFromWorldPosition(leftSampledPoint).NodeType != Node.ENodeType.Walkable) return false;
 				
 

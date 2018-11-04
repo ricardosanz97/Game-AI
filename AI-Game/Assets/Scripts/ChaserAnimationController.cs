@@ -16,8 +16,6 @@ public class ChaserAnimationController : MonoBehaviour {
     void Start()
     {
 		_audio = GetComponent<AudioSource> ();
-
-
         _chaserAnimator = GetComponent<Animator>();
         _chaserRef = GetComponent<ChaserNPC>();
     }
@@ -38,6 +36,10 @@ public class ChaserAnimationController : MonoBehaviour {
         if(_chaserRef.currentState.stateName == STATE.Attack)
         {
             _chaserAnimator.SetFloat("speedPercentage", 1f);
+            if (GetComponent<HitSteeringBehaviour>().hitEnabled)
+            {
+                _chaserAnimator.SetTrigger("hitEnabled");
+            }
 			//audio.clip = arañazo;
 
         } 
@@ -45,8 +47,6 @@ public class ChaserAnimationController : MonoBehaviour {
 		if (_currentTime > 3.0f) {
 			_currentTime = 0.0f;
 			_audio.Play ();
-		}
-
-		
+		}	
     }
 }

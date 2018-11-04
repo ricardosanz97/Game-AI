@@ -7,8 +7,10 @@ public class HitSteeringBehaviour : SteeringBehaviour
     public float hitRate = 1f;
     public float maxDistance = 2f;
     public int hitDamage = 20;
+    public bool hitEnabled = false;
 
     private float currentTime = 0f;
+    
 
     private void Start()
     {
@@ -25,6 +27,7 @@ public class HitSteeringBehaviour : SteeringBehaviour
 
         if (TimeRateElapsed())
         {
+            hitEnabled = true;
             PlayerController.I.GetComponent<PlayerHealth>().ReceiveDamage(hitDamage);
         }
 
@@ -38,6 +41,7 @@ public class HitSteeringBehaviour : SteeringBehaviour
             currentTime = 0f;
             return true;
         }
+        hitEnabled = false;
         return false;
     }
 }

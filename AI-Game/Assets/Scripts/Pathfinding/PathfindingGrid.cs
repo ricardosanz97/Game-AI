@@ -20,6 +20,7 @@ namespace CustomPathfinding
 		
 		[Header("Node Properties")]
 		public float NodeRadius;
+		public float NextToWallsNodeCost = 15;
 
 		[SerializeField] private LayerMask UnwalkableMask;
 		private float _nodeDiameter = 0;
@@ -133,10 +134,20 @@ namespace CustomPathfinding
 		public float Cost(Node currentNode, Node neighbor)
 		{
 			//TODO aplicarlo al mapa en funcion del terreno, es decir, en funcion del cost del edge
-			if(currentNode.GridX == neighbor.GridX || currentNode.GridZ == neighbor.GridZ)
+			if (currentNode.GridX == neighbor.GridX || currentNode.GridZ == neighbor.GridZ)
+			{
+				//si es movimiento horizontal o vertical
 				return 1f;
-			else
-				return 1.4f;
+			}
+			
+			if (neighbor.NodeType == Node.ENodeType.NonWalkable || neighbor.NodeType == Node.ENodeType.Invisible)
+			{
+				//si esta pegado a una pared
+				return NextToWallsNodeCost;
+			}
+			
+			//cuando es diagonal
+			return 1.4f;
 		}
 
 		public Vector3[] SmoothPath(Vector3[] pathToSmooth, float agentRadius)

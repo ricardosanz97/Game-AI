@@ -9898,7 +9898,7 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1909508103961948}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 5fdcf956f202a344396f62ae60ef03be, type: 3}
   m_Controller: {fileID: 9100000, guid: f4b7648d2d24d6b41b613a209ff60614, type: 2}
   m_CullingMode: 0
@@ -10065,7 +10065,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1909508103961948}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c70da6cf2ba77c4284e29d9a6973644, type: 3}
   m_Name: 
@@ -10109,7 +10109,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1909508103961948}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 96d9bf08652e444e684680ed4d74dfa0, type: 3}
   m_Name: 
@@ -10175,6 +10175,7 @@ MonoBehaviour:
   hitRate: 1
   maxDistance: 3
   hitDamage: 20
+  hitEnabled: 0
 --- !u!114 &114272779599718786
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10250,7 +10251,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1909508103961948}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 09b9e4f4264699247870cf4aa3aa4c81, type: 3}
   m_Name: 
@@ -10294,7 +10295,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1909508103961948}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba27f2ac8539c5a468428eacc910ff09, type: 3}
   m_Name: 
@@ -10393,7 +10394,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1909508103961948}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37e26bb8ff198f7458250ae0023aada9, type: 3}
   m_Name: 
@@ -11249,7 +11250,7 @@ CharacterController:
   m_GameObject: {fileID: 1909508103961948}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Height: 2
   m_Radius: 0.25

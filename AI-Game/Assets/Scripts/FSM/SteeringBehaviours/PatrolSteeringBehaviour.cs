@@ -55,20 +55,20 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
         path = wayPoints;
         currentPointInPath = 0;
         destination = path[currentPointInPath];
-        //Instantiate(SphereDebug, destination, Quaternion.identity);
+        Instantiate(SphereDebug, destination, Quaternion.identity);
 
     }
 
     public void Patrol()
     {
-        if (!canPatrol)
-        {
-            recalculatePath();
-        }
-
+        
         if (patrol && patrolPoints != null && path != null)
         {
-                        
+            if (!canPatrol)
+            {
+                recalculatePath();
+            }
+            Debug.Log(destination);
             if (Vector3.Distance(ccEnemy.transform.position, destination) < ccEnemy.radius * 2)
             {
 
@@ -94,7 +94,7 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
                 }
 
                 destination = path[currentPointInPath];
-                //Instantiate(SphereDebug, destination, Quaternion.identity);
+                Instantiate(SphereDebug, destination, Quaternion.identity);
                 ccEnemy.Move(Vector3.zero);
                 return;
             }
@@ -123,7 +123,7 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
             actualPatrolPoint += 1;
             if (actualPatrolPoint >= patrolPoints.Length) actualPatrolPoint = 0;
         }
-
+        Debug.Log("Herecalculado");
         Pathfinding.PathfindingManager.I.RequestPath(new Pathfinding.PathfindingManager.PathRequest(ccEnemy.transform.position, patrolPoints[actualPatrolPoint].position, PathReceived, ccPlayer.radius));
 
     }

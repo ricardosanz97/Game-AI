@@ -13,7 +13,7 @@ public class TimeElapsedCondition : Condition
         {
             if (this.name == "EnemyChaser")
             {
-                this.GetComponent<PatrolSteeringBehaviour>().patrol = false;
+                this.GetComponent<PatrolSteeringBehaviour>().recalculatePath();
                 Debug.Log("he entrado alert");
             }
             currentTime = 0f;

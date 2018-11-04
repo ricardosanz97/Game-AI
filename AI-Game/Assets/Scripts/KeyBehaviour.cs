@@ -6,11 +6,13 @@ public class KeyBehaviour : MonoBehaviour {
 
     LevelManager levelManager;
 	private AudioSource audio;
+    public ParticleSystem destructionPS;
 	public AudioClip magic;
 
     private void Awake()
     {
 		audio = GetComponent<AudioSource> ();
+        destructionPS.Stop();
         levelManager = FindObjectOfType<LevelManager>().GetComponent<LevelManager>();
     }
 
@@ -25,6 +27,7 @@ public class KeyBehaviour : MonoBehaviour {
 
 			audio.clip = magic;
 			audio.Play();
+            destructionPS.Play();
 
             keyGO.transform.DOScale(new Vector3(0.1f, 0.1f, 0.1f), 1.5f);
             keyGO.transform.DOMove(PlayerController.I.gameObject.transform.position, 2f).OnComplete(()=>{

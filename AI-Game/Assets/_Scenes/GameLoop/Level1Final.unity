@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientSkyColor: {r: 0.0754717, g: 0.0754717, b: 0.0754717, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0
@@ -164,49 +164,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1216729565082024, guid: 6a0ac5d13ca21d244a9dbcb21c256a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1985838291589506, guid: 6a0ac5d13ca21d244a9dbcb21c256a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1642841357084104, guid: 6a0ac5d13ca21d244a9dbcb21c256a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1891409189533934, guid: 6a0ac5d13ca21d244a9dbcb21c256a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1427402846950648, guid: 6a0ac5d13ca21d244a9dbcb21c256a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1775626991158840, guid: 6a0ac5d13ca21d244a9dbcb21c256a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a0ac5d13ca21d244a9dbcb21c256a10, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &82412682 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1216729565082024, guid: 6a0ac5d13ca21d244a9dbcb21c256a10,
-    type: 2}
-  m_PrefabInternal: {fileID: 82412681}
---- !u!114 &82412683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 82412682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17da425db30da234c88882fbb22b899c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &209297581
 GameObject:
   m_ObjectHideFlags: 0

@@ -32,6 +32,8 @@ public class PlayerController : Singleton<PlayerController> {
 	private AudioSource audio;
 	public AudioClip salto;
 	public AudioClip muerte;
+	public AudioClip walk;
+	public AudioClip run;
 
     // Use this for initialization
     void Start () {
@@ -64,6 +66,25 @@ public class PlayerController : Singleton<PlayerController> {
         }
         //isDead();
     }
+	void Update () {
+
+		if (controller.isGrounded && controller.velocity.magnitude > 2f && controller.velocity.magnitude < 7f && audio.isPlaying == false) {
+			audio.Stop ();
+			audio.volume = Random.Range (0.8f, 1f);
+			audio.pitch = Random.Range (0.8f, 1.1f);
+			audio.clip = walk;
+			audio.Play ();
+		} else if (controller.isGrounded && controller.velocity.magnitude > 6.5f && audio.isPlaying == false) {
+			audio.Stop ();
+			audio.volume = Random.Range (0.8f, 1f);
+			audio.pitch = Random.Range (0.8f, 1.1f);
+			audio.clip = run;
+			audio.Play ();
+
+		} 
+
+	}
+
 
     void PlayerControl()
     {

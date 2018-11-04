@@ -5095,7 +5095,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.27
+  m_Volume: 0.215
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -5272,6 +5272,8 @@ MonoBehaviour:
   velocity: {x: 0, y: 0, z: 0}
   salto: {fileID: 8300000, guid: 577890ff82eed614b8faddbd5d91b24b, type: 3}
   muerte: {fileID: 8300000, guid: c630cbb810f1d7e48b3d6a7585848089, type: 3}
+  walk: {fileID: 8300000, guid: af0236fbfcbcd6f47becca4843f6eda6, type: 3}
+  run: {fileID: 8300000, guid: 9f677c4f6623c9040b71b34be253bb3a, type: 3}
 --- !u!114 &114867045120263452
 MonoBehaviour:
   m_ObjectHideFlags: 1

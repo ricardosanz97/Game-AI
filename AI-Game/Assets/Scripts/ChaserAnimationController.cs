@@ -4,47 +4,47 @@ using UnityEngine;
 
 public class ChaserAnimationController : MonoBehaviour {
 
-    public float smoothTime = 0.1f;
+    public float SmoothTime = 0.1f;
 
-	private float currentTime = 0.0f;
-	private AudioSource audio;
+	private float _currentTime = 0.0f;
+	private AudioSource _audio;
 	//public AudioClip arañazo;
-	public AudioClip gruñido;
-    private Animator chaserAnimator;
-    private ChaserNPC chaserRef;
+	public AudioClip Gruñido;
+    private Animator _chaserAnimator;
+    private ChaserNPC _chaserRef;
 
     void Start()
     {
-		audio = GetComponent<AudioSource> ();
+		_audio = GetComponent<AudioSource> ();
 
 
-        chaserAnimator = GetComponent<Animator>();
-        chaserRef = GetComponent<ChaserNPC>();
+        _chaserAnimator = GetComponent<Animator>();
+        _chaserRef = GetComponent<ChaserNPC>();
     }
 
 
     void Update()
     {
-        if (chaserRef.currentState.stateName == STATE.Alert)
+        if (_chaserRef.currentState.stateName == STATE.Alert)
         {
-            chaserAnimator.SetFloat("speedPercentage", 0f);
+            _chaserAnimator.SetFloat("speedPercentage", 0f);
         }
-        if (chaserRef.currentState.stateName == STATE.Patrol)
+        if (_chaserRef.currentState.stateName == STATE.Patrol)
         {
-            chaserAnimator.SetFloat("speedPercentage", 0.5f);
-			audio.clip = gruñido;
+            _chaserAnimator.SetFloat("speedPercentage", 0.5f);
+			_audio.clip = Gruñido;
 
         }
-        if(chaserRef.currentState.stateName == STATE.Attack)
+        if(_chaserRef.currentState.stateName == STATE.Attack)
         {
-            chaserAnimator.SetFloat("speedPercentage", 1f);
+            _chaserAnimator.SetFloat("speedPercentage", 1f);
 			//audio.clip = arañazo;
 
         } 
-		currentTime += Time.deltaTime;
-		if (currentTime > 3.0f) {
-			currentTime = 0.0f;
-			audio.Play ();
+		_currentTime += Time.deltaTime;
+		if (_currentTime > 3.0f) {
+			_currentTime = 0.0f;
+			_audio.Play ();
 		}
 
 		

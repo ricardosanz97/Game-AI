@@ -14,10 +14,12 @@ namespace CustomPathfinding
     public class AStar
     {
         private static List<float> mediciones = new List<float>();
+        private static int MaxBfsSteps = 10;
         
         //by now it uses a GridDebugger Class. It should have as a paramenter a IAstarSearchableSurface or something like that
         public static void AStarSearch(PathfindingGrid pathfindingGrid, PathfindingManager.PathRequest request, Action<PathfindingManager.PathResult> callback)
         {
+            //estos diccionarios se resetean cada vez porque estan dentro de un metodo estatico. Solo hay una instancia de el en memoria
             //the camefrom path can be reconstructed using the parent field in the node itself
             Dictionary<Node, Node> pathSoFar = new Dictionary<Node, Node>();
             Dictionary<Node, float> costSoFar = new Dictionary<Node, float>();
@@ -32,9 +34,17 @@ namespace CustomPathfinding
 
             if (source.NodeType != Node.ENodeType.Walkable || goal.NodeType != Node.ENodeType.Walkable)
             {
-                Debug.LogError("No se puede llegar hasta el nodo indicado");
-                callback( new PathfindingManager.PathResult(null,false,request.Callback, Thread.CurrentThread.ManagedThreadId));
-                return;
+                if (goal.NodeType != Node.ENodeType.Walkable)
+                {
+                    Debug.LogError("No se puede llegar hasta el nodo indicado");
+                    callback( new PathfindingManager.PathResult(null,false,request.Callback, Thread.CurrentThread.ManagedThreadId));
+                    return;
+                }
+                else
+                {
+                    Debug.LogError("No se puede inciar un camino desde este nodo, buscando uno nuevo... ");
+                    source = Bfs(pathfindingGrid, source, MaxBfsSteps);
+                }
             }
 
             pathSoFar.Clear();
@@ -60,7 +70,7 @@ namespace CustomPathfinding
                     break;
                 }
 
-                foreach (var next in pathfindingGrid.GetNeighbors(currentNode))
+                foreach (var next in pathfindingGrid.    GetNeighbors(currentNode))
                 {
                     //if(next == null)
                     //continue;
@@ -118,6 +128,49 @@ namespace CustomPathfinding
             }
 
             return total / mediciones.Count;
+        }
+
+        public static Node Bfs(PathfindingGrid grid, Node start, int maxSearchSteps)
+        {
+            //diccionario de los visitado, no contiene duplicados
+            Dictionary<Node,bool>  visited = new Dictionary<Node, bool>(grid.NodeCount);
+
+            for (int i = 0; i < grid.GridSizeX; i++)
+            {
+                for (int j = 0; j < grid.GridSizeZ; j++)
+                {
+                    visited.Add(grid.Grid[i,j],false);
+                }
+            }
+
+            Queue<Node> queue = new Queue<Node>(grid.NodeCount/4);
+            queue.Enqueue(start);
+            visited[start] = true;
+            int steps = 0;
+
+            while (queue.Count > 0 || steps < maxSearchSteps)
+            {
+                Node front = queue.Dequeue();
+
+                if (front.NodeType == Node.ENodeType.Walkable)
+                    return front;
+                
+                foreach (var node in grid.GetNeighbors(front))
+                {
+                    if (node.NodeType == Node.ENodeType.Walkable)
+                        return node;
+                    
+                    if (!visited[node])
+                    {
+                        visited[node] = true;
+                        queue.Enqueue(node);
+                    }
+                }
+
+                steps += 1;
+            }
+
+            return start;
         }
     }
 }

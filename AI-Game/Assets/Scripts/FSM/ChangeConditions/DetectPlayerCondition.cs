@@ -22,7 +22,6 @@ public class DetectPlayerCondition : Condition {
 
     bool FindPlayer()
     {
-        Debug.Log(this.gameObject.name + "DOING THIS?");
         Debug.DrawRay(initialRay.position, transform.forward * viewRadius, Color.red);
 
         Quaternion spreadAngle = Quaternion.AngleAxis(-viewAngle / 2, new Vector3(0, 1, 0));

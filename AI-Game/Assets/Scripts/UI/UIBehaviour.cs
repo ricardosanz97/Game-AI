@@ -7,10 +7,14 @@ public class UIBehaviour : MonoBehaviour
     public GameObject optionsPanel;
     public GameObject mainPanel;
     public GameObject UIRootGameObject;
+	private AudioSource audio;
+	public AudioClip menumusic;
     
     private void Awake()
     {
+		audio = GetComponent<AudioSource> ();
         EventSystem eventSystem = FindObjectOfType<EventSystem>();
+
 
         if(eventSystem == null)
         {
@@ -28,11 +32,14 @@ public class UIBehaviour : MonoBehaviour
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
+		audio.clip = menumusic;
+		audio.Play ();
     }
 
     private void OnDisable()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
+
     }
 
     
@@ -41,6 +48,7 @@ public class UIBehaviour : MonoBehaviour
         if(scene.buildIndex != (int)SceneLoader.SCENES.Menu)
         {
             TurnOffUI();
+
             return;
         }
         
@@ -50,6 +58,7 @@ public class UIBehaviour : MonoBehaviour
 
     public void ButtonStartPressed()
     {
+		audio.Stop ();
         SceneLoader.I.LoadScene(SceneLoader.SCENES.Level1);
     }
     

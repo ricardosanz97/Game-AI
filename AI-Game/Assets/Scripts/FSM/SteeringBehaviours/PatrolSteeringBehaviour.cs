@@ -30,7 +30,7 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = PlayerController.I.gameObject;
         ccPlayer = player.GetComponent<CharacterController>();
         ccEnemy = GetComponent<CharacterController>();
         startPos = ccEnemy.transform.position;

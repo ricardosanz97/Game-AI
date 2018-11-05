@@ -2312,10 +2312,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   patrolPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 4911447074675976, guid: d00789a0e2f832f4f952969db84c3f6e, type: 2}
+  - {fileID: 4090817839874578, guid: d00789a0e2f832f4f952969db84c3f6e, type: 2}
+  - {fileID: 4981711626227882, guid: d00789a0e2f832f4f952969db84c3f6e, type: 2}
+  - {fileID: 4506822176636016, guid: d00789a0e2f832f4f952969db84c3f6e, type: 2}
   randomPatrol: 1
   maxSpeed: 3
   SphereDebug: {fileID: 1190130108356640, guid: f542b1b3ea9485046aa1eca9e04340a0,

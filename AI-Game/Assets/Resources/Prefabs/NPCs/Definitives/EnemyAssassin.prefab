@@ -735,9 +735,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4217132890101072}
   - component: {fileID: 95267004159756326}
-  - component: {fileID: 54546780072761944}
   - component: {fileID: 143034818982186100}
-  - component: {fileID: 114462033581051684}
   - component: {fileID: 114457059128725438}
   - component: {fileID: 114243032562999204}
   - component: {fileID: 114419682418850938}
@@ -746,6 +744,7 @@ GameObject:
   - component: {fileID: 82619942492210646}
   - component: {fileID: 82640776258237160}
   - component: {fileID: 114937664655319860}
+  - component: {fileID: 114215284182519050}
   m_Layer: 0
   m_Name: EnemyAssassin
   m_TagString: Untagged
@@ -1995,21 +1994,6 @@ Transform:
   m_Father: {fileID: 4429872890643280}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &54546780072761944
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1654116704101488}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 116
-  m_CollisionDetection: 0
 --- !u!82 &82619942492210646
 AudioSource:
   m_ObjectHideFlags: 1
@@ -2229,6 +2213,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 828fd79cb761a6142adb09dbd8db467d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114215284182519050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654116704101488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7336b613b14550f40845966ec52965c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  player: {fileID: 0}
+  cc: {fileID: 0}
 --- !u!114 &114243032562999204
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2250,9 +2248,11 @@ MonoBehaviour:
     behaviours: []
   currentTransitions: []
   assassinSpawnPoints: []
-  assassinSpawnPointsGO: {fileID: 0}
+  assassinSpawnPointsGO: {fileID: 1232387603012502, guid: cb80e06f41f6f1d4ba60731567e71883,
+    type: 2}
   appeared: 0
-  commander: {fileID: 0}
+  commander: {fileID: 114846360933257714, guid: 2b1d72907c4b54b4bbc2190a48282239,
+    type: 2}
 --- !u!114 &114269968626764238
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2297,22 +2297,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToRecolocate: 10
---- !u!114 &114462033581051684
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1654116704101488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc6305debdbe0e1419e7e223ce0ef07c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anticipationMultiplier: 1
-  maxSpeed: 1
-  distanceToHit: 3
-  SphereDebug: {fileID: 1190130108356640, guid: f542b1b3ea9485046aa1eca9e04340a0,
-    type: 2}
 --- !u!114 &114570108275177996
 MonoBehaviour:
   m_ObjectHideFlags: 1

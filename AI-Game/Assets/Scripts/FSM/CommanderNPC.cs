@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class CommanderNPC : NPCStatesBehaviour
 {
-	private AudioSource audio;
+    private DebugStateSystem dss;
+    private AudioSource audio;
 	public AudioClip risaMalvada;
+
+    private void Awake()
+    {
+        dss = GetComponent<DebugStateSystem>();
+    }
 
     public override void Start()
     {
@@ -16,6 +22,8 @@ public class CommanderNPC : NPCStatesBehaviour
 
         currentState = states.Find((x) => x.stateName == STATE.Idle);
         currentTransitions = transitions.FindAll((x) => x.currentState == currentState);
+
+        SetDebugs();
 
         base.Start();
     }
@@ -54,5 +62,11 @@ public class CommanderNPC : NPCStatesBehaviour
         CheckConditions();
         ActBehaviours();
     }
-   
+
+    private void SetDebugs()
+    {
+        dss.SetNPCName(this.gameObject.name.ToString());
+        dss.SetCurrentState(currentState.stateName.ToString());
+
+    }
 }

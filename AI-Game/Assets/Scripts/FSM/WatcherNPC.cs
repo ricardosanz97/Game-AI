@@ -4,20 +4,25 @@ using UnityEngine;
 
 public class WatcherNPC : NPCStatesBehaviour
 {
-	
+
+    private DebugStateSystem dss;
+
+    private void Awake()
+    {
+        dss = GetComponent<DebugStateSystem>();
+    }
+
     public override void Start()
     {
-
-
         SetStates();
         SetTransitions();
 
         currentState = states.Find((x) => x.stateName == STATE.Idle);
         currentTransitions = transitions.FindAll((x) => x.currentState == currentState);
 
+        SetDebugs();
+
         base.Start();
-
-
     }
 
     public override void SetStates()
@@ -110,5 +115,12 @@ public class WatcherNPC : NPCStatesBehaviour
     {
         CheckConditions();
         ActBehaviours();
+    }
+
+    private void SetDebugs()
+    {
+        dss.SetNPCName(this.gameObject.name.ToString());
+        dss.SetCurrentState(currentState.stateName.ToString());
+
     }
 }

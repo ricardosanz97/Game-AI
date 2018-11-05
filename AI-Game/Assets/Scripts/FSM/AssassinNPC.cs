@@ -5,10 +5,17 @@ using System;
 
 public class AssassinNPC : NPCStatesBehaviour 
 {
+    private DebugStateSystem dss;
     public List<Transform> assassinSpawnPoints;
     public GameObject assassinSpawnPointsGO;
     public bool appeared = false;
     public CommanderNPC commander;
+
+    private void Awake()
+    {
+        dss = GetComponent<DebugStateSystem>();
+    }
+
     public override void Start()
     {
         SetStates();
@@ -21,6 +28,8 @@ public class AssassinNPC : NPCStatesBehaviour
         {
             assassinSpawnPoints.Add(assassinSpawnPointsGO.transform.GetChild(i));
         }
+
+        SetDebugs();
 
         base.Start();
     }
@@ -99,6 +108,13 @@ public class AssassinNPC : NPCStatesBehaviour
     {
         CheckConditions();
         ActBehaviours();
+    }
+
+    private void SetDebugs()
+    {
+        dss.SetNPCName(this.gameObject.name.ToString());
+        dss.SetCurrentState(currentState.stateName.ToString());
+
     }
 
 }

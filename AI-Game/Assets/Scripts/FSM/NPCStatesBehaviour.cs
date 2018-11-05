@@ -6,6 +6,8 @@ using System.Reflection;
 public abstract class NPCStatesBehaviour : MonoBehaviour
 {
 
+    private DebugStateSystem dss;
+
     public List<Transition> transitions;
     public List<State> states;
     public abstract void SetTransitions();
@@ -67,4 +69,6 @@ public abstract class NPCStatesBehaviour : MonoBehaviour
         this.currentState = this.initialState;
         currentTransitions = this.transitions.FindAll((x) => x.currentState == this.currentState);
     }
+
+    
 }

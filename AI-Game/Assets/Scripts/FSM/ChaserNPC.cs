@@ -5,6 +5,12 @@ using System;
 
 public class ChaserNPC : NPCStatesBehaviour 
 {
+    private DebugStateSystem dss;
+    private void Awake()
+    {
+        dss = GetComponent<DebugStateSystem>();
+    }
+
     public override void Start()
     {
         SetStates();
@@ -12,6 +18,8 @@ public class ChaserNPC : NPCStatesBehaviour
 
         currentState = states.Find((x) => x.stateName == STATE.Patrol);
         currentTransitions = transitions.FindAll((x) => x.currentState == currentState);
+
+        SetDebugs();
 
         base.Start();
     }
@@ -92,6 +100,13 @@ public class ChaserNPC : NPCStatesBehaviour
     {
         CheckConditions();
         ActBehaviours();
+    }
+
+    private void SetDebugs()
+    {
+        dss.SetNPCName(this.gameObject.name.ToString());
+        dss.SetCurrentState(currentState.stateName.ToString());
+
     }
 
 }

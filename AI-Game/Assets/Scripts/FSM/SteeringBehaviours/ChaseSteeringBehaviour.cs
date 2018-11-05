@@ -9,13 +9,13 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
     public float anticipationMultiplier;
     public float maxSpeed = 4f;
     public float distanceToHit = 3f;
+    public GameObject SphereDebug;
 
     private Rigidbody rbEnemy;
     private GameObject player;
     private CharacterController ccPlayer;
     private CharacterController ccEnemy;
     private Vector3[] path;
-    private Vector3 destination;
     private int pathIndex;
     float timer;
 
@@ -54,6 +54,7 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
 
         if (path != null)
         {
+            Debug.Log("he entrado");
             Vector3 toEvader = ccPlayer.transform.position - rbEnemy.position;
 
             float relativeHeading = Vector3.Dot(ccPlayer.transform.forward, ccEnemy.transform.forward);
@@ -61,9 +62,10 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
             float lookAheadTime = toEvader.magnitude / (maxSpeed + rbEnemy.velocity.magnitude);
 
             if (Vector3.Distance(ccEnemy.transform.position, ccPlayer.transform.position) < distanceToHit) rbEnemy.velocity = Vector3.zero;
-            else rbEnemy.velocity = (((path[1] + rbEnemy.velocity * (lookAheadTime * anticipationMultiplier)) - ccEnemy.transform.position).normalized * maxSpeed);
-
-            //ccEnemy.transform.DOMove(path[1]-(ccPlayer.transform.forward*2), maxSpeed);          
+            else
+            {
+                rbEnemy.velocity = (((path[1] + rbEnemy.velocity * (lookAheadTime * anticipationMultiplier)) - ccEnemy.transform.position).normalized * maxSpeed);
+            }
             ccEnemy.transform.LookAt(ccPlayer.transform);
         }
     }

@@ -77,11 +77,8 @@ namespace CustomPathfinding
                     break;
                 }
 
-                foreach (var next in pathfindingGrid.    GetNeighbors(currentNode))
+                foreach (var next in pathfindingGrid.GetNeighbors(currentNode))
                 {
-                    //if(next == null)
-                    //continue;
-
                     var newCost = costSoFar[currentNode] + pathfindingGrid.Cost(currentNode, next);
 
                     if (!costSoFar.ContainsKey(next) || newCost < costSoFar[next])
@@ -124,7 +121,9 @@ namespace CustomPathfinding
         
         private static float Heuristic(Node node1, Node node2)
         {
-            return Mathf.Abs(Vector3.Distance(node1.WorldPosition, node2.WorldPosition));
+            //return Mathf.Abs(Vector3.Distance(node1.WorldPosition, node2.WorldPosition));
+            
+            return Math.Abs(node2.GridX - node1.GridX) + Math.Abs(node2.GridZ - node1.GridZ);
         }
 
         private static float GetAverageSearchTime()

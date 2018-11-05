@@ -110,7 +110,7 @@ namespace CustomPathfinding
 					var x = currentNode.GridX + i;
 					var z = currentNode.GridZ + j;
 
-					if ((x >= 0 && x < GridSizeX) && (z >= 0 && z < GridSizeZ) && Grid[x,z].NodeType == Node.ENodeType.Walkable)
+					if ((x >= 0 && x < GridSizeX) && (z >= 0 && z < GridSizeZ) && Grid[x,z].NodeType != Node.ENodeType.Invisible)
 					{
 						yield return Grid[currentNode.GridX + i, currentNode.GridZ + j];
 					}
@@ -121,14 +121,16 @@ namespace CustomPathfinding
 		//it gives as the cost of the edge between these two nodes
 		public float Cost(Node currentNode, Node neighbor)
 		{
-			//TODO aplicarlo al mapa en funcion del terreno, es decir, en funcion del cost del edge
+			if (currentNode.NodeType != Node.ENodeType.Walkable)
+				return int.MaxValue;
+			
 			if (currentNode.GridX == neighbor.GridX || currentNode.GridZ == neighbor.GridZ)
 			{
 				//si es movimiento horizontal o vertical
 				return 1f;
 			}
 			
-			if (neighbor.NodeType == Node.ENodeType.NonWalkable || neighbor.NodeType == Node.ENodeType.Invisible)
+			if (neighbor.NodeType == Node.ENodeType.NonWalkable)
 			{
 				//si esta pegado a una pared
 				return NextToWallsNodeCost;

@@ -746,6 +746,8 @@ GameObject:
   - component: {fileID: 114937664655319860}
   - component: {fileID: 114215284182519050}
   - component: {fileID: 114299291950205530}
+  - component: {fileID: 114339799119948778}
+  - component: {fileID: 114659416154293096}
   m_Layer: 0
   m_Name: EnemyAssassin
   m_TagString: Untagged
@@ -2287,6 +2289,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   home: {fileID: 0}
+--- !u!114 &114339799119948778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654116704101488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13875f24f973684448c74e07c755b02c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patrolPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  randomPatrol: 0
+  maxSpeed: 4
+  patrol: 0
 --- !u!114 &114419682418850938
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2337,6 +2358,21 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114659416154293096
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654116704101488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40639d6a43e70134499439ce2028d869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitRate: 1
+  maxDistance: 3
+  hitDamage: 20
+  hitEnabled: 0
 --- !u!114 &114698415214161276
 MonoBehaviour:
   m_ObjectHideFlags: 1

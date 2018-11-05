@@ -709,6 +709,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1362043652482270, guid: 4cd7f94fda5cc0345a585d9541561acd, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cd7f94fda5cc0345a585d9541561acd, type: 2}
   m_IsPrefabAsset: 0
@@ -878,43 +882,44 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 114243032562999204, guid: 3767868f1fc2d41b6b76e092244ea37b,
-        type: 2}
-      propertyPath: commander
-      value: 
-      objectReference: {fileID: 1790091019}
     - target: {fileID: 114299291950205530, guid: 3767868f1fc2d41b6b76e092244ea37b,
         type: 2}
       propertyPath: home
       value: 
       objectReference: {fileID: 996925490}
+    - target: {fileID: 114243032562999204, guid: 3767868f1fc2d41b6b76e092244ea37b,
+        type: 2}
+      propertyPath: commander
+      value: 
+      objectReference: {fileID: 1790091019}
+    - target: {fileID: 114339799119948778, guid: 3767868f1fc2d41b6b76e092244ea37b,
+        type: 2}
+      propertyPath: patrolPoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 1512646424}
+    - target: {fileID: 114339799119948778, guid: 3767868f1fc2d41b6b76e092244ea37b,
+        type: 2}
+      propertyPath: patrolPoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 1512646423}
+    - target: {fileID: 114339799119948778, guid: 3767868f1fc2d41b6b76e092244ea37b,
+        type: 2}
+      propertyPath: patrolPoints.Array.data[2]
+      value: 
+      objectReference: {fileID: 1512646422}
+    - target: {fileID: 114339799119948778, guid: 3767868f1fc2d41b6b76e092244ea37b,
+        type: 2}
+      propertyPath: patrolPoints.Array.data[3]
+      value: 
+      objectReference: {fileID: 1512646421}
+    - target: {fileID: 114659416154293096, guid: 3767868f1fc2d41b6b76e092244ea37b,
+        type: 2}
+      propertyPath: maxDistance
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3767868f1fc2d41b6b76e092244ea37b, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &1579267340 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1654116704101488, guid: 3767868f1fc2d41b6b76e092244ea37b,
-    type: 2}
-  m_PrefabInternal: {fileID: 1579267339}
---- !u!114 &1579267341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1579267340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13875f24f973684448c74e07c755b02c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  patrolPoints:
-  - {fileID: 1512646424}
-  - {fileID: 1512646423}
-  - {fileID: 1512646422}
-  - {fileID: 1512646421}
-  randomPatrol: 0
-  maxSpeed: 4
-  patrol: 0
 --- !u!4 &1583101520 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4337672192384358, guid: b4889b8da14d85e4baae363fdc876a95,

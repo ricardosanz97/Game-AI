@@ -9,7 +9,6 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
     public Transform[] patrolPoints;
     public bool randomPatrol;
     public float maxSpeed = 4f;
-    public GameObject SphereDebug;
     public bool patrol = false;
 
     private int actualPatrolPoint = 0;
@@ -55,7 +54,6 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
         path = wayPoints;
         currentPointInPath = 0;
         destination = path[currentPointInPath];
-        Instantiate(SphereDebug, destination, Quaternion.identity);
 
     }
 
@@ -92,7 +90,6 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
                 }
 
                 destination = path[currentPointInPath];
-                Instantiate(SphereDebug, destination, Quaternion.identity);
                 ccEnemy.Move(Vector3.zero);
                 return;
             }

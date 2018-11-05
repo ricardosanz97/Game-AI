@@ -61,7 +61,7 @@ public class ChaseAssassinSteeringBehaviour : SteeringBehaviour
             }
 
             timer += Time.deltaTime;
-            cc.Move(transform.TransformDirection((destination - transform.position).normalized) * speed * Time.deltaTime);
+            cc.Move(((destination - transform.position).normalized) * speed * Time.deltaTime);
             transform.LookAt(player.transform);
             yield return null;
         }
@@ -78,5 +78,9 @@ public class ChaseAssassinSteeringBehaviour : SteeringBehaviour
     {
         Vector3 startPos = transform.position;
         PathfindingManager.I.RequestPath(new PathfindingManager.PathRequest(transform.position, player.transform.position, OnPathFound, cc.radius));
+        if (GetComponent<AssassinNPC>().currentState.stateName != STATE.Attack)
+        {
+            CancelInvoke("RequestPath");
+        }
     }
 }

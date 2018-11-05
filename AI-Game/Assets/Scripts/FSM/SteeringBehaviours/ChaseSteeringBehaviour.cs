@@ -9,7 +9,6 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
     public float anticipationMultiplier;
     public float maxSpeed = 4f;
     public float distanceToHit = 3f;
-    public GameObject SphereDebug;
 
     private Rigidbody rbEnemy;
     private GameObject player;

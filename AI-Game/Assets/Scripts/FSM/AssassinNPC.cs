@@ -38,7 +38,8 @@ public class AssassinNPC : NPCStatesBehaviour
     {
         List<NextStateInfo> _nextStateInfo = new List<NextStateInfo>()
         {
-            new NextStateInfo(this, STATE.Hidden, STATE.None, GetComponent<TimeElapsedCondition>())
+            new NextStateInfo(this, STATE.Hidden, STATE.None, GetComponent<TimeElapsedCondition>()),
+            new NextStateInfo(this, STATE.Attack, STATE.None, commander.GetComponent<DetectPlayerCondition>())
         };
         FSMSystem.I.AddTransition(this, STATE.Alert, _nextStateInfo);
 
@@ -48,21 +49,24 @@ public class AssassinNPC : NPCStatesBehaviour
         };
         FSMSystem.I.AddTransition(this, STATE.Hidden, _nextStateInfo2);
 
+        /*
         List<NextStateInfo> _nextStateInfo3 = new List<NextStateInfo>()
         {
             new NextStateInfo(this, STATE.None, STATE.Alert, commander.GetComponent<DetectPlayerCondition>())
         };
         FSMSystem.I.AddTransition(this, STATE.Attack, _nextStateInfo3);
-
+        */
+        /*
         List<NextStateInfo> _nextStateInfo4 = new List<NextStateInfo>()
         {
             new NextStateInfo(this, STATE.Attack, STATE.None, commander.GetComponent<DetectPlayerCondition>())
         };
         FSMSystem.I.AddTransition(this, STATE.Alert, _nextStateInfo4);
-
+        */
         List<NextStateInfo> _nextStateInfo5 = new List<NextStateInfo>()
         {
-            new NextStateInfo(this, STATE.None, STATE.Alert, GetComponent<PlayerAliveCondition>())
+            new NextStateInfo(this, STATE.None, STATE.Alert, GetComponent<PlayerAliveCondition>()),
+            new NextStateInfo(this, STATE.None, STATE.Alert, commander.GetComponent<DetectPlayerCondition>())
         };
         FSMSystem.I.AddTransition(this, STATE.Attack, _nextStateInfo5);
        

@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientSkyColor: {r: 0.0754717, g: 0.0754717, b: 0.0754717, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0
@@ -163,30 +163,6 @@ Prefab:
     - target: {fileID: 4123196744348678, guid: 6a0ac5d13ca21d244a9dbcb21c256a10, type: 2}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1216729565082024, guid: 6a0ac5d13ca21d244a9dbcb21c256a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1985838291589506, guid: 6a0ac5d13ca21d244a9dbcb21c256a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1642841357084104, guid: 6a0ac5d13ca21d244a9dbcb21c256a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1891409189533934, guid: 6a0ac5d13ca21d244a9dbcb21c256a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1427402846950648, guid: 6a0ac5d13ca21d244a9dbcb21c256a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1775626991158840, guid: 6a0ac5d13ca21d244a9dbcb21c256a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a0ac5d13ca21d244a9dbcb21c256a10, type: 2}
@@ -629,6 +605,10 @@ Prefab:
     - target: {fileID: 4694842900044696, guid: 45cc6daf32fa2784482eac4aa9722018, type: 2}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721061208209886, guid: 45cc6daf32fa2784482eac4aa9722018, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45cc6daf32fa2784482eac4aa9722018, type: 2}

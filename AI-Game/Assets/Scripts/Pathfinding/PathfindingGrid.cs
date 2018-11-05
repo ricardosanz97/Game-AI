@@ -20,10 +20,10 @@ namespace CustomPathfinding
 		
 		[Header("Node Properties")]
 		public float NodeRadius;
-		public float NextToWallsNodeCost = 15;
+		public float NextToWallsNodeCost = 30;
 
 		[SerializeField] private LayerMask _unwalkableMask;
-		private float _nodeDiameter = 0;
+		private float _nodeDiameter;
 		public Node[,] Grid { get; private set; }
 		public int GridSizeX { get; private set; }
 		public int GridSizeZ { get; private set; }
@@ -74,6 +74,24 @@ namespace CustomPathfinding
 					InitializeNode(i, j, nodeWorldPosition, nodeType);
 				}
 			}
+
+			for (int i = 0; i < GridSizeX; i++)
+			{
+				for (int j = 0; j < GridSizeZ; j++)
+				{
+					foreach (var neighbor in GetNeighborsWithObstacles(Grid[i, j]))
+					{
+						if (neighbor.NodeType == Node.ENodeType.NonWalkable)
+						{
+							if (Grid[i, j].NodeType == Node.ENodeType.Walkable)
+							{
+								Grid[i, j].NodeType = Node.ENodeType.NextToWall;
+								break;								
+							}
+						}
+					}
+				}
+			}
 		}
 
 		private void InitializeNode(int i, int j, Vector3 nodeWorldPosition, Node.ENodeType nodeType)
@@ -110,6 +128,25 @@ namespace CustomPathfinding
 					var x = currentNode.GridX + i;
 					var z = currentNode.GridZ + j;
 
+					if ((x >= 0 && x < GridSizeX) && (z >= 0 && z < GridSizeZ) && (Grid[x,z].NodeType == Node.ENodeType.Walkable ||  Grid[x,z].NodeType == Node.ENodeType.NextToWall))
+					{
+						yield return Grid[currentNode.GridX + i, currentNode.GridZ + j];
+					}
+				}
+			}
+		}
+		
+		public IEnumerable<Node> GetNeighborsWithObstacles(Node currentNode)
+		{	
+			for (int i = -1; i <= 1; i++)
+			{
+				for (int j = -1; j <= 1; j++)
+				{
+					if(i == 0 && j == 0) continue;
+					
+					var x = currentNode.GridX + i;
+					var z = currentNode.GridZ + j;
+
 					if ((x >= 0 && x < GridSizeX) && (z >= 0 && z < GridSizeZ) && Grid[x,z].NodeType != Node.ENodeType.Invisible)
 					{
 						yield return Grid[currentNode.GridX + i, currentNode.GridZ + j];
@@ -120,24 +157,19 @@ namespace CustomPathfinding
 
 		//it gives as the cost of the edge between these two nodes
 		public float Cost(Node currentNode, Node neighbor)
-		{
-			if (currentNode.NodeType != Node.ENodeType.Walkable)
-				return int.MaxValue;
-			
-			if (currentNode.GridX == neighbor.GridX || currentNode.GridZ == neighbor.GridZ)
-			{
-				//si es movimiento horizontal o vertical
+		{	
+			if (currentNode.GridX == neighbor.GridX || currentNode.GridZ == neighbor.GridZ && neighbor.NodeType == Node.ENodeType.Walkable)
 				return 1f;
-			}
+
+			if (!(currentNode.GridX == neighbor.GridX || currentNode.GridZ == neighbor.GridZ) &&
+			    neighbor.NodeType == Node.ENodeType.Walkable)
+				return 1.4f;
 			
-			if (neighbor.NodeType == Node.ENodeType.NonWalkable)
-			{
-				//si esta pegado a una pared
+			if (neighbor.NodeType == Node.ENodeType.NextToWall)
 				return NextToWallsNodeCost;
-			}
-			
-			//cuando es diagonal
-			return 1.4f;
+
+			return int.MaxValue;
+
 		}
 
 		public Vector3[] SmoothPath(Vector3[] pathToSmooth, float agentRadius)

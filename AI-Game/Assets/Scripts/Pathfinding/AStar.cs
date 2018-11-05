@@ -36,15 +36,16 @@ namespace CustomPathfinding
             Node source = pathfindingGrid.GetNodeFromWorldPosition(request.PathStart);
             Node goal = pathfindingGrid.GetNodeFromWorldPosition(request.PathEnd);
 
-            if (source.NodeType != Node.ENodeType.Walkable || goal.NodeType != Node.ENodeType.Walkable)
+            if ((source.NodeType == Node.ENodeType.NonWalkable ||  source.NodeType == Node.ENodeType.Invisible) || (goal.NodeType == Node.ENodeType.NonWalkable || source.NodeType == Node.ENodeType.Invisible))
             {
-                if (goal.NodeType != Node.ENodeType.Walkable)
+                if (goal.NodeType == Node.ENodeType.NonWalkable || goal.NodeType == Node.ENodeType.Invisible)
                 {
                     Debug.LogError("No se puede llegar hasta el nodo indicado");
                     callback( new PathfindingManager.PathResult(null,false,request.Callback, Thread.CurrentThread.ManagedThreadId));
                     return;
                 }
-                else
+                
+                if(source.NodeType == Node.ENodeType.NonWalkable)
                 {
                     Debug.LogError("No se puede inciar un camino desde este nodo, buscando uno nuevo... ");
                     source = Bfs(pathfindingGrid, source, MaxBfsSteps);
@@ -78,7 +79,7 @@ namespace CustomPathfinding
                 }
 
                 foreach (var next in pathfindingGrid.GetNeighbors(currentNode))
-                {
+                {   
                     var newCost = costSoFar[currentNode] + pathfindingGrid.Cost(currentNode, next);
 
                     if (!costSoFar.ContainsKey(next) || newCost < costSoFar[next])

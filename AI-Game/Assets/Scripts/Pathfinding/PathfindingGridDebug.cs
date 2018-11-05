@@ -29,6 +29,8 @@ public class PathfindingGridDebug : MonoBehaviour
 						
                     if(n.NodeType == Node.ENodeType.NonWalkable)
                         Gizmos.color = Color.red;
+                    else if(n.NodeType == Node.ENodeType.NextToWall)
+                        Gizmos.color = Color.yellow;
                     else if(n.NodeType == Node.ENodeType.Walkable)
                         Gizmos.color = Color.green;
                     else if(n.NodeType == Node.ENodeType.Invisible)

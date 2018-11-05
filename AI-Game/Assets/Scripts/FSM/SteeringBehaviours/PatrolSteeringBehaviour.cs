@@ -68,12 +68,10 @@ public class PatrolSteeringBehaviour : SteeringBehaviour
             {
                 recalculatePath();
             }
-            Debug.Log(destination);
             if (Vector3.Distance(ccEnemy.transform.position, destination) < ccEnemy.radius * 2)
             {
 
                 currentPointInPath++;
-                Debug.Log("current " + currentPointInPath + "length " + path.Length);
 
                 if (path != null && currentPointInPath == path.Length)
                 {

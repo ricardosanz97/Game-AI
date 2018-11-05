@@ -7,7 +7,7 @@ namespace CustomPathfinding
     {
         public enum ENodeType
         {
-            Walkable, NonWalkable, Invisible
+            Walkable, NonWalkable, Invisible, NextToWall
         }
         private int _cost;
         public Vector3 WorldPosition { get; set; }

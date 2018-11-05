@@ -85,7 +85,7 @@ public class AssassinNPC : NPCStatesBehaviour
     {
         List<SteeringBehaviour> behavioursAttackState = new List<SteeringBehaviour>()
         {
-            this.GetComponent<ChaseSteeringBehaviour>(),
+            this.GetComponent<ChaseAssassinSteeringBehaviour>(),
             this.GetComponent<AppearSteeringBehaviour>()
             
         };

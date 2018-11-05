@@ -11,7 +11,7 @@ public class TimeElapsedCondition : Condition
         currentTime += Time.deltaTime;
         if (currentTime >= timeToRecolocate)
         {
-            if (this.name == "EnemyChaser")
+            if (this.GetComponent<ChaserNPC>() != null)
             {
                 this.GetComponent<PatrolSteeringBehaviour>().recalculatePath();
                 Debug.Log("he entrado alert");

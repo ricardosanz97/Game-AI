@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/_Scenes/GameLoop/Menu.unity
     guid: f8da4eeaf6a4e624f9aa0f2f9b6aee83
   - enabled: 1
-    path: Assets/_Scenes/Test/Level2Marc.unity
-    guid: 4ebc63af834d7f34d822707c8885cbc4
+    path: Assets/_Scenes/GameLoop/Level1.unity
+    guid: 7ddd473cc03026d499ba0a009811f821
   m_configObjects: {}

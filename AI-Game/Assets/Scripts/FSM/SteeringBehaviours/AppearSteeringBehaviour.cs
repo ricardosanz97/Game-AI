@@ -13,8 +13,8 @@ public class AppearSteeringBehaviour : SteeringBehaviour
         }
         int random = Random.Range(0, GetComponent<AssassinNPC>().assassinSpawnPoints.Count);
         Transform spawnPoint = GetComponent<AssassinNPC>().assassinSpawnPoints[random];
-
-        GetComponent<AssassinNPC>().gameObject.transform.DOMove(spawnPoint.position, 0.01f);
+        transform.position = spawnPoint.position;
         GetComponent<AssassinNPC>().appeared = true;
+        
     }
 }

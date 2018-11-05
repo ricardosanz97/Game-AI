@@ -22,7 +22,7 @@ public class ChaseSteeringBehaviour : SteeringBehaviour
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = PlayerController.I.gameObject;
         rbEnemy = GetComponent<Rigidbody>();
         ccPlayer = player.GetComponent<CharacterController>();
         ccEnemy = GetComponent<CharacterController>();

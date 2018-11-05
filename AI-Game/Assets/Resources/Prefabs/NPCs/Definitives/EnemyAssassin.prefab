@@ -747,6 +747,7 @@ GameObject:
   - component: {fileID: 114215284182519050}
   - component: {fileID: 114299291950205530}
   - component: {fileID: 114339799119948778}
+  - component: {fileID: 114176313328363696}
   - component: {fileID: 114659416154293096}
   m_Layer: 0
   m_Name: EnemyAssassin
@@ -2216,6 +2217,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 828fd79cb761a6142adb09dbd8db467d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114176313328363696
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654116704101488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f022bce9a9f3fa4b80819768dabd797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114215284182519050
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2394,10 +2406,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0

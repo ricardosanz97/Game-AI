@@ -10236,7 +10236,8 @@ MonoBehaviour:
   anticipationMultiplier: 1
   maxSpeed: 6
   distanceToHit: 3
-  SphereDebug: {fileID: 0}
+  SphereDebug: {fileID: 1190130108356640, guid: f542b1b3ea9485046aa1eca9e04340a0,
+    type: 2}
 --- !u!114 &114554401485919492
 MonoBehaviour:
   m_ObjectHideFlags: 1

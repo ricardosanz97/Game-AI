@@ -745,6 +745,7 @@ GameObject:
   - component: {fileID: 82640776258237160}
   - component: {fileID: 114937664655319860}
   - component: {fileID: 114215284182519050}
+  - component: {fileID: 114299291950205530}
   m_Layer: 0
   m_Name: EnemyAssassin
   m_TagString: Untagged
@@ -1287,7 +1288,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1654116704101488}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 72.7, y: 8.6, z: 6.1400003}
+  m_LocalPosition: {x: 68.82, y: -0.0000002682209, z: 1.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4072760636110974}
@@ -2251,8 +2252,8 @@ MonoBehaviour:
   assassinSpawnPointsGO: {fileID: 1232387603012502, guid: cb80e06f41f6f1d4ba60731567e71883,
     type: 2}
   appeared: 0
-  commander: {fileID: 114846360933257714, guid: 2b1d72907c4b54b4bbc2190a48282239,
-    type: 2}
+  inHome: 1
+  commander: {fileID: 0}
 --- !u!114 &114269968626764238
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2274,6 +2275,18 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &114299291950205530
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654116704101488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f83ef661666914f9df3db7bef7dd27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  home: {fileID: 0}
 --- !u!114 &114419682418850938
 MonoBehaviour:
   m_ObjectHideFlags: 1

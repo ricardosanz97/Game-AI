@@ -9,6 +9,7 @@ public class AssassinNPC : NPCStatesBehaviour
     public List<Transform> assassinSpawnPoints;
     public GameObject assassinSpawnPointsGO;
     public bool appeared = false;
+    public bool inHome = true;
     public CommanderNPC commander;
 
     private void Awake()
@@ -82,7 +83,12 @@ public class AssassinNPC : NPCStatesBehaviour
     
     public void SetHiddenState()
     {
+        List<SteeringBehaviour> behavioursHiddenState = new List<SteeringBehaviour>()
+        {
+            this.GetComponent<HideSteeringBehaviour>()
+        };
         FSMSystem.I.AddState(this, new State(STATE.Hidden));
+        FSMSystem.I.AddBehaviours(this, behavioursHiddenState, this.states.Find((x) => x.stateName == STATE.Hidden));
     }
 
     public void SetAttackState()

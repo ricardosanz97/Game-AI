@@ -15,6 +15,7 @@ public class AppearSteeringBehaviour : SteeringBehaviour
         Transform spawnPoint = GetComponent<AssassinNPC>().assassinSpawnPoints[random];
         transform.position = spawnPoint.position;
         GetComponent<AssassinNPC>().appeared = true;
+        GetComponent<AssassinNPC>().inHome = false;
         GetComponent<ChaseAssassinSteeringBehaviour>().RequestPathOnce();
         
     }

@@ -1588,7 +1588,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1362043652482270}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.08, y: 0.13, z: 2.09}
+  m_LocalPosition: {x: 45.58056, y: -0.0000002682209, z: 45.477222}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4395327533301176}
@@ -2318,8 +2318,6 @@ MonoBehaviour:
   - {fileID: 4506822176636016, guid: d00789a0e2f832f4f952969db84c3f6e, type: 2}
   randomPatrol: 1
   maxSpeed: 3
-  SphereDebug: {fileID: 1190130108356640, guid: f542b1b3ea9485046aa1eca9e04340a0,
-    type: 2}
   patrol: 0
 --- !u!114 &114052463708432896
 MonoBehaviour:
@@ -2508,8 +2506,6 @@ MonoBehaviour:
   anticipationMultiplier: 1
   maxSpeed: 6
   distanceToHit: 3
-  SphereDebug: {fileID: 1190130108356640, guid: f542b1b3ea9485046aa1eca9e04340a0,
-    type: 2}
 --- !u!114 &114842281983690044
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -15,6 +15,8 @@ public class PlayerController : Singleton<PlayerController> {
     public GameObject targetObjectRef;
     [Range(0,1)]
     public float airControlPercentage;
+    public bool inCorrectWall;
+    
     
     private float turnSmoothVelocity;
     private float speedSmoothVelocity;
@@ -26,6 +28,7 @@ public class PlayerController : Singleton<PlayerController> {
     private float velocityY;
     private bool jumping;
     private float currentTime = 2f;
+    private bool easterEggDone;
 
     public Vector3 velocity;
 
@@ -59,6 +62,7 @@ public class PlayerController : Singleton<PlayerController> {
         if (GameManager.I.playerAlive)
         {
             PlayerControl();
+            EasterEggEnabled();
         }
         else
         {
@@ -68,20 +72,7 @@ public class PlayerController : Singleton<PlayerController> {
     }
 	void Update () {
 
-		if (controller.isGrounded && controller.velocity.magnitude > 2f && controller.velocity.magnitude < 7f && audio.isPlaying == false) {
-			audio.Stop ();
-			audio.volume = Random.Range (0.8f, 1f);
-			audio.pitch = Random.Range (0.8f, 1.1f);
-			audio.clip = walk;
-			audio.Play ();
-		} else if (controller.isGrounded && controller.velocity.magnitude > 6.5f && audio.isPlaying == false) {
-			audio.Stop ();
-			audio.volume = Random.Range (0.8f, 1f);
-			audio.pitch = Random.Range (0.8f, 1.1f);
-			audio.clip = run;
-			audio.Play ();
-
-		} 
+        SoundsController();
 
 	}
 
@@ -193,6 +184,44 @@ public class PlayerController : Singleton<PlayerController> {
         {
             Debug.Log("vivo");
             playerAnimator.SetBool("death", false);
+        }
+    }
+
+    void SoundsController()
+    {
+        if (controller.isGrounded && controller.velocity.magnitude > 2f && controller.velocity.magnitude < 7f && audio.isPlaying == false)
+        {
+            audio.Stop();
+            audio.volume = Random.Range(0.8f, 1f);
+            audio.pitch = Random.Range(0.8f, 1.1f);
+            audio.clip = walk;
+            audio.Play();
+        }
+        else if (controller.isGrounded && controller.velocity.magnitude > 6.5f && audio.isPlaying == false)
+        {
+            audio.Stop();
+            audio.volume = Random.Range(0.8f, 1f);
+            audio.pitch = Random.Range(0.8f, 1.1f);
+            audio.clip = run;
+            audio.Play();
+
+        }
+    }
+
+    void EasterEggEnabled()
+    {
+        if (inCorrectWall)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (!easterEggDone)
+                {
+                    easterEggDone = true;
+                    playerAnimator.SetTrigger("salute");
+                    GetComponent<PlayerHealth>().playerHealth = GetComponent<PlayerHealth>().maxPlayerHealth;
+                    GetComponent<PlayerHealth>().playerHealthSlider.value = GetComponent<PlayerHealth>().playerHealth;
+                }
+            }
         }
     }
 }

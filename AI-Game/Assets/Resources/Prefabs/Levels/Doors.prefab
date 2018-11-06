@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23903567319831658}
   - component: {fileID: 64224330359048264}
   - component: {fileID: 114583976137492040}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Door1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 23067037180708938}
   - component: {fileID: 64150543879933464}
   - component: {fileID: 114758278494974478}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Door2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,7 +61,7 @@ GameObject:
   - component: {fileID: 23291049947835108}
   - component: {fileID: 64964042997480898}
   - component: {fileID: 114714960554191692}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Door3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,7 +76,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4855935705771336}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Doors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,7 +129,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1782370328216622}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -62.07, y: 0.4, z: -45.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4824474357541362}

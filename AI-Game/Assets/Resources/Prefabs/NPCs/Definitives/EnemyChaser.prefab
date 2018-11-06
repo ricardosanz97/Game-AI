@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4814839019700174}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,7 +34,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4697678522679890}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Finger42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,7 +49,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4658391099075524}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Finger41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65,7 +65,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4086363894625624}
   - component: {fileID: 108279778901177056}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80,7 +80,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4347965921257008}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ Pelvis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4648995448301152}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4296614582305498}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Finger02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4683233462124424}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Forearm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4886184903410888}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Finger31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,7 +155,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4721971022772820}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Finger3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +172,7 @@ GameObject:
   - component: {fileID: 224817645460481002}
   - component: {fileID: 222183595706085716}
   - component: {fileID: 114842281983690044}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: CurrentStateInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,7 +187,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4703111035949444}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Calf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -205,7 +205,7 @@ GameObject:
   - component: {fileID: 223193649710924686}
   - component: {fileID: 114881381881652778}
   - component: {fileID: 114309355345286696}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -220,7 +220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4571029475448236}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Thigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -235,7 +235,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4395327533301176}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: InitialRay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -250,7 +250,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4637131542490350}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Finger41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -265,7 +265,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4162350101287156}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Finger01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,7 +280,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4240131943271062}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -295,7 +295,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4987470223611342}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Finger42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -310,7 +310,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4067846771494470}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Finger12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -325,7 +325,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4655686203132424}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 82836711161838204}
   - component: {fileID: 82343643463118088}
   - component: {fileID: 114352425144131748}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: EnemyChaser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -369,7 +369,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4322321045232432}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R UpperArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,7 +384,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4185408303276896}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Finger2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -399,7 +399,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4730521278311452}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Toe0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -414,7 +414,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4092300330098404}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Thigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -429,7 +429,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4226677169562202}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -447,7 +447,7 @@ GameObject:
   - component: {fileID: 33251222245015740}
   - component: {fileID: 23160051483348658}
   - component: {fileID: 135427486961213752}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -463,7 +463,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4627219784990660}
   - component: {fileID: 137273496634029726}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -478,7 +478,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4210489380106832}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -495,7 +495,7 @@ GameObject:
   - component: {fileID: 224444104147745658}
   - component: {fileID: 222388072443280208}
   - component: {fileID: 114052463708432896}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -510,7 +510,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4110515461004632}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Finger22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -525,7 +525,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4545814886197358}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Debug
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -540,7 +540,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4756843908009050}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Clavicle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -555,7 +555,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4894147141858684}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Finger22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -570,7 +570,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4946794433479590}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Finger0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -585,7 +585,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4140275614179746}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Finger4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -600,7 +600,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4292042277894592}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Forearm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -615,7 +615,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4173049223544554}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L UpperArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,7 +630,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4159253756723450}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Finger31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -645,7 +645,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4340129648281596}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Finger32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -660,7 +660,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4524500852616618}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Finger02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -675,7 +675,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4984142922802574}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Toe0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -690,7 +690,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4457768000529104}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Finger0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -705,7 +705,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4730130071678956}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -720,7 +720,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4679173068928966}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Finger01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -735,7 +735,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4882527105544832}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ Ponytail1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -750,7 +750,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4781264599658806}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -765,7 +765,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4001886904809026}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Finger11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -780,7 +780,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4065038688683062}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Clavicle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -795,7 +795,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4749257413508106}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Finger21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -810,7 +810,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4672739736297974}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Finger1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -825,7 +825,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4593109574085096}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Finger3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -843,7 +843,7 @@ GameObject:
   - component: {fileID: 33507564883217196}
   - component: {fileID: 23808697314662784}
   - component: {fileID: 135911091431857152}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -858,7 +858,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4707021111666602}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Finger21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -873,7 +873,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4232291058432586}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Finger12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -888,7 +888,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4754629810064862}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -903,7 +903,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4317834344435936}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Finger2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -918,7 +918,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4044269827431258}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ Neck1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -933,7 +933,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4995061568845934}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Finger1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -948,7 +948,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4194932162002692}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -963,7 +963,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4277218363555364}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ R Finger32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -978,7 +978,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4891518863218556}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Finger4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -995,7 +995,7 @@ GameObject:
   - component: {fileID: 224436558005477078}
   - component: {fileID: 222627343311759848}
   - component: {fileID: 114697357406012180}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: CurrentState
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1012,7 +1012,7 @@ GameObject:
   - component: {fileID: 224252276138883960}
   - component: {fileID: 222209284903855580}
   - component: {fileID: 114002419643472288}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: EnemyName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1027,7 +1027,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4375711237761910}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Calf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1042,7 +1042,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4289598264389818}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VAMPIRE_ L Finger11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1588,7 +1588,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1362043652482270}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45.58056, y: -0.0000002682209, z: 45.477222}
+  m_LocalPosition: {x: 8.8, y: -0.0000002682209, z: 31.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4395327533301176}
@@ -2312,11 +2312,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   patrolPoints:
-  - {fileID: 4911447074675976, guid: d00789a0e2f832f4f952969db84c3f6e, type: 2}
-  - {fileID: 4090817839874578, guid: d00789a0e2f832f4f952969db84c3f6e, type: 2}
-  - {fileID: 4981711626227882, guid: d00789a0e2f832f4f952969db84c3f6e, type: 2}
-  - {fileID: 4506822176636016, guid: d00789a0e2f832f4f952969db84c3f6e, type: 2}
-  randomPatrol: 1
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  randomPatrol: 0
   maxSpeed: 3
   patrol: 0
 --- !u!114 &114052463708432896
@@ -2358,7 +2358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SmoothTime: 0.1
-  "Gru\xF1ido": {fileID: 0}
+  "Gru\xF1ido": {fileID: 8300000, guid: 94412a18311deba4eab46115553c56ca, type: 3}
 --- !u!114 &114309355345286696
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2427,7 +2427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2436,10 +2436,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0

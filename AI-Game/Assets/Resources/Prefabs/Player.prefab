@@ -5051,7 +5051,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!82 &82595170373690768
 AudioSource:
@@ -5239,6 +5239,7 @@ MonoBehaviour:
   timeToJump: 0.7
   targetObjectRef: {fileID: 1899475917245936}
   airControlPercentage: 0
+  inCorrectWall: 0
   velocity: {x: 0, y: 0, z: 0}
   salto: {fileID: 8300000, guid: 577890ff82eed614b8faddbd5d91b24b, type: 3}
   muerte: {fileID: 8300000, guid: c630cbb810f1d7e48b3d6a7585848089, type: 3}
@@ -5263,6 +5264,7 @@ MonoBehaviour:
   youDiedImage: {fileID: 0}
   youDiedText: {fileID: 0}
   fadeImage: {fileID: 0}
+  maxPlayerHealth: 0
 --- !u!136 &136541710828316706
 CapsuleCollider:
   m_ObjectHideFlags: 1

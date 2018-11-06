@@ -9,13 +9,13 @@ public class PlayerHealth : MonoBehaviour {
     public float playerHealth = 100f;
 
     [SerializeField] private GameObject canvas;
-    [SerializeField] private Slider playerHealthSlider;
     [SerializeField] private Image fillImage;
     [SerializeField] private Image redFlash;
     [SerializeField] private Image youDiedImage;
     [SerializeField] private Text youDiedText;
     [SerializeField] private Image fadeImage;
-    private float maxPlayerHealth;
+    public float maxPlayerHealth;
+    public Slider playerHealthSlider;
 
     private void Awake()
     {

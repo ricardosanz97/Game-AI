@@ -9,6 +9,7 @@ public class KeyBehaviour : MonoBehaviour {
     public ParticleSystem destructionPS;
 	public AudioClip magic;
     private Transform initialPosition;
+    private GameObject keyGO;
 
     private void Awake()
     {
@@ -25,15 +26,15 @@ public class KeyBehaviour : MonoBehaviour {
             DoorObject door = levelManager.levelDoors.Find((x) => x.idKey == key.idDoor);
             door.doorGameObject.GetComponent<DoorBehaviour>().InitAnimation();
 
-            GameObject keyGO = key.keyGameObject;
+            keyGO = key.keyGameObject;
 
 			audio.clip = magic;
 			audio.Play();
             destructionPS.Play();
 
-            keyGO.transform.DOScale(new Vector3(0.1f, 0.1f, 0.1f), 1.5f);
-            keyGO.transform.DOMove(PlayerController.I.gameObject.transform.position, 2f).OnComplete(()=>{
-                Destroy(keyGO);
+            gameObject.transform.DOScale(new Vector3(0.1f, 0.1f, 0.1f), 1.5f);
+            gameObject.transform.DOMove(PlayerController.I.gameObject.transform.position, 2f).OnComplete(()=>{
+                gameObject.SetActive(false);
 
             });
         }
@@ -41,6 +42,11 @@ public class KeyBehaviour : MonoBehaviour {
     
     public void ResetKey()
     {
-        transform.position = initialPosition.position;
+        
+        this.gameObject.SetActive(true);
+        gameObject.transform.DOScale(new Vector3(0.5f,0.5f,0.5f), 0f);
+        gameObject.transform.DOMove(initialPosition.position, 2f);
+        
+
     }
 }

@@ -26,24 +26,26 @@ public class CameraSelector : MonoBehaviour
 
 	private void OnGUI()
 	{
-		if (GUILayout.Button("Next Camera"))
-		{
-			if (_activeCamera == GameCamera)
+		#if UNITY_EDITOR
+			if (GUILayout.Button("Next Camera"))
 			{
-				_activeCamera = DebugCamera;
-				GameCamera.enabled = false;
-				DebugCamera.enabled = true;
-				HUDManager.I.enabled = false;
+				if (_activeCamera == GameCamera)
+				{
+					_activeCamera = DebugCamera;
+					GameCamera.enabled = false;
+					DebugCamera.enabled = true;
+					HUDManager.I.canvas.SetActive(false);
+				}
+				else
+				{
+					HUDManager.I.canvas.SetActive(true);
+					_activeCamera = GameCamera;
+					DebugCamera.enabled = false;
+					GameCamera.enabled = true;
+				}
+					
 			}
-			else
-			{
-				HUDManager.I.enabled = true;
-				_activeCamera = GameCamera;
-				DebugCamera.enabled = false;
-				GameCamera.enabled = true;
-			}
-				
-		}
+		#endif
 	}
 
 	private void Update()

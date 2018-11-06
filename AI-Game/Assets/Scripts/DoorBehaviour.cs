@@ -25,6 +25,6 @@ public class DoorBehaviour : MonoBehaviour
     
     public void ResetDoor()
     {
-        transform.position = initialPosition.position;
+        this.transform.DOMoveY(this.transform.position.y - 4f, 4f);
     }
 }

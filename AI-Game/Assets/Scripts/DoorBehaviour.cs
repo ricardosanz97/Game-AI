@@ -3,7 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class DoorBehaviour : MonoBehaviour {
+public class DoorBehaviour : MonoBehaviour 
+{
+    private Transform initialPosition;
+
+    private void Awake()
+    {
+        initialPosition = transform;
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -14,5 +21,10 @@ public class DoorBehaviour : MonoBehaviour {
 
     public void InitAnimation(){
         this.transform.DOMoveY(this.transform.position.y + 4f, 4f);
+    }
+    
+    public void ResetDoor()
+    {
+        transform.position = initialPosition.position;
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public struct KeyObject{
@@ -150,10 +151,28 @@ public class LevelManager : MonoBehaviour {
 
     }
 
+    [ContextMenu("LevelCompleted")]
     public void LevelCompleted()
     {
         // TODO enviar todos los enemigos al punto de inicio y activar las puertas y las llaves
 
+        for (int i = 0; i < LevelEnemies.Count; i++)
+        {
+            LevelEnemies[i].SetInitialState();
+            Debug.Log(LevelEnemies[i].name + " resetado a " + LevelEnemies[i].currentState.stateName);
+        }
+
+        foreach (var key in levelKeys)
+        {
+            key.keyGameObject.GetComponent<KeyBehaviour>().ResetKey();
+        }
+
+        foreach (var door in levelDoors)
+        {                                                   
+            door.doorGameObject.GetComponent<DoorBehaviour>().ResetDoor();
+        }
+        
+        
         Sequence s = DOTween.Sequence();
         s.Append(fadeImage.DOFade(0f, 0f));
         s.Append(levelCompletedText.DOFade(0f, 0f));

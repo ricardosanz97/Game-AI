@@ -8,12 +8,14 @@ public class KeyBehaviour : MonoBehaviour {
 	private AudioSource audio;
     public ParticleSystem destructionPS;
 	public AudioClip magic;
+    private Transform initialPosition;
 
     private void Awake()
     {
 		audio = GetComponent<AudioSource> ();
         destructionPS.Stop();
         levelManager = FindObjectOfType<LevelManager>().GetComponent<LevelManager>();
+        initialPosition = transform;         
     }
 
     private void OnTriggerEnter(Collider other)
@@ -35,5 +37,10 @@ public class KeyBehaviour : MonoBehaviour {
 
             });
         }
+    }
+    
+    public void ResetKey()
+    {
+        transform.position = initialPosition.position;
     }
 }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1047,6 +1047,16 @@ Prefab:
       propertyPath: m_AnchoredPosition.x
       value: -30
       objectReference: {fileID: 0}
+    - target: {fileID: 224774738137585506, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224774738137585506, guid: 511534fc1925f1342a9fd2a060ae1c2f,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 511534fc1925f1342a9fd2a060ae1c2f, type: 2}
   m_IsPrefabAsset: 0
@@ -1060,7 +1070,6 @@ GameObject:
   - component: {fileID: 1505800076}
   - component: {fileID: 1505800075}
   - component: {fileID: 1505800074}
-  - component: {fileID: 1505800073}
   - component: {fileID: 1505800072}
   m_Layer: 0
   m_Name: Managers
@@ -1080,18 +1089,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01fa21430f53e1a4d8b0426fe388b370, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1505800073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1505800070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 575da646aafb3fb4b9b6efff1312b4d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _maxThreadCount: 2
 --- !u!114 &1505800074
 MonoBehaviour:
   m_ObjectHideFlags: 0

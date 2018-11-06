@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Pathfinding;
 using UnityEngine;
 
-[RequireComponent(typeof(GameManager),typeof(PathfindingManager),typeof(SceneLoader))]
+[RequireComponent(typeof(GameManager),typeof(SceneLoader))]
 [DisallowMultipleComponent]
 public class Loader : Singleton<Loader> {
     private void Awake()

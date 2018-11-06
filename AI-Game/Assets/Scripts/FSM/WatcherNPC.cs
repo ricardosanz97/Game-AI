@@ -44,38 +44,44 @@ public class WatcherNPC : NPCStatesBehaviour
 
         List<NextStateInfo> _nextStateInfo2 = new List<NextStateInfo>()
         {
-            new NextStateInfo(this, STATE.None, STATE.Alert, GetComponent<DetectPlayerCondition>())
+            new NextStateInfo(this, STATE.None, STATE.Alert, GetComponent<DetectPlayerCondition>()),
+            new NextStateInfo(this, STATE.None, STATE.Recolocate, GetComponent<PlayerAliveCondition>())
         };       
         FSMSystem.I.AddTransition(this, STATE.Attack, _nextStateInfo2);
 
+        /*
         List<NextStateInfo> _nextStateInfo3 = new List<NextStateInfo>(){
-            new NextStateInfo(this, STATE.None, STATE.Recolocate, GetComponent<PlayerAliveCondition>())
+            
         };
         FSMSystem.I.AddTransition(this, STATE.Attack, _nextStateInfo3);
+        */
 
         List<NextStateInfo> _nextStateInfo4 = new List<NextStateInfo>(){
-            new NextStateInfo(this, STATE.None, STATE.Recolocate, GetComponent<PlayerAliveCondition>())
-        };
-        FSMSystem.I.AddTransition(this, STATE.Alert, _nextStateInfo4);
+            new NextStateInfo(this, STATE.None, STATE.Recolocate, GetComponent<PlayerAliveCondition>()),
+            new NextStateInfo(this, STATE.Attack, STATE.None, GetComponent<DetectPlayerCondition>()),
+            new NextStateInfo(this, STATE.Idle, STATE.None, GetComponent<TimeElapsedCondition>())
 
+        };
+        
+        
+        FSMSystem.I.AddTransition(this, STATE.Alert, _nextStateInfo4);
+        /*
         List<NextStateInfo> _nextStateInfo5 = new List<NextStateInfo>(){
-            new NextStateInfo(this, STATE.Attack, STATE.None, GetComponent<DetectPlayerCondition>())
+            
         };
         FSMSystem.I.AddTransition(this, STATE.Alert, _nextStateInfo5);
 
         List<NextStateInfo> _nextStateInfo6 = new List<NextStateInfo>()
         {
-            new NextStateInfo(this, STATE.Idle, STATE.None, GetComponent<TimeElapsedCondition>())
+            
         };
         FSMSystem.I.AddTransition(this, STATE.Alert, _nextStateInfo6);
-
+        */
         List<NextStateInfo> _nextStateInfo7 = new List<NextStateInfo>()
         {
             new NextStateInfo(this, STATE.Idle, STATE.None, GetComponent<TimeElapsedCondition>())
         };
         FSMSystem.I.AddTransition(this, STATE.Recolocate, _nextStateInfo7);
-        //falta, entre otras, la transición de recolocate a idle (cuando ha vuelto a su punto inicial de patrulla).
-        //la transicion de alert a recolocate cuando pasa X tiempo.
     }
 
     public void SetNoneState()

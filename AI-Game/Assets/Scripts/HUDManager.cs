@@ -14,9 +14,11 @@ public class HUDManager : Singleton<HUDManager>
     public Slider PlayerHealthSlider;
     public Image FillImage;
     public Image RedFlash;
+    public Image LoadingBar;
 
     private void Awake()
     {
+        ResetHUD();
         EndHud();
     }
 

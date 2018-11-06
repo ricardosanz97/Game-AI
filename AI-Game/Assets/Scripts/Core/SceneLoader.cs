@@ -25,8 +25,4 @@ public class SceneLoader : Singleton<SceneLoader>
         CurrentScene = sceneToLoad;
         SceneManager.LoadScene((int)sceneToLoad);
     }
-    
-    //todo implement async loading
-    //todo trigger fade
-
 }

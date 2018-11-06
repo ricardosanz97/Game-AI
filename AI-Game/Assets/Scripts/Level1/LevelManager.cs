@@ -88,13 +88,17 @@ public class LevelManager : MonoBehaviour {
                 Camera.main.transform.DOMove(initialCameraSpawnPoint.transform.position, 2f);
                 Camera.main.transform.DORotate(initialCameraSpawnPoint.rotation.eulerAngles, 2f);
                 player.GetComponent<PlayerController>().SetDeadAnimatorParamenter();
+                player.GetComponent<CharacterController>().enabled = true;
             });
-            s.AppendInterval(2f);
+            
+            s.AppendCallback(() => {HUDManager.I.LoadingBar.enabled = true;});
+            s.Append(HUDManager.I.FadeImage.DOFade(0f, 8f).SetEase(Ease.InBack));
+            s.AppendCallback(() => {HUDManager.I.LoadingBar.enabled = false;});
+            
+            s.AppendInterval(1f);
+            
             s.AppendCallback(() =>
             {
-                s.Append(HUDManager.I.FadeImage.DOFade(0f, 3f));
-
-                player.GetComponent<CharacterController>().enabled = true;
                 player.GetComponent<PlayerController>().enabled = true;
             });
         }
@@ -107,21 +111,25 @@ public class LevelManager : MonoBehaviour {
             Camera.main.GetComponent<vThirdPersonCamera>().target = player.transform.Find(targetObject);
             player.GetComponent<PlayerController>().enabled = false;
             player.GetComponent<CharacterController>().enabled = false;
-
-            s.AppendCallback(() =>
-            {
-                HUDManager.I.FadeImage.DOFade(0f, 5f);
-                GameManager.I.playerSpawned = true;
-            });
+            
             s.AppendCallback(() =>
             {
                 Camera.main.transform.DOMove(initialCameraSpawnPoint.transform.position, 2f);
                 Camera.main.transform.DORotate(initialCameraSpawnPoint.rotation.eulerAngles, 2f);
+                player.GetComponent<CharacterController>().enabled = true;
             });
-            s.AppendInterval(2f);
+
+            s.AppendCallback(() => {HUDManager.I.LoadingBar.enabled = true;});
+                        
+            s.Append(HUDManager.I.FadeImage.DOFade(0f, 8f).SetEase(Ease.InBack));
+            s.AppendCallback(() => {HUDManager.I.LoadingBar.enabled = false;});
+            GameManager.I.playerSpawned = true;
+;
+            
+            s.AppendInterval(0.5f);
+            
             s.AppendCallback(() =>
             {
-                player.GetComponent<CharacterController>().enabled = true;
                 player.GetComponent<PlayerController>().enabled = true;
             }); 
         
@@ -131,6 +139,7 @@ public class LevelManager : MonoBehaviour {
 
     public void PlayerDead()
     {
+        
         for (int i = 0; i < LevelEnemies.Count; i++)
         {
             LevelEnemies[i].SetInitialState();
@@ -143,7 +152,7 @@ public class LevelManager : MonoBehaviour {
 
     public void LevelCompleted()
     {
-        //enviar todos los enemigos al punto de inicio
+        // TODO enviar todos los enemigos al punto de inicio y activar las puertas y las llaves
 
         Sequence s = DOTween.Sequence();
         s.Append(fadeImage.DOFade(0f, 0f));
